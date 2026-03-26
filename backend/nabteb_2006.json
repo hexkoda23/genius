@@ -1,0 +1,92 @@
+[
+  {
+    "exam_type": "NABTEB",
+    "year": 2006,
+    "subject": "Mathematics",
+    "question_no": 1,
+    "question_text": "1(a) Evaluate ,leaving your answer in standard form.\n3.36\n(b) If the angles of a polygon are given as xo, (x+20)o , (2x-10)o , (3x+10)o and\n(x-10)o, Find the value of x.\nBy Pythagoras’ theorem\nx = 132 52 = 12\nCos2 1 Adjacent\nCot2θ =  \nSin2 Tan2 Opposite\n122 144 19\nCot2  5\n52 25 25\nALITER\nCot2 + 1 = Cosec2 or equivalent\nCosec2 = 169\n25\n19\n Cot2 = 5\n25",
+    "marking_scheme": "(a) 0.0285 x 0.267\n3.36\n= 0.0076095\n3.36\n= 0.0022647 0.002265 in standard form we have it as 2.265 x10-3\n(b) sum of angles = 540o\nx + x + 20 + 2x -10 + 3x +10 + x – 10 = 540o\n x = 66.25o\nALITER for 1(b)\nThe corresponding exterior angles are (180 – x)0, (160 - x)0, (190 - 2x)0, (170 –\n3x)0, (190 - x)0\nEquating sum of the exterior angles to 360o, we have x = 66.25o\n2(a) If the angles of a pentagon are xo, xo 2xo, (2x+ 40) o, (2x +10)o. Find the value of the\n,\nbiggest angle.\n(b) Given that 0o< < 90o and Sin  = 5/13, Find without using tables or calculator Cot2\nSolution\nSum of angles of a pentagon is 540o\n x + x + 2x + 2x + 40 + 2x + 10 = 540o\nTherefore x = 61.25o\n2(b)",
+    "topic": "Indices & Logarithms"
+  },
+  {
+    "exam_type": "NABTEB",
+    "year": 2006,
+    "subject": "Mathematics",
+    "question_no": 3,
+    "question_text": "3(a) The 1st and 5th terms of a G.P are 81 and 1 respectively. Determine the three terms\nbetween the two numbers.\nIn the figure AB is the diameter of a semi-circle, AOBC. If /AB/ = 10cm and /AC/ =\n8cm. Calculate the area of the shaded portion.\n7\n Area of semicircle = 39.275cm2\nArea of triangle = ½ bh\nHeight h = 9.6cm\n ½ x5cm x 9.6cm = 24cm2\nt 1",
+    "marking_scheme": "(a) a = 81 and ar 5-1 = ar4 = 1\nSolving the equation, we have r4 = 1\n81\n r = 1/3\nUsing arn-1, we have between 81 and 1, n=2, 3 and 4; 27, 9 and 3\nb) Area of a circle = πr2 = 22 x 52 = 78.55cm2",
+    "topic": "Sequences & Series"
+  },
+  {
+    "exam_type": "NABTEB",
+    "year": 2006,
+    "subject": "Mathematics",
+    "question_no": 4,
+    "question_text": "4(a) Solve for t in the equation, 6 2 t\n4 3\n(b) The dimensions of a room are 15m long, 8m wide and 10m high. Calculate the angle\nwhich the diagonal of the room makes with the floor.",
+    "marking_scheme": "t 1 1 t\n(a) 6 2 t, collecting like terms, we have 2 t  6\n4 3 3 4\n22\nt  2\n25\nALITER\nt 7\nSolving and clearing fractions, 6 t\n4 3\n22\nt  2\n25\n(a) the diagonal of the floor of the room = 17m; by Pythagoras’ theorem.\nOpposite 10\nTan  = = = 0.5882\nAdjacent 17\n tan = 0.5332 and  = 30.47o",
+    "topic": "Algebra"
+  },
+  {
+    "exam_type": "NABTEB",
+    "year": 2006,
+    "subject": "Mathematics",
+    "question_no": 5,
+    "question_text": "5(a) Find the sum of the first 100 even numbers\n(b)\nIn the figure AD//BC, BE is perpendicular to AD. If the area of ABCD is 40.5cm2, find\nthe length of BC.\nr r",
+    "marking_scheme": "5(a) Even numbers, a = 2, d = 2, n = 100\nn\n \nS  2a(n1)d\nn\n2\n100\n \nS  4(99)2\nn\n2\n= 10,100\n(b) Total Area = ½ (4.5) (10.6 + BC) = 40.5\nSolving for BC, we have\nBC = 7.4cm",
+    "topic": "General Mathematics"
+  },
+  {
+    "exam_type": "NABTEB",
+    "year": 2006,
+    "subject": "Mathematics",
+    "question_no": 6,
+    "question_text": "6(a) Given that p  ,q  ,express 2q+8p in terms of r in the simplest form.\nr2 4 r2\n(b) Solve the equation 3x2+4x-7 = 0, leaving your answer to 2 decimal places.\n(c) Simplify: log6+ ½ log 81- log27\n(b)\nIn the figure given ABC is an isosceles triangle inscribed in a circle centre 0. If /AB/=AC/ =\n13cm and /BC/ = 10cm. Calculate the radius of the circle to the nearest whole number.",
+    "marking_scheme": "(a) Substituting the values of p q and taking L.C.M.\n,\n2p+8q = 2r (r - 2) + 8r\n(r + 2) (r - 2)\n2r\n=\nr 2\n(b) (3x+7) (x-1) = 0\n3x+7=0 or x-1 = 0\neither x = -2.333 or x = 1\nALITER\n4 164(3)(7)\nx \n2(3)\neither x = -2.33 or x = 1.\n1\n(c) log 6 + ½ log 81 – log 27; NB: log812 log 81\n= log 6 + log √81 – log 27\n= log 6 + log 9 – log 27\n69\n= log \n 27 \n54\n= log \n27\n= log 2\n7(a) The difference between the reciprocal of a number and the reciprocal of the sum of 3 and\nthe number is 3/40. What is the number?\n(a) Let the number be x. From the question we have: 1 – 1 = 3__\nx x+3 40\nSimplifying, we obtain x2 + 3x – 40 = 0\n x = -8 or x = 5\n(b)\nr2 = x2 + 52…………………. (i)\n AD = 132 52 = 12cm\nx = 12 – r………………….. (ii)\nSolving for r: r2 = (12-r)2 + 52\nr = 7.042\n r = 7.0 cm",
+    "topic": "Indices & Logarithms"
+  },
+  {
+    "exam_type": "NABTEB",
+    "year": 2006,
+    "subject": "Mathematics",
+    "question_no": 8,
+    "question_text": "8(a) In an opinion survey, a group of people were interviewed about the daily newspaper read\nby them. 142 read the Tribune, 122 read the Champion and 118 read the Guardian. 66\nread both the Tribune and the Champion. 48 read the Champion and the Guardian while\n58 read the Tribune and the Guardian. 32 read all the three newspapers.\n(i) Illustrate the information using a Venn diagram.\n(ii) How many people were interviewed?\n(iii) How many people read the Guardian only?\n(i) Find the co-ordinates of the point at which y is greatest.\n(ii) Estimate the roots of the equation 2 + x - x2 = 0\n(d) Using the same scale and axes, draw the graph of y = 1- x\n(e) Use your graphs to solve the equation 1+2x - x2 = 0\n(c) (i) The co-ordinates = (0.5, 2.3) + 0.1\n(ii) The roots x = -1 or x = 2 + 0.1\n(d) The graph of y = 1- x\nTable of y = 1-x\nx -3 -2 -1 0 1 2 3 4\ny 4 3 2 1 0 -1 -2 -3\n(e) From the graph, the roots of 1+ 2x - x2 = 0 are x = -0.4 + 0.1, and x = 2.4 + 0.1",
+    "marking_scheme": "(i)\n(ii) x + 26 + 34 + 32 = 142\n x = 50\ny + 34 + 16 + 32 = 122\ny =40\nz + 26 + 32 + 16 = 118\n z = 44\nTotal number of people that were interviewed = 50+40+44+26+34+16+32\n= 242\n(iii) z + 26 + 32 + 16 = 118\nz = 44 (read Guardian only)\n9(a) Complete the table of values for the relation y = 2 + x - x2 for -3 ≤ x ≤ 4\nx -3 -2 -1 0 1 2 3 4\ny -4 2\n(b) Using a scale of 2cm to 1 unit on the x-axis and 2 units along the y-axis, draw the graph\nof y = 2 + x - x2 with your values in 9(a)\n(c) From your graph\n(a)\nx -3 -2 -1 0 1 2 3 4\ny -10 -4 0 2 2 0 -4 -10",
+    "topic": "Trigonometry"
+  },
+  {
+    "exam_type": "NABTEB",
+    "year": 2006,
+    "subject": "Mathematics",
+    "question_no": 10,
+    "question_text": "10(a) With a pair of compasses and ruler only, construct parallelogram ABCD such that /AB/ =\n5cm, /BC/ = 6.4 and ABC = 60o\n(i) Bisect < BCD and let the bisector meet AD at M.\n(ii) Draw a circle centre 0 with CM as diameter.\n(iii) Measure /OD/ and <BCM.\n(b) Given two points X (lat.50oN, long 85o E) and Y (lat. 50oN, long 25oE). Find the distance\nbetween them along the common parallel of latitude. Take R to be 6400km. π to be 3.14\nand correct your answer to 2 decimals.",
+    "marking_scheme": "(a)\n(b) The distance between the two points, difference in longitude = 60o\n= 60o x 2π x 6400 x Cos 50 o\n360\n= 4305 .90km",
+    "topic": "Indices & Logarithms"
+  },
+  {
+    "exam_type": "NABTEB",
+    "year": 2006,
+    "subject": "Mathematics",
+    "question_no": 11,
+    "question_text": "11(a) The cost of sewing a set of suit is partly constant and partly varies inversely with the\nnumber of days it takes to sew the suit. If the suit takes 3 days to sew, the cost is ₦3,000.\nIf it takes 5 days, the cost is ₦2,500. Find the cost if the tailor takes 4 days to sew a\nparticular set of suit.\n(b) Calculate the perimeter of the major segment of a circle radius 17.5cm determined at the\ncentre of the circle. Take π = 22/7\n(c) (i) range = 16 - 3=13\n \n(ii) S. D =  xx 2 174\n2\nxx 174\nS.D. =    17.4\n \n N  10\nS.D. = 17.4 4.17",
+    "marking_scheme": "We can represent the question with the following equations:\n3a + b = 900\n5a + b = 12,500\n a = 1750\nand b = 3750\n3750\nThe law of the variation, C = 1750 +\nD\nFor 4days, D = 4,\nC = 1750+937.5\n=N 2687.50\n(b) Perimeter of a segment of a circle = length of arc + length of chord\n22 35\nlength of the semi circular arc =  = 55cm\n7 2\nlength of chord = 17.5cm + 17.5cm = 35cm\n perimeter = 55cm + 35cm = 90cm.\n12(a) Mention two uses of averages\n(b) List two merits and two demerits of the\n(i) mean, and\n(ii) median, as measures of central tendency.\n(c) Calculate\n(i) range, and\n(ii) standard deviation of the set of data: 4,5,8,3,9,10,15,12,8,16\nSolution\n12(a) Two (2) uses of average\n(b) Listing of two (2) merits and two (2) demerits of mean and median.",
+    "topic": "Trigonometry"
+  },
+  {
+    "exam_type": "NABTEB",
+    "year": 2006,
+    "subject": "Mathematics",
+    "question_no": 13,
+    "question_text": "13(a) A man saves a sum of money in a bank which pays simple interest at the rate of 4% per\nannum. If after 3 years the money amounts to ₦20,000.00. Find the sum invested.\n(b) Three boys did a business together and shared the profit they made. The first got 20% of\nthe share and got 37½ % of the remainder. If the third boy received ₦450.00, how much\nwas the profit they shared?",
+    "marking_scheme": "(a) I = PRT = = 3P\n100 25\nAmount = A = P + 3p\n25\nsum invested = P + 3p = 20,000\n25\n P = ₦17857.14\n80 4\n(b) remainder after the first boy’s share = 100% - 20% = 80%  \n100 5\n75 4\nThe second boy’s share = %\n2 5\n= 300 = 30  30 = 3\n10 100 10\nProportion left for the third boy = ½.\nIf the third boy received ₦450, therefore the total profit shared would be\n₦450 + ₦450 = ₦900.00",
+    "topic": "Trigonometry"
+  },
+  {
+    "exam_type": "NABTEB",
+    "year": 2006,
+    "subject": "Mathematics",
+    "question_no": 14,
+    "question_text": "14(a) A man’s total salary for 4 months in a particular year was ₦14,001.00. Then there was\nsalary review in which monthly salaries were doubled. Calculate his total salary in that\nyear.\n(b) Ojo, Obi and Bala are three partners who own a business venture. It was agreed that the\nprofit will be shared such that Ojo received 2/5. Obi receives 2/3 and Bala receives ¼ of\nthe total profit made. If at the end of the year Ojo receives ₦3,200 less than Obi, what is\nBala’s share of the total profit?\n= ₦810 + ₦300\n= ₦1110.00\n(ii) Amount the man received if a dividend of 15% was declared.\nNominal value of the share = ₦10,000\nDividend received ₦1500.00\n(b) I = PTR\n100\nInterest on the loan = ₦48,000 x 3 x 12½ = ₦18,000\n100\ntotal money owed = ₦48,000 + ₦18,000 = ₦66,000\nthe monthly installment will be ₦66,000\n36 months\n= ₦1833.33",
+    "marking_scheme": "14(a) Monthly pay before salary review = ₦14001\n4\n= ₦3,500.25\nmonthly salary after review = ₦3,500.25 x 2\n= ₦7000.50\n8 months salary after review = ₦7000.50 x 8\n= ₦56004.00\nTotal salary for the year = ₦56004 + ₦14001\n= ₦70,005.00\n(b) Let x represent the total profit. Therefore we have the equation 2x + 3200 = 2x\n5 3\n= 2x – 2x = -3200\n5 3\nL.C.M approach - 4x = - 3200\n15\nx = ₦12,000\nthen Bala’s share will be ¼ of ₦12,000 = ₦3,000.00\n15(a) A man bought 10,000 ₦1.00 shares of FELGRA PLC at ₦1.50 per share through a\nbroker. If the brokerage commission rate is 5.4% plus ₦300 for any transaction of\n₦5,000 or more, calculate the:\n(i) broker’s commission and\n(ii) amount the man received if a dividend of 15% was declared.\n(b) Afman is to pay back a loan of ₦48,000 monthly for 3 years. If the amount is borrowed\nat the rate of 12½ % per annum, what will be his monthly installment payment?\nSolution\n(a) (i) Market value of the shares = ₦1.50 x 10,000 = ₦15,000\nN15,000 \nBroker’s commission =  5.4+ N300\n 100 ",
+    "topic": "Trigonometry"
+  }
+]

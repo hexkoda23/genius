@@ -1,0 +1,65 @@
+[
+  {
+    "exam_type": "NABTEB",
+    "year": 2009,
+    "subject": "Mathematics",
+    "question_no": 1,
+    "question_text": "1(a) Without tables, simplify\n1 5\n2 5\n5 6\n5\n6\n12\n(b) Evaluate log 81 + log 27 – log 243\n3 3 3\n= ₦30,000.00\n3\nEyo will receive ₦135,000\n9\n= ₦45,000.00\nNuhu will receive 4 x 135,000\n9\n= ₦60,000.00\n(b) 10 (3x - 2) = 7(5x - 4)\nMultiplying the operations in the LHS and RHS, removing brackets we have\n30x – 20 = 35x - 28\ncollecting like terms, we have\n30x - 35x = - 28 + 20\n- 5x = -8\nDividing by the coefficient of x, which is -5, we have for both sides\n-5x = -8\n-5 -5\n3\n x = 1\n5",
+    "marking_scheme": "1 5\n2 5\n5 6\n5\n6\n12\nSimplifying the denominator and the numerator, we have\n11 35\n\n5 6 11 35 77\n= =  \n77 5 6 12\n2\n11 35 12\n=  \n5 6 77\n= 2\n1(b) log 81 +log 27 – log 243 using the similar root power property of the logarithm,\n3 3 3\n8127 34 33  37 \nwe have log  =log   = log   = log 9,\n3  243 \n3\n 35\n\n\n3\n35\n\n 3\n= log 32 = 2log 3 = 2\n3 3\n2(a) Ade, Eyo and Nuhu contributed ₦50,000, ₦75,000 and ₦100,000 respectively to a\njoint business venture. Their profit is to be shared in the ratio of their\ncontributions. If they made a profit of ₦135,000 how much will each receive?\n(b) Solve the following linear equation: 10(3x - 2) = 7(5x - 4)\nSolution\n(a) Since Ade, Eyo and Nuhu contributed ₦50,000, ₦75,000 and ₦100,000, the ratio\nof their contribution will be 2:3:4\nSince Nuhu contributed twice the contribution of Ade and their total contributions\nwere ₦225,000\nSo the sum of their ratio is 2 + 3 + 4 = 9.\nWhen they made a profit of ₦135,000, based on their contributions;\nAde will receive 2 x 135,000\n9",
+    "topic": "Indices & Logarithms"
+  },
+  {
+    "exam_type": "NABTEB",
+    "year": 2009,
+    "subject": "Mathematics",
+    "question_no": 3,
+    "question_text": "3. If ξ = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12,…,15}\nA = {numbers less than 7}\nB = {multiples of 3} are subsets of ξ\n(a) List the members of A and B\n(b) Show the above sets in a Venn diagram\n(c) List the elements of (i) A1 B (ii) A  B1\n(c) (i) A1 = {7, 8, 9, 10, 11, 12, 13, 14, 15}\nB = {3, 6, 9, 12, 15}\n A1  B = {9, 12, 15}\n(ii) B1 = {1, 2, 4, 5, 7, 8, 10, 11, 13, 14}\nA = {1, 2, 3, 4, 5, 6}\n A  B1 = {1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 13, 14}",
+    "marking_scheme": "(a) A = {1, 2, 3, 4, 5, 6}\nB = {3, 6, 9, 12, 15}\n(b)",
+    "topic": "Set Theory"
+  },
+  {
+    "exam_type": "NABTEB",
+    "year": 2009,
+    "subject": "Mathematics",
+    "question_no": 4,
+    "question_text": "4. A chord XY of a circle of radius 7cm, subtends an angle of 120o at the centre.\nFind the:\n(i) length of arc XY\n(ii) area of the major segment which XY cuts off, and\n(iii) area of the sector XOY.\n1200\n(i) length of arc XY = 27= 14.66cm\n3600\n( = 3.142)\n(ii) Area of the major segment which XY cuts off = 1200 x 2  x 72\n3600\n= 102.64cm2\nArea of XOY\n= ½ x 7 x 7 x sin 1200\n= ½ x 49 x 0.8660\n= 21.22cm2\nTherefore area of the major segment which XY cuts off\n= 102.64cm2 + 21.22cm2\n= 123.86cm2\n(iii) Area of the sector XOY\n= 120 x  x (7cm) 2\n360\n= 51.32cm2",
+    "marking_scheme": null,
+    "topic": "Trigonometry"
+  },
+  {
+    "exam_type": "NABTEB",
+    "year": 2009,
+    "subject": "Mathematics",
+    "question_no": 5,
+    "question_text": "5. The scores in an ICT Quiz is given below\nScore (x) 2 3 4 5 6 7 8 9 10\nFrequency(f) 2 2 4 7 8 3 4 5 3\nCalculate:\n(i) total number of students\n(ii) mean scores\n(iii) median scores, and\n(iv) modal scores",
+    "marking_scheme": "(i) Total number of students\n2 + 2 + 4 + 7 + 8 + 3 + 4 + 5 + 3 = 38\n(ii) Mean = fx or fx\nN f\nf = N = 38\nfx = (2 x 2) + (3 x 2) + (4 x 4) + (5 x 7) + (6 x 8) + (7 x 3) + (8 x 4) +\n(9 x 5) + (10 x 3) = 237\n mean = 237 = 6.24\n38\n(iii) Median = 6+6\n2\n= 6\n(iv) Modal scores 6\n6.(a) After examining 300 defective items, a factory quality controller came up with the\nfollowing report. Defects in finishing 90, defects in hardness 150 and defects in\ndimension 159. Defects in hardness and finishing 30, defects in both finishing and\ndimension 24 and defects in both hardness and dimension 60. All three defects 15.\n(i) Use a Venn diagram to illustrate this report\n(ii) Find how many items have only one defect.\n(iii) Find how many items have only two defects.\n(iv) Calculate the probability of items with only two defects.\n(a) If 213 = 117 , find n.\nn seven\nThere are three (3) intersecting circles. That is FHD = 15\n(ii) F: x + 9 + 15 + 15 = 90\n x = 51\nH: y + 15 + 15 + 45 = 150\n y = 75\nD: z + 9 + 15 + 45 = 159\n z = 90\n(iii) The only two defects are 9 + 15 + 45 = 69\n(iv) The probability of only two defects will be\n69\n=\n300\n23\n=\n100\n= 0.23\n6. 213 = 117\nn seven\n2 x n2 + 1 x n1 + 3 x n0 = 1 x 72 + 1 x 71 + 7 x 7o\n2n2 + n + 3 = 49 + 7 + 7\n2n2 + n + 3 = 63\n 2n2 + n – 60 = 0\nTherefore n = -5.483 or 4.983\n n = 5",
+    "topic": "Statistics"
+  },
+  {
+    "exam_type": "NABTEB",
+    "year": 2009,
+    "subject": "Mathematics",
+    "question_no": 7,
+    "question_text": "7(a) The mass M of a sheet of metal varies jointly with its area A and its thickness\nT. If a sheet of metal of area 250cm2 and thickness of 1mm has a mass of\n200g:\n(i) Find the formula which connects M, A and T\n(ii) From the formula in (i) make A the subject of the formula\n(iii) Hence find A when M = 960g and T = 3mm\n(b) A right pyramid of height 15cm stands on a square base of sides 12cm.\nCalculate the volume.",
+    "marking_scheme": "(i) Area of the metal sheet is length x width x thickness\nmass of the metal steel 200g = k x 250cm2 x 1mm\n200 = k x 250 x 1\nthen k = 4/5\nTherefore M = KAT\nand this implies M = 4/5 AT\nALITER\n200 = K x 250 x 0.1\n K = 8\nand M = 8AT\n(ii) M = 4/5 AT  5M = 4AT\nA = 5M\n4T\n(iii) A = 5 x 960 x 3\n4\n A = 400cm2\nALITER\nM = 8AT  A = M\n8T\n A = 960\n8 x 0.3\n= 400cm2\n(b) Base area = l x b = 12cm x 12cm = 144cm2\nVolume = 1/3 x (12cm)2 x 15cm\n= 720cm3",
+    "topic": "Mensuration"
+  },
+  {
+    "exam_type": "NABTEB",
+    "year": 2009,
+    "subject": "Mathematics",
+    "question_no": 8,
+    "question_text": "8(a) Copy and complete the table for y = 2x2 – 3 – 6\nx -3 -2 -1 0 1 2 3 4 5\ny 18 8 -7 29\nb) (i) Use your table to plot the graph of y = 2x2- 3x - 6. Use 2cm to 1unit on the x-axis\nand 2cm to 5units on the y-axis.\n(ii) On the same axes, plot the graph of 2y – 5x+10=0\n(b) Use your graphs to solve\n(i) 2x2 -3x – 6 = 0\n(ii) 2x2 – 3x – 6 = ½ (5x -10)\n(iii) Find the range of values of x for which y < 0.\n(b) ST = 1.7 cm (+ 0.1cm)\n(c)(i) P (sum greater than or equal to 8) = 15\n36\n=5/12\n(ii) P (at least a four) = 11\n36",
+    "marking_scheme": "(a)\nx -3 -2 -1 0 1 2 3 4 5\ny 21 8 -1 -6 -7 -4 3 14 29\n(b)(i)\n(ii)\n(c) (i) x = -1.1 and x = 2.6 (+0.1)\n(ii) x = 2.9 and x = -0.2 (+0.1)\n(iii) The range: -1.1 < x < 2.6\n(+ 0.1 the boundaries)\n9(a) Using a ruler and a pair of compasses only construct\n(i) a triangle XYZ with /XY/ = 8cm, < YXZ = 600 and < XYZ = 300\n(ii) the perpendicular ZT to meet XY at T.\n(iii) the locus l , of points equidistant from ZY and XY\n1\n(b) If l and ZT intersect at S, measure /ST/.\n1\n(c) A fair die is rolled twice. Find the probability of:\n(i) a sum greater or equal to 8\n(ii) at least a four\nSolution\n(a)",
+    "topic": "Algebra"
+  },
+  {
+    "exam_type": "NABTEB",
+    "year": 2009,
+    "subject": "Mathematics",
+    "question_no": 10,
+    "question_text": "10. An aircraft moves from a location X (280N, 150E) to another location\nY (280N, 250W) and then to location Z(320S, 250W). The movement from X and\nY is along the parallel of latitude and that from Y to Z is along the meridian.\nCalculate the:\n(i) the radius of parallel of latitude 280N\n(ii) distance from X to Y\n(iii) distance from Y to Z\n(iv) total length of the journey from X to Z.\n(v) average speed of the aircraft if the journey takes 15 hours.\n(Take R = 6400km, π = 3.142)\n(b) Find the total surface area of a cylinder of diameter 7cm and height 15cm.\n= ₦34,500.00\n(b) Nominal value of the ordinary shares = 1,800,000 x 40 kobo\n= ₦720,000\nProfit on ordinary share = 8 x 720,00\n100\n= ₦57,600\nNominal value of the preference share = ₦160,000 x 1.50 = ₦240,00\nProfit on the preference share = 15 x 240,000\n200\n= ₦18,000\n Total profit for the year = ₦57,600 + ₦18,000\n= ₦75,600.00\n14.(a) In a bankruptcy a creditor with a claim of ₦80,000.00 was paid ₦65,000.00. How\nmuch to the nearest naira will a creditor for ₦200,000.00 be paid?\n(b) The compound interest on a sum of money invested at 12% for 3 years was\n₦40,380.00. How much was invested?\n(c) Aki and Pawpaw own a shop. The ratio of Aki’s share to Pawpaw’s is 3:2. Later\npawpaw sells 2/3 of his shares to Aki for ₦82,000,000. Find the value of the shop.\n= ₦205,000\nTherefore the value of the shop will be 205,000 x 5\n3\n= ₦512,500.00\n15.(a) Madu bought 5000 8% preference shares nominal value ₦1.80 at ₦2.10 each.\n(i) How much did he pay for the shares?\n(ii) What is his annual income if he pays a tax at 20%.\n(b) A sales agent is paid ₦10,000 per month and in addition 7½ % commission on all\nsales. If in a particular year, he sold goods worth ₦1,500,000. Calculate his:\n(i) annual income before tax, and\n(ii) average monthly pay when a tax of 15% on his annual salary is made.",
+    "marking_scheme": "(i) r = 6400 Cos 28o\n= 5650.56km\n(ii) 40o x 2 π 6400 x Cos 28o\n360o\n= 40o x 2 π 5650.56\n360o\n= 3945.35km\n(iii) 60o x 2 π x 6400\n3600\n= 6702.93km\n(iv) Total length = 3945.35km + 6702.93km\n= 10648.28km\n(vi) Average speed = 10648.28\n15\n= 709.89km/hr\n11.(a) In a box containing 24 identical balls, 9 are blue, 6 red, 4 are white and 5 are\nviolet. If a ball is randomly selected and replaced, then a second ball is taken,\nfind the probability that:\n(i) both balls are red.\n(ii) both are of different colours\n(iii) they are red and a blue ball\n(iv) both balls are violet.\na. (i) P(both balls are red) = 6/24 x 8/24\n= 1/16\n(ii) P(both are of different colours) =\n1 – (1/24 x 9/24 + 6/24 x 6/24 x 4/24 x 4/24 + 5/24 x 5/24)\n= 209\n288\n(iii) P(they are a red and a blue) = 6/24 x 9/24 + 9/24 x 6/24\n= 3/16\n(iv) P(both balls are violet) = 5/24 x 5/24\n= 25\n576\nb. Area of the two circular faces = 2 x π x (7/2)2\n= 49/2 π cm2\ncurved surface area = (2 π x 7/2 x 15)\n= 105 π cm2\n49\ntotal surface area = ( + 105 π)cm2\n2\n= 259 π\n2\n\n= 406.89cm2 407cm2\n12.(a) The table below is the distribution of the weekly earnings (in thousands of naira)\nof some workers in a poultry farm.\nAmount in ₦1000 10 12 15 18 20\nNo. of Workers 8 20 6 4 2\n(a) How many workers are on the farm?\n(b) Calculate the mean, mode and median of their weekly earnings.\n(b) Find the rate of 58 kobo in the naira in a property of rateable value of ₦4800.00\n(c) A trader sold an article for ₦18,500 and make a gain of 2½% . How much must\nhe sell it to make a loss of 12½ %?\n(a) (a) Total number of workers = 8 + 20 + 6 + 4 + 2\n= 40\n(b) Mean earning = 522 x 1000\n40\n= ₦13,050.00\nMedian = ₦24,000 2\n÷\n= ₦12,000.00\nMode = ₦12,000.00\n(b) Kobo rate: ₦ 58 x 48000\n100\n= ₦2784.00\n(c) 2½ % of 18,500  102.5x = 18,500\n100\n= 18,048.78\n Selling price = 87.5 x 18048.78\n100\n= 15,792.68\nALITER\nFor every ₦100 cost price, the selling price was ₦102.50 i.e. ₦102.50 selling price\nrequired ₦100 cost price. Then 18500 x 100\n102.5\n= ₦15792.68\n13(a) A man took a loan of ₦330,000.00 for 1 year at 15% per annum, deducted\nmonthly in 11 equal installments, January to November 2009. Calculate the:\n(i) total interest\n(ii) monthly deduction from his salary\n(b) A company’s capital consist of 1,800,000 ordinary shares of 40 kobo each and\n160,000 preference shares of ₦1.50 each paying 7½ %. If it pays 8% on the\nordinary shares, what is the profit for the year?\nSolution\n(a)(i) Total interest 15 x 330,000\n100\n= 49,500.00\n(ii) Total amount = ₦330,000 + ₦49,500\n= 379,500\nmonthly deduction from his salary for 11 months equally will be ₦379,500\n11\n(a) Dividend = 65000 x 100\n80000\n= 81.25 kobo in the naira\nTherefore creditor for ₦200, 00 = 200,000 x 81.25\n100\n= ₦162,500.00\n(b) Compound interest: A = P+40380\nP+40380 = P(1+12)3\n100\nP+40380 = (1.404928)P\n0.404928P = 40380\n Principal amount invested = ₦99721.34\n(c) Pawpaw’s share = 8200 x 5\n2\n(a) (i) Amount paid for the shares = ₦2.10 x 5,000\n= ₦10,500\n(ii) Dividend on the shares = 1.80 x 5000 x 8\n100\n= ₦720.00\nTax = 21 x 720\n100\n= ₦144\nIncome = ₦720 – 144 = ₦576.00\n(b) (i) Commission received 7.5 x 1,500,000\n100\n= 112,500\nTotal income before tax = ₦120,000 + ₦112,500\n= ₦232,500\n(ii) Annual salary: ₦10,000 x 12 = ₦120,000\nAnnual tax: 15 x 120,000 = ₦18,000\n100\nTotal annual salary = ₦ 232,500 – ₦18,000\n= ₦214,500\nAverage monthly pay: ₦214,500\n12\n₦17875.00",
+    "topic": "Mensuration"
+  }
+]

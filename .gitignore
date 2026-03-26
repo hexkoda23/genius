@@ -1,0 +1,30 @@
+@"
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Node
+node_modules/
+dist/
+.next/
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# Large backend assets
+backend/images/
+backend/books/
+backend/qdrant_db/
+backend/*.pdf
+backend/debug_output.txt
+
+# Misc
+.DS_Store
+*.log
+"@ | Set-Content .gitignore

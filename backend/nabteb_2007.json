@@ -1,0 +1,92 @@
+[
+  {
+    "exam_type": "NABTEB",
+    "year": 2007,
+    "subject": "Mathematics",
+    "question_no": 1,
+    "question_text": "1. Use the logarithm tables to evaluate\n0.784323.67\n4\n3.479",
+    "marking_scheme": "No Log\n(0.784)3\n1.8943 x 3 = 1.6827\n23.67 (+) 1.3742\n1.0571\n3.479 0.5414 (-)\n1.346 0.5157 ÷ 4 = 0.1289\nAntilog of 0.1289 = 1.346\n2(a) Find the product of 324 and 15\n6 6\n(b) If log a +5 log a - 6log a = log 8. What is a?\nSolution\n324 = 3 x 62 + 2 x 61 + 4 x 6o\n6\n= 3 x 36 + 12 + 4 = 124\n10\n15 = 1 x 61 +5 x 6o = 6 + 5 = 11\n6 10\n124 x11 = 1364\n 10 10 10\nThen, next 6 1364___\n6 227 2\n6 37 5\n6 6 1\n6 1 0\n1\n324 x15 10152\n 6 6 = 6\n3(a) Make T the subject of the expression:\nS P\nN    \n \nT Q\n(b) If S is directly proportional to T and T = 120, when S = 30;\nFind the value of T when S = 136\nS P\n(a) N    \n \nT Q\nClearing the root sign\nS P\nN2  \nT Q\nS P\n N2 \nT Q\nS QN2  P\n\nT Q\nMultiply both sides by 1/S and reciprocal the expression or cross multiply, we have\nSQ\nT \nQN2 P\n(b) S T\nS = KT\n30 =K x 120\n30\n K\n120\n1\nK \n4\nT\nS \n4\nS = ¼ T\nIf T = 120\nWhen S = 136 then 136 = ¼ T\n T = 544\n4(a) Evaluate 10.52 – 1.52, without the use of Mathematical tables\n  \n(b) Expand a2 3 a3 2\nSolution\n4(a) 10.52 – 1.52 is a difference of two square values\n (10.5 +1.5) (10.5 – 1.5) = (12.0) (9.0)\n= 108\n  \n(a) Expanding a2 3 a3 2 , we have\na2 3a 22a 36 6",
+    "topic": "Indices & Logarithms"
+  },
+  {
+    "exam_type": "NABTEB",
+    "year": 2007,
+    "subject": "Mathematics",
+    "question_no": 5,
+    "question_text": "5(a) Calculate the area of the major sector of a circle which subtends an angle of 130o at the\ncentre and having radius 14cm. (Take  to be 3.14)\n2\n(b) Rationalize\n43 2\nBy collecting like term and solving for a, we have ab = -xy\n a = -xy\nb\n\n(c) 23.146370 = 7900\n3600\n = 7900 x 360o\n2 x 3.14 x 6370\nSimplifying, we obtain\n\n= 71.09o 71.10",
+    "marking_scheme": "\n5. (a) r2\n3600\n1300\n= 3.14142\n3600\n= 222.24cm2\n \n2 243 2\nb)    \n43 2 43 2 43 2\n86 2\n=\n1612 2 12 2 9 4\n86 2\n=\n1618\n86 2 2(43 2)\n= =\n2 2\n= 3 2 4\n6(a) Factorise completely (x2 + x) 2 – (2x + 2)2\na x yb\n(b) Express a in terms of x, b and y, if \nax yb\n(c) Two places on the equator are 7900km apart measured along the equator. Find the\ndifference in their longitudes. Take R = 6370km and π = 3.14\nSolution\n(a) (x2 + x)2 – (2x + 2)2\n= (x2 + x) (x2 + x) – (2x + 2) (2x + 2)\n= (x4 + x3 + x3 + x2) – (4x2 + 4x + 4x + 4)\n= (x4 + 2x3 + x2 – (4x2 + 8x + 4)\n= x4 + 2x3- 3x2 - 8x - 4\n= (x2 + 3x + 2) (x2 – x - 2)\n= (x + 2) (x - 2) (x + 1) (x + 1)\n=(x + 2) (x - 2) (x + 1)2\na x yb\n(b) If \nax yb\nCross multiplying, (a + x) (y + b) = (a - x) (y - b)\nay + ab + xy + xb = ay – ab – xy + xb",
+    "topic": "Circle Theorems"
+  },
+  {
+    "exam_type": "NABTEB",
+    "year": 2007,
+    "subject": "Mathematics",
+    "question_no": 7,
+    "question_text": "7(a) Find the sum of the first three terms of the G.P whose third term is 27 and whose 6th\nterm is 8.\n(b) A cone is formed by folding a major sector of a circle having an angle 220o at the centre.\nCalculate the circumference of the base of the cone if the diameter of the circle is 14cm,\ncorrect to 1 decimal place.\nFind, correct to 3 significant figures, the\n(i) area of the triangle ABC\n(ii) total area of the shaded portion and\n(iii) perimeter of the shaded area ACD",
+    "marking_scheme": "(a) Using arn-1\nThe third term is ar2 = 27 _____ (i)\nAnd the 6th term is ars = 8 ______ (ii)\nSolving, we obtain\nr = 2/3\nSolving for a in equation, we have\n2\n2\na   27\n3\n243 3\na  60 or60.75\n4 4\n3 2432\nSum of the terms = 60   27\n4 4 3\n2\n3 2432 2432\nor 60     \n4 4 3 4 3\nEvaluating, we have\n= 1284\n(b) radius of circle = 7cm\n2200 22 7\nCircumference of the base of cone =  \n3600 7 1\n= 26.9cm (correct to 1 decimal place)\n8(a) In the diagram ABCD is a circle centre 0 with diameter 13cm. ABC is a triangle\ninscribed in the circle.",
+    "topic": "Sequences & Series"
+  },
+  {
+    "exam_type": "NABTEB",
+    "year": 2007,
+    "subject": "Mathematics",
+    "question_no": 8,
+    "question_text": "8(b) Simplify without using Mathematical tables the sum of the first 20 terms of the series 3 +\n6 + 9 + 12 + …\n S = 630\n20",
+    "marking_scheme": "8(a) (i) /BC/ = √132 – 122 = 5cm\n Area of triangle ABC = (½ x 12 x 5) cm\n= 30.0cm2\n(ii) Area of circle: r = 6.5cm\n= πr2 = 22 x (6.5cm)2\n7\n= 132.7495cm2  132.75cm2\nArea of the shaded portion = (132.75 - 30) cm2\n= 102.75cm2  103cm2 (to 3 sig. fig)\n(iii) Length of arc ADC = ½ x 2π x 13 cm\n2\n= 20.42cm\n the perimeter = 20.42cm + 13cm\n= 33.42cm\n 33.4 cm (3sig. fig.)\nn\n   \n(c) Using S  a n1d\nn\n2\n20   \nS  6 2013\n20 2",
+    "topic": "Trigonometry"
+  },
+  {
+    "exam_type": "NABTEB",
+    "year": 2007,
+    "subject": "Mathematics",
+    "question_no": 9,
+    "question_text": "9(a) With a pair of compasses and ruler only, construct a triangle PQR in which\n<RPO = 120o, <PQR = 45o and /PQ/ = 6cm\n(i) Find a point M on RQ such that PM is perpendicular to RQ.\n(ii) Measure /PM/\n(b) The figure given above is a solid with CEFD as the cross section. Calculate the:\n(i) area of CEFD, and\n(ii) volume of the solid.\n9(b) (i) Area of CDZE = l x b = (3 x 12)cm = 36cm2\nArea of DFZ = ½ b x h\n= ½ x 5 x 12 = 30cm2\nArea of CEFD = 36cm2 + 30cm2\n= 66cm2\n(ii)\ny  14425 13\nVolume of cuboid ABCDZE = 3cm x 12cm x 6cm\n= 216cm3\nVolume of ADZFG = volume of ½ prism\n½ volume of prism = ½ l x b x h (h=height) = ½ x (6 x 5 x 12)cm\n= 180cm3\n the volume of the solid = 216cm3 + 180cm3\n= 396cm3",
+    "marking_scheme": "9(a)\n(ii) /PM/ = 4.2cm (+ 0.1cm)\n(b) Area of CEFD",
+    "topic": "Mensuration"
+  },
+  {
+    "exam_type": "NABTEB",
+    "year": 2007,
+    "subject": "Mathematics",
+    "question_no": 10,
+    "question_text": "10(a) If ξ = {1,2,3,…,10}and A = {4,6,8,10}, B = {1,4,5,11}, C = {4,5,11,12}, find\nC1   AB \n(b) Solve graphically, the simultaneous equations:\ny = x 2- 7x + 10 and y = x + 3 using the interval 0< x< 8 and a scale of 2cm to 1 unit\non the x - axis and 1cm to 2 units on the y - axis.\n(c) Use your graphs in (a) to find the roots of :\n(i) x2 - 7x + 10 = 0\n(ii) x2 - 7x + 5 = 0\n(c) (i) x = 2, x=5 +(0.1cm)\n(ii) the roots are given by x = 0.7, x = 6.2 + (0.1cm)",
+    "marking_scheme": "10(a) C1= {1, 2, 3, 6, 7, 8, 9, 10}\nAB = {4}\nC1   AB  = {1, 2, 3, 4, 6, 7, 8, 9, 10}\n(b) Table of values: y = x2 - 7x + 10\nx 0 1 2 3 4 5 6 7 8\ny 10 4 0 -2 -2 0 4 10 18",
+    "topic": "Trigonometry"
+  },
+  {
+    "exam_type": "NABTEB",
+    "year": 2007,
+    "subject": "Mathematics",
+    "question_no": 11,
+    "question_text": "11(a) In a circle of radius 6cm, calculate the distance from the centre to a chord which is\n8.5cm long.\n(b) A sum of ₦154,000 was to be shared among three children, Hassan, Victor and Garba\nsuch that Hassan receives 2/3 of Victor’s share; while Victor receives ½ of Garba’s share.\nHow much is received by Victor?\nSolution Let the distance be x\nx  62 4.252\n 17.9375\n= 4.24cm\n11(b) Suppose Garba receives ₦ x (or equivalent). The equation will be\nx + ½x + 1/3 x = 154,000\nSimplifying, we have\n11x = 154,000\n6\n11x = 154,000 x 6\nx = 84,000\n Victor receives ½ x ₦84,000\n= ₦42,000.00",
+    "marking_scheme": null,
+    "topic": "Trigonometry"
+  },
+  {
+    "exam_type": "NABTEB",
+    "year": 2007,
+    "subject": "Mathematics",
+    "question_no": 12,
+    "question_text": "12(a) The distribution of the daily wages in ₦100 of some workers on a farm is as given below.\nWages (x) 2 3 4 5 6 8 10\nNo. of workers (f) 2 4 10 11 15 10 3\n(a) How many workers are on the farm?\nCalculate the:\n(i) mean wage\n(ii) median wage and\n(iii) modal wage\n(b) The monthly profit of a transport business was shared between two partners, a\nhusband and wife in the ratio 7:5. If the wife received ₦15,000 less than the\nhusband, find out how much the husband received.\n(or ₦180 x 98 = 17640)\nOverall gain = selling price – cost price\n= ₦19467 – ₦17640 = ₦1827\n1827 100%\n percentage gain = \n17640 1\n= 10.36%\n(b) S.I. = P x T x R\n100\nP = S.I x 100 = 100 x 4040\nT x R 4 x 4\n P = 25,250.00",
+    "marking_scheme": "(a) Total number of workers in farm = 2 + 4 + 10 + 11 + 15 + 10 + 3\n= 55\n(b) (i) mean wage\n∑fx = (2 x 2) + (3 x 4) + (4 x 10) + (5 x 11) + (6 x 15) + (8 x 10) + (10 x 3)\n= 31100\n mean = ∑fx = 31100 = ₦565.45\nn 55\n(ii) Median wage:\nIn the middle position, we have ₦600.00\n(iii) Modal wage: The most frequent wage was ₦600.00\nx 7\n(b) Let the husband receive ₦x. Then we have the equation \nx15000 5\n 5x = 7x – 105000\n x = 52,500\nThen, the husband received ₦52,500.00\n13(a) A trader bought 98 units of an article at ₦180 each. He sold 42 of them at a profit of\n20%, 35 at a loss of 4% and remainder at a profit of 15%. Find the overall\n(i) selling price to nearest kobo, and\n(ii) percentage gain or loss to 2 decimal places.\n(b) A simple interest on a sum of money invested at 4% for 4 years was ₦4,040. How\nmuch was invested?\nSolution\n1207560\n(a) (i) Selling price of 42 articles = = 9072  ₦9072\n100\n966300\nSelling price of 35 articles = = ₦6048\n100\n115N3780\nSelling price of remaining 21 articles = = ₦4347\n100\n Overall selling price = ₦9072 + ₦6048 + ₦4347 = ₦19,467.00\n(ii) The overall cost price of the articles = ₦7560 + 6300 + 3780\n= ₦17640.00",
+    "topic": "Trigonometry"
+  },
+  {
+    "exam_type": "NABTEB",
+    "year": 2007,
+    "subject": "Mathematics",
+    "question_no": 14,
+    "question_text": "14(a) A married man with 5 children is on an annual salary of ₦75,000. The man is given tax\nrelief as follows:\nPersonal Allowance of ₦9,000\nChildren Allowance of ₦1,500 per child for a maximum of 4 children.\nDependent Relative Allowance of 1/10th of his salary.\nLife Insurance Allowance of ₦5,000.\nIf tax is paid at 10k in ₦ on the 1st ₦20,000 and 15k in ₦ on the remaining, calculate the\namount of tax he pays.\n(c) A trader allows a retailer 20% trade discount and 5% for cash payment. What will be the\nmarked price of an article for which a customer pays ₦4,750?\n(b) Let the marked price be ₦x.\n95 80x\n  4750\n100 100\n9580x  4750100100\n4750100100\nx \n9580\nSimplifying, we have x = 6250\n the marked price = ₦6250.00",
+    "marking_scheme": "14(a) Tax free allowance\nPersonal allowance = ₦9,000\n4 children allowance @ N150 per child = ₦6,000\n1/10 of salary for dependent relative allowance = ₦7,500\nLife Insurance allowance = ₦5,000\n₦27, 500\nTaxable income = ₦75,000 – ₦27,500\n= ₦47,500\nTax on first ₦20,000 = 20,000x10\n100\n= ₦2000\nRemaining: ₦47, 500 - ₦20,000 = ₦27, 500\nN2750015\nTax on remaining amount = = ₦ 4125\n100\n total tax paid = ₦2,000 + ₦4125\n= ₦6125.00",
+    "topic": "Algebra"
+  },
+  {
+    "exam_type": "NABTEB",
+    "year": 2007,
+    "subject": "Mathematics",
+    "question_no": 15,
+    "question_text": "15(a) A and S declares a cash dividend of ₦200,000 in a certain year as follows:\nThe 1000 shares of preferred stock are to receive 6% of the ₦250 per value. While the\n5,000 shares of ordinary stock are to receive the remainder. Calculate the annual\ndividend per share for each type of stock.\n(b) Obi and Audu own a shop. The ratio of Obi’s share to Audu’s share is 13:7. Later Audu\nsells 1/5 of his shares to Obi for ₦6,300. Find the value of the shop.",
+    "marking_scheme": "(a) For the first preferred stock at 6%\n6\n N250 N15\n100\nDividend on the preference shares = ₦15 x 1000 = ₦15,000\nDividend on the ordinary shares: = ₦200,000 – ₦15,000 = ₦185,000\n Dividend per share would be ₦185,000\n5,000\n= ₦37.00\n(b) Let the value of the shop be ₦x\nlet Audu’s share be ₦7x\n20\n1 7x\n  6300\n5 20\nSolving, we obtain x = 90,000\n the value of the shop is ₦90,000.00",
+    "topic": "General Mathematics"
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "exam_type": "NABTEB",
+    "year": 2008,
+    "subject": "Mathematics",
+    "question_no": 1,
+    "question_text": "1(a) Simplify 1¼_____\n2 + ¼ of 28\n(b) The sides of a triangle are in the ratio 4:7:8 and its perimeter is 38cm. Find the sides.\n3x  3x\n4 2  22 2  23x\n3x\n8x 2 2 3x 2\n  2 2\n4 22\n3x\n2\n23x  2 2\n3x 4 1\nGetting 3x = 2 x =  or1\n2 3 3\n(b) Selling price = 108% = ₦2,700\nCost price = 100% = 100 x ₦2,700 = ₦2500\n108",
+    "marking_scheme": "1 1\n(a) 2 of282 28 27 9\n4 4\n1 5 5\nfor1 9 9\n4 4 36\n(b) Total ratio = 4 + 7 + 8 = 19\nGetting: 38 x 4 = 8cm\n19\n38 x 7 = 14cm\n19\n38 x 8 = 16cm\n19\n2. Find the value of x and y in the following equations:\n32 + 51 = 10\nx y 10\n23 + 42 = 7\nx y 10\nSolution\n(3x + 2) + (5y + 1) = 10  3x + 5y = 7\n(2x + 3) + (4y +2) = 7  2x + 4y = 2\nSolving the set of equations, we have x = 9 and y = -4\n3x 8x\n3.(a) If 4 2  , find x.\n4\n(b) A shopkeeper gained 8% by selling a table for ₦2,700.00. What is the cost price of the\ntable?\nSolution\n3x 8x\n(a) 4 2  ,find x\n4",
+    "topic": "Trigonometry"
+  },
+  {
+    "exam_type": "NABTEB",
+    "year": 2008,
+    "subject": "Mathematics",
+    "question_no": 4,
+    "question_text": "4(a) Simplify log 54 + log 15 – log 10\n3 3 3\n(b) If -8, x, y, 19 are a sequence in arithmetic progression (A.P), find the value of x and y\n5. (a) A diagonal of a rectangle is 15cm. If the length is 3cm greater than the breath, find\nthe perimeter of the rectangle.\n(c) The exterior angles of a pentagon are 4x0, 3x0, (x - 60)0, 2x0 and 500, find the value of x\n(d)\n(b)\n80 + 25 – x + x + 25 - x = 115\nSolving we get x = 15\n(i) Physics only = 25 - 15 = 10\n(ii) Chemistry = 25 - 15 = 10\n(iii) Mathematics only = 5\n(iv) One of the three subjects = 10 + 10 + 5 = 25",
+    "marking_scheme": "5415\n(a) log 3 54 + log 3 15 – log 3 10 = log 3  log 81\n 10  3\nlog 81log 34 4log 34\n3 3 3\n(b) T = 19 = - 8 + (4 - 1)d\n4\nSolving to get d = 9\nx = - 8 + 9 = 1, y = 1 + 9 = 10\nALITER: d = x + 8 = y - x 2x - y = - 8\nor 19 – y = y - x  - x + 2y = 19\nSolving simultaneously, we have\n2x – y = - 8………………… (1)\n-x + 2y = 19 …………….. (2)\n2x –y = -8……………… (1) x 2\n-x + 2y = 19 ………….... (2) x 1\n4x – 2y = -16\n-x + 2y = 19\n3x = 3\nx = 1\nSubstitute for x in equation (1)\n2x –y = - 8\n2(1) – y = -8\n-y = -8 – 2\n-y = -10  y = 10\n(a) Let the breadth be x cm, then length = (x +3) cm\nwe have 152 = x2 + (x +3)2  x2 + 3x – 108 = 0\nSolving, we get x = 9 or -12\nPerimeter = 2(9+12) cm = 42cm\n(b) 4xo + 3xo + (x - 60) o + 2xo + 50o = 360o\nSolving, we get x = 370\n6(a) Express U in terms of V and W in the equation:\nV U\n\n3 U W\n(b) In a school, 115 students sat for an examination and the results were as follows: Six -\nnine students passed Physics, 70 passed Chemistry and 80 passed Mathematics. Of these,\n45 passed both Chemistry and Mathematics and 44 passed both Mathematics and\nPhysics. Given that 14 of them passed all the three subjects, find the number of students\nwho passed ONLY\n(i) Physics\n(ii) Chemistry\n(iii) Mathematics, and\n(iv) One of three subjects.\nSolution\n(a) Removing the fraction: V (U+W) = 3 U\nVU + VW = 3 U\n3 U – VU = VW\n( 3 – V) U = VW\nU = VW\n3-V",
+    "topic": "Indices & Logarithms"
+  },
+  {
+    "exam_type": "NABTEB",
+    "year": 2008,
+    "subject": "Mathematics",
+    "question_no": 7,
+    "question_text": "7. VABCD is a solid pyramid on a square base ABCD and has vertex V. The height of the\npyramid, VO, is 12cm and the length AB is 10cm.\nCalculate the:\n(a) total surface area and\n(b) volume, of the pyramid.\n10 5\nProb. (sum = at most 5) =  0.28\n36 18\n(b) R = 6400 Cos15o = 6181.8\nAngle between X and Y along the parallel = 580.\nDistance XY = 580 x 2 x 3.142 x 6181.8\n3600\nSimplifying to get /XY/ = 6258.55\nTime spent = 6258.55 = 9.6 hours\n650\n= 10 hrs to the nearest 1 hr.",
+    "marking_scheme": "If VE is the height of any of the\n lar faces. VE2 = 122 + 52\nVE = 13\n(Accept the use of Pythagoras’ triple)\nArea of each of the triangular faces = 4 x 65cm2 = 260cm2\nArea of the square base = 100cm2\n(a) Total surface area = (260 + 100) cm2 = 360cm2\n(b) Volume = (1/3 x 12 x 100) cm3 = 400cm3\n8.(a) Two perfect dice are thrown together. Calculate the probability that the sum is\n(i) 9 or 10\n(ii) at most 5\n(b) An aero plane flies at 650km per hour along the parallel of latitude from a point X (15oS,\n10o W) to Y (15oS, 48oE). Calculate the time spent by the aero plane to fly from X to Y\nto the nearest 1 hour (Take R = 6400km and  = 3.142).\nSolution\n4 1\n(a) Prob. (sum = 9) = \n36 9\n3 1\nProb (sum = 10) = \n36 12\n1 1 7\n(i) Prob (sum = 9 or 10) =  \n9 12 36\n(ii) At most 5, we have (1,1) (1,2) (1,3) (1,4) (2,1) (2,2) (2,3) (3,1) (3,2) and (4,1)",
+    "topic": "Mensuration"
+  },
+  {
+    "exam_type": "NABTEB",
+    "year": 2008,
+    "subject": "Mathematics",
+    "question_no": 9,
+    "question_text": "9. Using a ruler and a pair of compasses only, construct a triangle PQR in which\n< PQR = 30o, /PQ/ = 7cm and /PR/ = 8cm.\n(a) Construct a locus l which is always 5cm from the point P and which intercepts PQ and\nPR at M and N respectively.\n(b) What type of shape is MNRQ?\n(c) Construct line QX, the shortest distance from Q to PR\n(d) Measure /QX/ and <PQR\nFor correct axes and scale plotting his points (-½ for each error)\n(c) Drawing line y = 3x + 1\n(d) Least value = -10.02 + 0.05\nCorresponding value of x = 1.85 + 0.05\nRoot of equation 2x2- 10x – 5 = 0\nx = -0.4 + 0.05",
+    "marking_scheme": "For constructing /PQ/ = 7cm\nFor constructing <PQR = 30o\nFor completing  PQR and /PR/ = 8cm\n(a) For locus l = circle of radius 5cm. Drawing line MN to have MNRQ\n(b) The shape of MNRQ is a quad or trapezium.\n(c) Constructing  from Q to PR\n(d) For /QX/ = 5.8 + 0.2cm\n<PQR = 30o\n10 (a) Use logarithm tables to evaluate\n\n3.415\n4\n28.91\n, correct to 3 significant figures\n0.267\n(b) Given that log 2 = 0.3010 and log 7 = 0.8451, evaluate, without the use of\n10 10\ntables, log 3.92\n10\n(a)\nNumber Log\n3.415 0.5334\n(3.415)4 2.1336\n28.91 1.4611(+)\n3.5947\n0.267 1.4265 (-)\n4.1682 2\n÷\n121.3 2.0841\nAnti log of 2.0841 = 121.3\n= 121 correct to 3 significant figures\n392\n(b) log 3.92log log 23 log 72 log 102\n10 10100 10 10 10\n= 3log 2 + 2log 7 – 2log 10\n10 10 10\n= (3 x 0.3010) + (2 x 0.8451) – 2\n= 2.3932 – 2\n= 0.5932\n11 Construct a table of values for -1< x < 5 for the function y = 2x2-7x - 4\n(a) Using your table of values, plot the graph of y = 2x2-7x - 4 taking 2cm to represent 1 unit\nand 4 units on the x-axis and y-axis respectively.\n(b) On the same axes and with the same scale, draw the graph of y = 3x+1\n(c) Use your graphs to find the\n(i) least value of y = 2x2 - 7x - 4 and the corresponding value(s) of x\n(ii) roots of the equation 2x2 - 10x – 5 = 0\nSolution\nx -1 0 1 2 3 4 5\ny 5 -4 -9 -10 -7 0 11",
+    "topic": "Trigonometry"
+  },
+  {
+    "exam_type": "NABTEB",
+    "year": 2008,
+    "subject": "Mathematics",
+    "question_no": 12,
+    "question_text": "12(a) Below are amounts of money given to 15 students as gifts in a school, in Nigeria\n2, 3, 7, 5, 3, 9, 5, 6, 4, 5, 6, 6, 7, 5, 9\nCalculate:\n(i) mean\n(ii) mode, and\n(iii) median, to the nearest ten kobo\n(b) Three men provided capitals of ₦1000.00, ₦2000.00 and ₦6000.00 for a business on the\nunderstanding that the shares of the profit were proportional to the capital provided. If\nthe profits were ₦450.00, what should each receive?\n200\n= ₦4,275.00\n(e) Total cost of importing the good = ₦ (45000 + 4275)\n= ₦49,275.00\nSelling price to make 20% gain\n= 120 x ₦ 49275\n100\n= ₦59,130.00",
+    "marking_scheme": "(a) ₦ [2 + (3 x 2) + 4 + (5 x 4) + (6 x 3) + (7 x 2) + (9 x 2)] = ₦82\nMean = ₦82 = ₦5.47\n15\n= ₦5.50\n(ii) Mode = ₦5.00\n(iii) The 8th term after arranging in ascending order of magnitude, median = ₦5.00\n(b) Ratio of sharing: ₦1000: ₦2000: ₦6000 or 1:2:6\nShare profit = 1/9 x ₦450 = ₦50.00\n= 2/9 x 450 = 100.00\n= 6/9 x 450 = ₦300.00\n13(a) If ₦1,680.00 amounts to ₦1,890.00 at 5% per annum, find the time of interest.\n(b) The rateable value of a town is ₦438,400.00. The local council has to estimate for an\nincrease of ₦15,600.00 in Education costs. What is the rate of this increase, to the nearest\nhalf kobo?\n(c) A good costing 300 dollars was imported into Nigeria. If ₦150.00 was exchanged for 1\ndollar and an import duty of 9½% was paid, find, in Naira, the\n(i) duty paid on the good, and\n(ii) selling price of the good in order to make 20% profit.\nSolution\n(a) Profit = ₦1890 - ₦1680 = ₦210\nTime of interest = 100 x 210 year\n1680 x 5\nSimplifying we get 2½ years.\n(b) Rate of the increase = 15600 x 100k\n438,400\n= 3.558k = 3½ k\n(c) Cost of good in Naira = 300 x ₦150\n= ₦45000.00\n(d) Import duty = 19 x 45000",
+    "topic": "Trigonometry"
+  },
+  {
+    "exam_type": "NABTEB",
+    "year": 2008,
+    "subject": "Mathematics",
+    "question_no": 14,
+    "question_text": "14. A man buys a car worth ₦250,000.00 on hire purchase. He pays ₦100,000.00 on delivery\nand is to pay the balance at an installment of ₦40,000.00 yearly for three years. If\ncompound interest is charged at 5% per annum by the seller, calculate the:\n(a) amount he pays for the car\n(b) balance he is to pay and\n(c) company’s percentage profit, at the end of the three years.\n(c) Percentage profit he is to pay\n= 17543.75 x 100\n250,000\n= 7.02% 7%",
+    "marking_scheme": "I = PTR\n100\nAmount to pay interest on = 150,000\n1st year: Interest = 5% of 150,000 = 7,500\nBalance after paying ₦40,000 = ₦ (150,000 + 7500 – 40,000)\n= ₦117,500\n2nd year: Interest = 5 x 117,500\n100\n= ₦5875\nBalance ₦ (123, 375 – 40,000) = ₦83,375 (Note: 117, 500 + 5, 875 = 123, 375)\n3rd year: interest = 5 x ₦83,375\n100\n= 4168.75\nBalance = (87,543.75 – 40,000)\n= ₦47,543.75\nTotal interest = ₦ (7,500 + 5,875 + 4,168.75)\n= ₦17,543.75\n(a) He pays = ₦ (250,000 + 17,543.75)\n=₦267,543.75\n(b) Balance he is to pay = ₦ (87,543.75 – 40,000)\n= ₦ 47,543.75",
+    "topic": "Commercial Maths"
+  },
+  {
+    "exam_type": "NABTEB",
+    "year": 2008,
+    "subject": "Mathematics",
+    "question_no": 15,
+    "question_text": "15. A man bought ₦12,000.00 4% stock at 85 and 800 75k shares at 90k each. If the broker’s\ncommission was ½ % on the stock and 1¼% per share on shares, calculate the:\n(i) broker’s commission on the stock and shares\n(ii) total amount invested, and\n(iii) yearly income derived from the stock",
+    "marking_scheme": "Stock: ₦12,000 paid = market value + Broker’s commission\nBroker’s commission = ½ % = 0.5%\n market value (consideration) = 100 x ₦12,000\n100.5\n= ₦11,940.30\n brokers commission = ₦(12,000 – 11,940.30)\n= ₦59.70\nNominal value = 100 x ₦11,940.30\n85\n= ₦14,047.41\nShares: Market Value = 90 x ₦800\n100\n=₦ 720\nNominal Value = 75 x ₦800\n100\n= ₦600\nBroker’s Commission = 5 x 720\n400\n= ₦9\n(i) Broker’s total commission = (59.70 + 9)\n=₦68.70\n(ii) Total amount invested = ₦12,000 + ₦720 + ₦9 = ₦12,729\n(iii) Yearly income from stock = 4 x 14047.41\n100\n= ₦5,618.96",
+    "topic": "General Mathematics"
+  }
+]

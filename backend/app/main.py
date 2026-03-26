@@ -1,0 +1,85 @@
+import os
+from dotenv import load_dotenv
+
+# Load environment variables before importing any other app modules
+load_dotenv()
+
+from fastapi import FastAPI, Request
+from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import JSONResponse
+from slowapi import Limiter, _rate_limit_exceeded_handler
+from slowapi.util import get_remote_address
+from slowapi.errors import RateLimitExceeded
+
+from app.routers import solve, teach
+from app.routers.exams import router as exams_router
+from app.routers.cbt import router as cbt_router
+from app.routers.tracking import router as tracking_router
+from app.routers.past_questions import router as past_questions_router
+from app.routers.study_plan import router as study_plan_router
+from solution_generator import router as solution_router
+
+# ── Rate limiter (shared across all routers) ──────────────────────────
+limiter = Limiter(key_func=get_remote_address)
+
+# ── Hide docs in production ───────────────────────────────────────────
+IS_PROD = os.environ.get("ENV") == "production"
+
+app = FastAPI(
+    title="MathGenius API",
+    description="AI-powered mathematics learning platform",
+    version="1.0.0",
+    docs_url=None if IS_PROD else "/docs",
+    redoc_url=None if IS_PROD else "/redoc",
+    openapi_url=None if IS_PROD else "/openapi.json",
+)
+
+app.state.limiter = limiter
+app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
+
+# ── CORS ──────────────────────────────────────────────────────────────
+# In development this uses localhost.
+# When you deploy, add this to your .env:
+#   ALLOWED_ORIGINS=https://yourdomain.com
+ALLOWED_ORIGINS = os.environ.get(
+    "ALLOWED_ORIGINS",
+    "http://localhost:5173,http://localhost:3000"
+).split(",")
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=ALLOWED_ORIGINS,
+    allow_credentials=True,
+    allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    allow_headers=["Authorization", "Content-Type"],
+)
+
+# ── Global error handler — hides internal errors from users ──────────
+@app.exception_handler(Exception)
+async def global_exception_handler(request: Request, exc: Exception):
+    print(f"[ERROR] {request.method} {request.url} → {exc}")
+    return JSONResponse(
+        status_code=500,
+        content={"error": "Something went wrong. Please try again."}
+    )
+
+# ── Routers ───────────────────────────────────────────────────────────
+app.include_router(solve.router)
+app.include_router(teach.router)
+app.include_router(exams_router)
+app.include_router(cbt_router)
+app.include_router(tracking_router)
+app.include_router(past_questions_router)
+app.include_router(solution_router)
+app.include_router(study_plan_router)
+
+app.mount("/images", StaticFiles(directory="images"), name="images")
+
+@app.get("/")
+async def root():
+    return {
+        "message": "MathGenius API is running!",
+        "version": "1.0.0",
+        "modules": ["solve", "teach", "cbt", "exams", "tracking", "past_questions"]
+    }

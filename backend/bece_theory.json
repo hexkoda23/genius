@@ -1,0 +1,1275 @@
+[
+  {
+    "exam_type": "BECE",
+    "year": 1990,
+    "subject": "Mathematics",
+    "question_no": 1,
+    "question_text": "List the members of each of these tsb={Whole numbers from 20 to 30}. D={factors of 63} (a)List the members of (i) (i i)Bud (b) In a class of 60 students, 46 passed mathematics and 42 passed english language. Everybody passed atleast one of the two subjects. (i) Illustrate this information on aven n diagram (i i) How many students passed in both subjects?",
+    "marking_scheme": null,
+    "topic": "Set Theory",
+    "image_paths": [],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 1990,
+    "subject": "Mathematics",
+    "question_no": 2,
+    "question_text": "(a) Factorize completely 3 a 2+2 ab 12 ac 8 bc x 3 3 x (b) Solve 2 4 5 5 (c) Find the solution set of x+3 > 19 3 x,where x is a real number. Illustrate your answer on the number line.",
+    "marking_scheme": "2 (a) 3a2+2ab 12ac 8bc\n= a(3a+2b) 4c(3a+2b)\n= (3a+2b)(a 4c)\n2 (b)\nx 3 3x\n2\n4 5 5\nApproach1 (Grouping and simplifying first)\n3 3x x\n2\n5 5 4\n10 3 12x 5x\n5 20\n13 7x\n5 20\n13 20 7x 5\n13 20 7x 5\n7 5 7 5\n52\nx\n7\nx 73\nor\n7\nx 7.429\n2 (b) Approach2 (Multiplying by20first to clear fractions)\nx 3 3x\n2\n4 5 5\nx 3 3x\n20 20 2\n4 5 5\nx 3 3x\n20 20 20 20 2\n4 5 5\n5 x 4 3 4 3x 20 2\n5x 12 12x 40\n40 12 12x 5x\n52 = 7x\n7x = 52\nx = 52÷7\nx 73 or\n7\nx 7.429\n2 (c) x 3 19 3x\nx 3x 19 3\n4x 16\nx 16 4\nx 4\nThe number line illustration is shown below:",
+    "topic": "Algebra",
+    "image_paths": [],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 1990,
+    "subject": "Mathematics",
+    "question_no": 3,
+    "question_text": "(a) Using a ruler and a pair of compasses only (i) Construct triangle pq r such that|P q|=6 cm,|Q r|=4 cm and angle pq r=90° (i i) Construct the perpendicular bisectors of pq and qr. Name the intersection o. (i i i) Draw a circle oas centre ando q as radius (b) Measure(i) |PR| (ii) angle qpr favourite soft drink of each pupil in the class. Number of soft drink pupils coca-cola 6 Pepsi-cola 5 P e e-cola 8 Fanta 3 Muscatel la 5 Mirin da 4 Club cola 6 Sprite 3 (a) Draw a bar chart showing this information,using a scale of 2 cm to 1 unit on the vertical axis. (b) How many pupils are in the class? (c) What is the percentage of pupils who prefer club-cola? 1 (a) B = D = {1, 3, 7, 9, 21, 63} (i) B = {21} (ii) BUD = {1,3,7,9,20,21,22,23,24,25,26,27,28,29,30,63}",
+    "marking_scheme": "3 (a)\n(b) (i) |PR| 7.2cm\n(ii) angle qpr 34°",
+    "topic": "Number & Numeration",
+    "image_paths": [
+      "images/bece/1990/theory/questions/p543_img1.png"
+    ],
+    "answer_image_paths": [
+      "images/bece/1990/theory/answers/p546_img1.png"
+    ]
+  },
+  {
+    "exam_type": "BECE",
+    "year": 1991,
+    "subject": "Mathematics",
+    "question_no": 1,
+    "question_text": "(a) If X={Prime numbers less than 13}andy={odd numbers less than 13} (i) List the members of x andy (i i) (b) Three schoolchildren share some oranges as follows:Ak was i gets 1/3 of the total,and the remainder is shared between a ben a and jan tua h in the ratio 3:2. If jan tua h gets 24 oranges, how many does ak was i get?",
+    "marking_scheme": null,
+    "topic": "Number & Numeration",
+    "image_paths": [],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 1991,
+    "subject": "Mathematics",
+    "question_no": 2,
+    "question_text": "Using a ruler and a pair of compasses only, a) construct the triangle xyz,in which|Y z|=6 cm,angle xyz=60°and|X z|=9 cm. Measure |X y| b) (i) construct the mediator of yz. (i i) draw a circle,centre x and radius 5 cm. Measure|Y a|,where a is the point of intersection of the mediator and the circle in the triangular region xyz 2 x 1 x 2 1",
+    "marking_scheme": null,
+    "topic": "Set Theory",
+    "image_paths": [],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 1991,
+    "subject": "Mathematics",
+    "question_no": 3,
+    "question_text": "(a) Solve the equation: 3 4 (b) Given that m=-2 and n=¾,find the value of 3 (i)m 2(n 1) (ii) n 2 m (c) Factorize completely 2 ap+aq+bq 2 bp",
+    "marking_scheme": "3 (b) Given that m= 2and n = ¾\n(i) m2(n 1)\n(-2)2(¾ 1)\n= 4(-¼)\n= -1\n3\nn2\n(ii)\nm\n2\n3 3\n4 2\n9 3\n=\n16 2\n9 24\n=\n16\n23\n17\n= = 16\n16\n3 (c) 2ap+aq bq 2bp\n= a(2p+q) b(q+2p)\n= (2p+q)(a b)",
+    "topic": "Algebra",
+    "image_paths": [],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 1991,
+    "subject": "Mathematics",
+    "question_no": 4,
+    "question_text": "(a)The following table shows the distribution of votes in an election for class prefect. Number of name votes ac quaye 6 Bor quaye 12 Com mey 18 (i) Draw a pie chart to illustrate the distribution. (i i) What fraction of the votes was cast for bor quaye? (b) The heights in cm of 10 schoolchildren areas follows: 165, 165, 155, 159, 174, 154, 169, 155, 155, 150 Make a frequency table for this data use your table to find the mode and median of the distribution. 1 (a) (i) X = {2,3,5,7,11} Y = {1, 3, 5, 7, 9, 11} (i i) = {3, 5, 7, 11} Xuy = {1, 2, 3, 5, 7, 9, 11}",
+    "marking_scheme": "4 (a) (i)\nName number of votes angle of sector\n6 oo ac quaye 6 360 60\n36\n12 oo bor quaye 12 360 120\n36\n18 oo com mey 18 360 180\n36\nTotal 36 360°\nPie chart showing the distribution of votes in an election for class prefect\n(ii) From the table,the mode = 155cm\n(ii) Finding the median approach1\nListing all the given heights,we have\n150,154,155,155,155,159,165,165,169,174\nThe middle heights(in cm)are 155and159\n155cm 159cm the median =\n2\n314\n= cm = 157cm\n2\n(ii) Approach2\nThe median\n=\nthe ½(10+1)th position\n= ½(11) = 5½th position the height at the5½th position\n= the average of the heights at the5th and6th positions\n155cm 159cm\n= = 157cm\n2",
+    "topic": "Number & Numeration",
+    "image_paths": [],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 1992,
+    "subject": "Mathematics",
+    "question_no": 1,
+    "question_text": "(a) Solve 5 2 x > x+2, where x is a real number. Illustrate your result on the number line. (b) Find the truth set of the equation: 2(3 y 1) (y 2) 1 3 3 (c) Factorize completely: mp+n pm tnt (d) Make t the subject of the relation v=u+at",
+    "marking_scheme": "1 (c) mp+n pm tnt\n= p(m+n) t(m+n)\n= (m+n)(p t)\n1 (d) vu at , making t the subject placing terms containing to none side:\nvu at vu at a av uta v uta",
+    "topic": "Algebra",
+    "image_paths": [],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 1992,
+    "subject": "Mathematics",
+    "question_no": 2,
+    "question_text": "A landlady rented out her house for¢240, 000.00 for one year. During the years he paid 15%of the rent as income tax. She also paid 25%of the rent as property tax and spent¢10, 000.00 on repairs. Calculate: a) The total expenses. b) The remainder of the rent c) The percentage of the rents he spent on repairs.",
+    "marking_scheme": "2 (a) Total expenses = Income tax + property tax + repairs\n= (15%of¢240,000)+(25%of¢240,000)+ ¢10,000\n15 25\n= 100 ¢240,000 + 100 ¢240,000 +¢10,000\n= ¢36,000 + ¢60,000 + ¢10,000\n= ¢106,000\n= ¢106,000.00\n2 (b) The remainder = Total amount expenses\n= ¢240,000.00 ¢106,000.00\n= ¢134,000.00\n2 (c) Percentage of the rent spent on repairs amount on repairs\n= Total income from rent 100%\n10,000\n100%\n= 240,000\n25 %\n= 6\n41%\n= or 4.167%\n6",
+    "topic": "Number & Numeration",
+    "image_paths": [],
+    "answer_image_paths": [
+      "images/bece/1992/theory/answers/p508_img1.png"
+    ]
+  },
+  {
+    "exam_type": "BECE",
+    "year": 1992,
+    "subject": "Mathematics",
+    "question_no": 3,
+    "question_text": "(a) Using a scale of 2 cm to 1 unit on both axes,draw perpendicular line sox and oy on a graph sheet. (b) On this graph sheet,mark the x-axis from 5 to 5 and they-axis from 6 to 6 (c) Plot on the same graph sheet the points a(1, 1),B(4, 3)and c(2, 5). Join the points a,Band c to form a triangle. (d) Using they-axis as the mirror line,draw the image abc of the triangle abc,such that 1 1 1 .Write down the co-ordinates of a ,Band c . 1 1 1 1 1 1 (e) Using the x-axis as the mirror line,draw the image abc , 2 2 2 2 . 2 2",
+    "marking_scheme": "3.\nApproach1 (By inspection/Construction)\n3 (d) Approach2 (The rule /formula)\nReflecting(x,y)in they-axis xxy y\n1 1\nO ao a , A( 1,1)\n1 1 1 1\n4 4\nO bob , B ( 4,3)\n3 1 3 1\n2 2\nOc oc , C ( 2,5)\n5 1 5 1\nPlot and join a (-1,1),B (-4,3)and c (-2,5)as the image of triangle abc under a\n1 1 1\nreflection in they axis.\n3 (e) Reflection in the x-axis xxy y\n1 1\nO ao a , A (1, 1)\n1 2 1 2\n4 4\nO bob , B (4, 3)\n3 2 3 2\n2 2\nOc oc , C (2, 5)\n5 2 5 2\nPlot and join a (1,-1),B (4,-3)and c (2,-5)as the image of triangle abc under a\n2 2 2\nreflection in the x-axis\n(as shown in the diagram above)",
+    "topic": "Geometry & Mensuration",
+    "image_paths": [],
+    "answer_image_paths": [
+      "images/bece/1992/theory/answers/p508_img1.png"
+    ]
+  },
+  {
+    "exam_type": "BECE",
+    "year": 1992,
+    "subject": "Mathematics",
+    "question_no": 4,
+    "question_text": "The table below gives the frequency distribution of the marks obtained in a class test by a group of 64 pupils. Marks frequency (out often) 2 9 3 14 4 13 5 10 6 5 7 8 8 2 9 3 (a) Draw a bar chart for the distribution (b) A pupil is chosen at random from the class. What is the probability that the pupil obtained 7 marks?",
+    "marking_scheme": "4 (a) Bar chart vertical axis scale: 2cm to2pupils(1cm to1pupil)\nNumber of pupils that obtained7marks\n4 (b) P(7marks) = Total number of pupils\n8\n= 9 14 13 10 5 8 2 3\n1\n8\n= 64 = 8",
+    "topic": "Statistics",
+    "image_paths": [],
+    "answer_image_paths": [
+      "images/bece/1992/theory/answers/p510_img1.png"
+    ]
+  },
+  {
+    "exam_type": "BECE",
+    "year": 1992,
+    "subject": "Mathematics",
+    "question_no": 5,
+    "question_text": "Using a ruler and a pair of compasses only, (a) draw|P q|=9 cm (b) construct a perpendicular top qat q (c) construct angle qp s=60°at the point pon pq such that|P s|=6.5 cm (d) construct a line parallel to pq through s.let the perpendicular through q and the parallel through s,meet a tr. Measure|P r|.",
+    "marking_scheme": "5.\n5 (d) |PR| = 10.6c m",
+    "topic": "Commercial Maths",
+    "image_paths": [],
+    "answer_image_paths": [
+      "images/bece/1992/theory/answers/p510_img1.png",
+      "images/bece/1992/theory/answers/p511_img1.png"
+    ]
+  },
+  {
+    "exam_type": "BECE",
+    "year": 1993,
+    "subject": "Mathematics",
+    "question_no": 1,
+    "question_text": "(a) Simplify 3 2 (b) Solve 5(a 5) ½(2 a+6) =4 3 2 (c) If r= and q= , calculate 6(r+2 q) 1 1",
+    "marking_scheme": "1 (c) 6 (r + 2q)\n3 2\n= 6 2\n1 1\n3 2 2\n= 6\n1 2 1\n3 4\n= 6\n1 2",
+    "topic": "Algebra",
+    "image_paths": [],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 1993,
+    "subject": "Mathematics",
+    "question_no": 2,
+    "question_text": "Using a ruler and a pair of compasses only, a) construct a triangle abc such that|B a|=10 cm,angle abc=90°and angle bac=30°. Measure the length bc. b) (i) Bisect the angle acb to meet baa td. (i i) What type of triangle is cda? c) Calculate the area of triangle abc",
+    "marking_scheme": "2 (a)",
+    "topic": "Geometry & Mensuration",
+    "image_paths": [],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 1993,
+    "subject": "Mathematics",
+    "question_no": 3,
+    "question_text": "Ol u bought a radio for¢65, 000.00. After one year the radio was valued at 75% of the cost price. (a) What was the price of the radio after one year? (b) If he sold the radio for¢55, 700.00,calculate his profit or loss over the cost price.",
+    "marking_scheme": "3 ( 4)\n= 6\n1 2\n3 4 1\n= 6 = 6\n1 2 3\n6 1 6\n= =\n6 3 18",
+    "topic": "Commercial Maths",
+    "image_paths": [],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 1993,
+    "subject": "Mathematics",
+    "question_no": 4,
+    "question_text": "(a) Using a scale of 2 cm to 1 unit on both axes,draw two perpendicular line sox and oy on a graph sheet. (b) On this graph sheet,mark the x-axis from 5 to 5 and they-axis from 6 to 6. (c) Plot on the same graph sheet the points a(-2, 4)and b(4,-5). Join the points a and b with the help of a ruler. (d) Using the graph,find (i) the gradient(slope)of the line ab; (i i) the value of x,when y=0; (i i i) the value of y when x=2 (e) Plot on the same graph sheet the points c(-3,-1)and d(3, 3). Join the points can dd.with the help of a protractor,measure the angle between the lines a band cd. What is the gradient of the line cd?",
+    "marking_scheme": "4 (d) From the graph,using the points a(-2,4)and b(4,-5),\n(d) (i) The gradient of line a by 2 y 1 5 4 9 3\nx 2 x 1 = 4 ( 2) = 6 = 2\n11\n= or -1.5\n2\n(d) (i) Approach2\ny y\n1 2 4 ( 5) 9 3\nx 1 x 2 = 2 4 = 6 = 2\n11\n= or -1.5\n2\n(d) (ii) When y=0, x 0.7\n(d) (iii) When x=2, y = -2\n(e) From the graph,the gradient of line cd yy\n2 1 3 ( 1) 4 2\nx 2 x 1 = 3 ( 3) = 6 = 3\n(e) Or:\ny 1 y 2 1 3 4 2\nx x = 3 3 = 6 = 3\n1 2",
+    "topic": "Geometry & Mensuration",
+    "image_paths": [],
+    "answer_image_paths": [
+      "images/bece/1993/theory/answers/p489_img1.png"
+    ]
+  },
+  {
+    "exam_type": "BECE",
+    "year": 1993,
+    "subject": "Mathematics",
+    "question_no": 5,
+    "question_text": "The ages of 20 schoolchildren were recorded as follows: 13, 9, 15, 17, 13, 9, 11, 9, 11, 15, 17, 15, 11, 9, 9, 11, 15, 11, 11, 11. (a) Make a frequency table (b) Use your table to calculate the mean age (correct to the nearest whole number)",
+    "marking_scheme": "5 (a) Frequency table age frequency\n9 5\n11 7\n13 2\n15 4\n17 2\n5 (b)\nAge frequency\n(x) (f) fx\n9 5 45\n11 7 77\n13 2 26\n15 4 60\n17 2 34\nFrom the frequency table,\nf x\n242\nThe mean age = =\nf 20\n= 12 1 years or 12.1 years\n10",
+    "topic": "Statistics",
+    "image_paths": [],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 1994,
+    "subject": "Mathematics",
+    "question_no": 1,
+    "question_text": "(a) Multiply(a b)by(2 b a) (b) Find the truth set of 2 x x). Illustrate your answer on a number line. 2 2 (c) Given that u= and v= , find 1(u 1 v) 3 6 3 2",
+    "marking_scheme": null,
+    "topic": "Ratio & Proportion",
+    "image_paths": [],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 1994,
+    "subject": "Mathematics",
+    "question_no": 2,
+    "question_text": "(a) A ladder leans against a wall.The end of the ladder touches the wall 12 m from the ground.The foot of the ladder is 9 m away from the foot of the wall. (i) What is the length of the ladder? (i i) Calculate the angle that the ladder makes with the wall. 3 g 2 (b) Given that =3.14 and g=20.Find the value off in the relation f = 4",
+    "marking_scheme": null,
+    "topic": "Geometry & Mensuration",
+    "image_paths": [],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 1994,
+    "subject": "Mathematics",
+    "question_no": 3,
+    "question_text": "Using a ruler and a pair of compasses only, a) construct triangle pq r in which|P q|=8 cm,angle qpr=45°and angle pq r=90°. Measure |Q r| b) construct the mediator of line pq to meet line prat the points. c) With s as the centre and radius 3 cm,construct a circle.",
+    "marking_scheme": null,
+    "topic": "Geometry & Mensuration",
+    "image_paths": [],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 1994,
+    "subject": "Mathematics",
+    "question_no": 4,
+    "question_text": "Using a scale of 2 cm to 1 unit on both axis,draw two perpendicular line sox and oy on a graph sheet. Mark the x-axis from 5 to 5 and they-axis from 6 to 6. Mark the origin o. Draw on the same graph sheet,indicating in each case,the co-ordinates of all the vertices, (i) The square a bcd where a(1, 2),B(4, 2),C(4, 5)and d(1, 5) (ii) Using they-axis as a mirror line draw the image a bcd , 1 1 1 1 1 1 1 1 (iii) Draw an enlargement a bcd of the square a bcd with scale factor 1 from o,such that 2 2 2 2 2 2 2 2 (iv) What single transformation maps abc don to the square a bcd ? 2 2 2 2 1 1 1 1",
+    "marking_scheme": "4. Approach1 (By inspection/Construction)\n4. (ii) Approach2 (The rule /formula)\nReflecting(x,y)in they-axis xxy y\n1 1\nO ao a , A ( 1,2)\n2 1 2 1\n4 4\nO bob , B( 4,2)\n2 1 2 1\n4 4\nOc oc , C ( 4,5)\n5 1 5 1\n1 1\nOdo d , D ( 1,5)\n5 1 5 1\nPlot and join a (-1,2),B (-4,2),C (-4,5)and d(-1,5)as the image of a bcd\n1 1 1\nunder a reflection in they axis.\n(iii) Enlargement from(0,0)by scale factor k xx k x ky y ky\n1 1 1 1\nO ao a , A ( 1, 2)\n2 2 1 2 2 2\n4 1 4 4\nO bob , B ( 4, 2)\n2 2 1 2 2 2\n4 1 4 4\nOc oc , C ( 4, 5)\n5 2 1 5 5 2\n1 1 1 1\nOdo d , D ( 1, 5)\n5 2 1 5 5 2\nPlot and join a (-1,-2),B (-4,-2),C (-4,-5)and d (-1,-5)as the image of\n2 2 2 2\ntriangle a bcd under an enlargement by scale factor-1from the origin(as shown above)\n(iv) The single transformation that maps abc don to a bcd is\n2 2 2 2 1 1 1 1\nreflection in the x-axis",
+    "topic": "Geometry & Mensuration",
+    "image_paths": [],
+    "answer_image_paths": [
+      "images/bece/1994/theory/answers/p468_img1.png",
+      "images/bece/1994/theory/answers/p469_img1.png"
+    ]
+  },
+  {
+    "exam_type": "BECE",
+    "year": 1994,
+    "subject": "Mathematics",
+    "question_no": 5,
+    "question_text": "The following table gives the distribution of sales of soft drinks sold by the ak rok yer ej s s canteen in one week. Number of soft drink bottles sold fanta 13 Pepsi 21 Mirin da 14 Coca-cola 17 Sprite 7 Draw a pie chart to illustrate the sales.",
+    "marking_scheme": "5.\nNumber of soft drink angle of sector bottles sold\n13 oo fanta 13 360 65\n72\n21 oo pepsi 21 360 105\n72",
+    "topic": "Ratio & Proportion",
+    "image_paths": [],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 1995,
+    "subject": "Mathematics",
+    "question_no": 1,
+    "question_text": "(a) There are 20 students in a hostel.16 of them are fluent in french and 10 of them are fluent in english. Each student is fluent in atleast one of the two languages (i) Illustrate this information on aven n diagram (i i) How many students are fluent in both english and french? (b) The sum of the ages of two brothers: Kofi -thirds of",
+    "marking_scheme": "1.5\n= ¢10,000 + ( ×¢7,500,000)\n100\n= ¢10,000 + ¢112,500\n= ¢122,500",
+    "topic": "Set Theory",
+    "image_paths": [],
+    "answer_image_paths": [
+      "images/bece/1995/theory/answers/p446_img1.png"
+    ]
+  },
+  {
+    "exam_type": "BECE",
+    "year": 1995,
+    "subject": "Mathematics",
+    "question_no": 2,
+    "question_text": "(a) Using a ruler and a pair of compasses only (i) construct triangle abc such that|A b|=9 cm,angle bac=60°and angle abc=45°. (i i) construct a line from the point c perpendicular to line a band let it meet ab atp. Measure |C p|and|A p| (b) What is the value of angle a cp?",
+    "marking_scheme": "2 (a)\n(a) (ii) |CP| 5.7cm\n|AP| 3.3cm\n(b) angle a cp 30°",
+    "topic": "Geometry & Mensuration",
+    "image_paths": [],
+    "answer_image_paths": [
+      "images/bece/1995/theory/answers/p446_img1.png"
+    ]
+  },
+  {
+    "exam_type": "BECE",
+    "year": 1995,
+    "subject": "Mathematics",
+    "question_no": 3,
+    "question_text": "(a) Mansa he arns a salary of¢10, 000.00 per month as a salesgirl. In addition to the salary,she is given a commission of 1.5%of whatever sales she makes in a month. In january this year,she made sales of¢7, 500, 000.00. What was the total amount man sah earned at the end of january? (b) The diagram below shows a circle with centre o and radius 14 cm. The shaded region a obis a sector with angle a ob=72°. Find: (i) The length of the minor arca b (ii) The area of the shaded sector a ob 22/ ] 7",
+    "marking_scheme": "3 (b) (i) Length of minor arc = fraction of circumference\n= Minor arca b fraction × Circumference.\n2 r\n=\n360\n72 2 22 14cm\n= 360 7\n1 2 22 2cm\n=\n5\n88\n= 5 cm\n173\n= 5 cm or 17.6 cm\n(ii) Area of the shaded sector a ob = fraction of area\n= Minor area a ob fraction × a rear2\n=\n360\n72 22 (14cm)2\n= 360 7\n72 22 14cm 14cm\n= 360 7\n1 22 2cm 14cm\n=\n5\n616cm2\n= 5\n=\n1231\n5\ncm2\nor 123.2 cm2",
+    "topic": "Commercial Maths",
+    "image_paths": [
+      "images/bece/1995/theory/questions/p442_img1.png"
+    ],
+    "answer_image_paths": [
+      "images/bece/1995/theory/answers/p446_img1.png"
+    ]
+  },
+  {
+    "exam_type": "BECE",
+    "year": 1995,
+    "subject": "Mathematics",
+    "question_no": 4,
+    "question_text": "(a) Using a scale of 2 cm to 1 unit on both axes,draw two perpendicular axes,Ox and oy on a graph sheet. (b) On the graph sheet,mark the x-axis from 5 to 5 and they-axis from 6 to 6 (c) Plot on the same graph sheet the points a(1, 1½),B(4, 1½)and c(1, 4). Join the points to form a triangle. What type of triangle have you drawn? (d) Draw the image triangle abc of abc under a reflection in they- 1 1 1 1 1 . Label the vertices and the co-ordinates clearly. 1 (e) Draw the image triangle abc of triangle abc under an enlargement with scale factor 1 2 2 2 . Show all 2 2 2 lines of enlargement. Label the vertices and co-ordinates clearly (f) What single transformation maps abc on to abc where a ,Band c ? 1 1 1 2 2 2 1 2 1 2 1 2",
+    "marking_scheme": "4 (a) Approach1 (By inspection/Construction)\nApproach2 (The rule /formula)\n4 (d) Reflecting(x,y)in they-axis xxy y\n1 1\nO ao a , A( 1, 11)\n11 1 11 1 2\n2 2\n4 4\nO bob , B( 4,11)\n11 1 11 1 2\n2 2\n1 1\nOc oc , C ( 1,4)\n4 1 4 1\nPlot and join a (-1,1½),B (-4,1½)and c (-1,4)as the image of triangle abc\n1 1 1\nunder a reflection in they axis.\n4 (e) Enlarging(x,y)from(0,0)by scale factor k xx k x ky y ky\n1 1 1 1\nO ao a , A ( 1, 11)\n11 2 1 11 11 2 2\n2 2 2\n1 1 4 4\nO bob , B ( 4, 11)\n11 2 1 11 11 2 2\n2 2 2\n1 1 1 1\nOc oc , C ( 1, 4)\n4 2 1 4 4 2\nPlot and join a (-1,-1½),B (-4,-1½)and c (-1,-4)as the image of triangle abc\n2 2 2\nunder an enlargement by scale factor-1from the origin(0,0)\n4(f) The single transformation that maps abc on to abc is reflection in the x-axis\n1 1 1 2 2 2",
+    "topic": "Geometry & Mensuration",
+    "image_paths": [
+      "images/bece/1995/theory/questions/p442_img1.png"
+    ],
+    "answer_image_paths": [
+      "images/bece/1995/theory/answers/p448_img1.png"
+    ]
+  },
+  {
+    "exam_type": "BECE",
+    "year": 1995,
+    "subject": "Mathematics",
+    "question_no": 5,
+    "question_text": "(a)The data below shows the distribution of the ages of workers in a factory. Age(in no.of years) workers 19 3 24 7 29 8 34 4 39 5 44 3 (i) How many workers are there in the factory? (i i) What is the modal age of the distribution? (iii) Calculate the mean age of the workers,correct to one decimal place. P T R (b) (i) Make t the subject of the relation i 100 (i i) If i=¢40, 000.00,P=¢64, 000.00 andr=25%,find the value of tin years 1(a) (i) Let n(U) = No.of students in the hostel n(F) = No.of students who are fluent in french n(E) = No.of students who are fluent in english x = No.of students who are fluent in both french and english (i i) From the ven n diagram in(i)above, 16 x+x+10 x+0 = 20 16 + 0+10 x+0 = 20 26 x = 20 26 20 = x x = 26 20 x = 6 6 students are fluent in both english and french 1(b) + = 35 -----------[1] = 2 K we ku's -----------[2] 3",
+    "marking_scheme": "5 (a)(i) Total no.of workers = 3+7+8+4+5+3\n= 30\n(ii) Modal age = the most occurring age\n= 29years\n(iii) Finding mean age using the table,\nAge in years no.of workers\n(x) (f) fx\n19 3 57\n24 7 168\n29 8 232\n34 4 136\n39 5 195\n44 3 132\nx=920",
+    "topic": "Set Theory",
+    "image_paths": [
+      "images/bece/1995/theory/questions/p444_img1.png"
+    ],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 1996,
+    "subject": "Mathematics",
+    "question_no": 1,
+    "question_text": "(a) Kofi isn years old now (i) How old was he 5 years ago? (i i) How old will he be 10 years from now? (i i) If his age in 10 years time will be four times his age 5 years ago,how old is he now? (b) Convert 2342 to a base ten numeral five vu (c) Given that f , find v, iff=20 and u=5 v u",
+    "marking_scheme": null,
+    "topic": "Ratio & Proportion",
+    "image_paths": [],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 1996,
+    "subject": "Mathematics",
+    "question_no": 2,
+    "question_text": "(a) A man deposited¢350, 000.00 in his account in a bank. A simple interest of 4%per annum was paid on his deposit. Calculate the total amount at the end of 4 years. (b) The cost of sending a telegram is¢500 for the first 12 words and¢25.00 for every extra word. Find the cost of sending a telegram containing 20 words.",
+    "marking_scheme": null,
+    "topic": "Commercial Maths",
+    "image_paths": [],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 1996,
+    "subject": "Mathematics",
+    "question_no": 3,
+    "question_text": "The table below shows the distribution of pupils in a js s form one(1)class who speak some of the ghanaian languages. Ghanaian no.of students who speak the language language nz ema 5 Ga 20 T w i 30 E we 25 Fante 10 (a) (i) Draw a pie chart for the distribution. (i i) What is the modal ghanaian language? (b) If a pupil is selected at random from the form,what is the probability that he speaks ga?",
+    "marking_scheme": null,
+    "topic": "Commercial Maths",
+    "image_paths": [],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 1996,
+    "subject": "Mathematics",
+    "question_no": 4,
+    "question_text": "Using a ruler and a pair of compasses only, a) Construct triangle abc such that|A b|=6 cm,|A c|=10 cm and|B c|=8 cm. Measure angle abc. b) Construct the perpendicular bisectors(mediators)of|A b|and|B c|. Let the bisectors meet a to. c) Construct a circle with centre o and radius o a. Measure the radius of the circle.",
+    "marking_scheme": "4.\n(a) Angle abc 90°\n(c) Radius of circle 5cm",
+    "topic": "Geometry & Mensuration",
+    "image_paths": [],
+    "answer_image_paths": [
+      "images/bece/1996/theory/answers/p427_img1.png"
+    ]
+  },
+  {
+    "exam_type": "BECE",
+    "year": 1996,
+    "subject": "Mathematics",
+    "question_no": 5,
+    "question_text": "a) Using a scale of 2 cm to 2 units on both axes draw two perpendicular axis,Ox and oy on a graph sheet. b) On this graph sheet,mark the x-axis from 4 to 10 and they-axis from 6 to 12 c) Plot on the same graph sheet the points a(2, 1),B(3, 4)and c(4, 2). Join the points to form a triangle abc. d) Draw an enlargement abc of triangle abc with scale factor 2 from the origin o(0,0),such 1 1 1 .Indicate the co-ordinates of triangle abc .Show all lines of 1 1 1 1 1 1 transformation. e) Using the x-axis as mirror line,draw the image abc a 2 2 2 2 2 .Indicate the co-ordinates of triangle abc . 2 2 2 2 1 (a) (i) = n 5 (i i) = n+10 = n +10 = 4×(n 5) n +10 = 4 n 20 20+10 = 4 n n 30 = 3 n 30÷3 = n 10 = n therefore kofi is 10 years old now (b) Converting 2342 to a base ten numeral five 2 3 4 2 53 52 51 50 (2×53) + (3×52) + (4×51) +(2×50) = (2×125)+ (3×25) + (4×5) + (2×1) = 250 + 75 + 20 + 2 = 347 (c) If f=20 and u=5,we have v (5) 20 v 5 20(v+5) = 5 v 20 v+100 = 5 v 20 v 5 v = -100 15 v = -100 15 v 100 15 15 20 v = 3 v = 62 3",
+    "marking_scheme": "5. Approach1 (By inspection/Construction)\nApproach2 (The rule/formula)\n(d) Enlarging(x,y)from(0,0)by scale factor k xx k x ky y ky\n2 2 2 4\nO ao a , A(4,2)\n1 1 2 1 2 1\n3 2 3 6\nO bob , B(6,8)\n4 1 2 4 8 1\n4 2 4 8\nOc oc , C(8,4)\n2 1 2 2 4 1\nPlot and join a (4,2),B (6,8)and c (8,4)as the image of triangle abc under an\n1 1 1\nenlargement by scale factor2from the origin(0,0)\n(e) Reflecting(x,y)in the x-axis xxy y\n2 2\nO ao a , A (2, 1)\n1 2 1 2\n3 3\nO bob , B (3, 4)\n4 2 4 2\n4 4\nOc oc , C (4, 2)\n2 2 2 2\nPlot and join a (2,-1),B (3,-4)and c (4,-2)as the image of triangle abc\n2 2 2\nunder a reflection in the x-axis",
+    "topic": "Geometry & Mensuration",
+    "image_paths": [],
+    "answer_image_paths": [
+      "images/bece/1996/theory/answers/p427_img1.png",
+      "images/bece/1996/theory/answers/p428_img1.png"
+    ]
+  },
+  {
+    "exam_type": "BECE",
+    "year": 1997,
+    "subject": "Mathematics",
+    "question_no": 1,
+    "question_text": "(a) If p=4,a=16,b=-5 and c=3,evaluate p 2 C (b) Solve the inequality 5 x 3(x illustrate your answer on the number line. 3 4 (c) If x= andy= 2 1 Find (i) x+2 y (ii) 3 x y",
+    "marking_scheme": null,
+    "topic": "Algebra",
+    "image_paths": [],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 1997,
+    "subject": "Mathematics",
+    "question_no": 2,
+    "question_text": "Using a ruler and a pair of compasses only, a) (i) construct a triangle abc such that|AB|=8 cm, angle abc=60° and |BC|= 8 cm. (i i) What type of triangle is triangle abc? b) construct the bisector of angle bac to meet|B c|at d. Measure|A d|. c) construct the perpendicular bisector of |B a|to meet|A d|a to. d) Using oas centre and radius od,draw a circle to touch the three sides of the triangle.",
+    "marking_scheme": "2.5cm 2.5cm = h\n70 cm3",
+    "topic": "Geometry & Mensuration",
+    "image_paths": [],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 1997,
+    "subject": "Mathematics",
+    "question_no": 3,
+    "question_text": "(a) If 2 y 5 x+10=0,find: (i) y, when x=2; (ii) x, when y=5 (b) (i) Using a scale of 2 cm to 1 unit on both axes,draw two perpendicular line sox and oy on a graph sheet. (ii) On the same graph sheet,mark the x-axis from 5 to 5 and they-axis from 6 to 6. (i i i) Plot on the same graph sheet,the points a(0,-5)and b(4, 5). Join abusing a ruler. (i v) Find the gradient of the line ab (v) Measure the acute angle that the line ab makes with the x-axis,using a protractor.",
+    "marking_scheme": null,
+    "topic": "Geometry & Mensuration",
+    "image_paths": [],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 1997,
+    "subject": "Mathematics",
+    "question_no": 4,
+    "question_text": "(a) The table below shows the distribution of the ages(in years)of children who were treated in a clinic in a day. Age (in years) 1 2 3 4 5 Frequency 6 4 2 3 5 Find (i) the mean age (i i) the modal age (b) Draw a bar chart for the distribution.",
+    "marking_scheme": "4 (a) (i) Approach1\nThe sum of ages the mean age = The total number of children\n(1 6) (2 4) (3 2) (4 3) (5 5)\n= 6 4 2 3 5\n6 8 6 12 25\n= 6 4 2 3 5\n57\n= 20 = 217 years or 2.85years\n20\n4 (a) (i) Approach2\nAge(years) Frequency\n(x) (f) f x\n1 6 6\n2 4 8\n3 2 6\n4 3 12\n5 5 25\nx=57\nf x 57\nThe mean age = =\nf 20\n217 years\n= or 2.85years\n20\n(ii) The modal age = the most-occurring age\n= 1year\n4 (b)\nVertical axis scale: 3cm to1child",
+    "topic": "Statistics",
+    "image_paths": [],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 1997,
+    "subject": "Mathematics",
+    "question_no": 5,
+    "question_text": "(a) The volume of a cylinder is 220 cm 3. The radius of the cross-section is 2.5 cm. Find the height of 22/ ) 7 (b) Each of the interior angles of a regular polygon is 140°. How many sides does it have? 1 (a) (a b) p 2 , if p=4,a =16,b=-5 and c=3 C 42 [16 ( 5)] 42 (16 5) 3 3 16 21 3 16 7 = 9 (b) 5 x 3(x 1) 39 5 x 3 x 3 39 2 x 3 39",
+    "marking_scheme": "5 (a) Volume of cylinder = Area of base × height approach1 (Substitution first)\nV = 2 × h\n220cm3 = 22 (2.5cm)2 h\n7\n22 h\n220cm3 = 7 2.5cm 2.5cm\n220cm3 7\n22 2.5cm 2.5cm = h\n10cm3 7",
+    "topic": "Commercial Maths",
+    "image_paths": [],
+    "answer_image_paths": [
+      "images/bece/1997/theory/answers/p406_img1.png"
+    ]
+  },
+  {
+    "exam_type": "BECE",
+    "year": 1998,
+    "subject": "Mathematics",
+    "question_no": 1,
+    "question_text": "(a) Simplify the expression 3 x 2+6 xy 3 y 2+4 x 2+8 xy+2 y 2 (b) (i) Solve 3 x 3) (i i) Illustrate your answer on the number line (a b) (c) If p=7,a=16,b=4 and c=3,evaluate p 2 C",
+    "marking_scheme": "1 (a)\n= 3x2 4x2 6xy 8xy 3y2 2y2\n7x2 14xy y2\n=\n3x 9 12(x 3)\n1 (b) (i)\n3x 9 12x 36\nApproach1\n36 9 12x 3x\n27 9x\n27 9x\n9 9\n3 x turning the x around x 3 reverses the\n1 (b) (i) Approach2\n3x 12x 9 36\n9x 27\n9x 27\n[NB:Division by a negative\n9 9\nquantity reverses the ]\nx 3\n(ii) The number line illustration is shown below:\n(a b)\n1 (c)\np2\n, ifP=7,a=16,b=4and c=3\nC",
+    "topic": "Algebra",
+    "image_paths": [],
+    "answer_image_paths": [
+      "images/bece/1998/theory/answers/p379_img2.png"
+    ]
+  },
+  {
+    "exam_type": "BECE",
+    "year": 1998,
+    "subject": "Mathematics",
+    "question_no": 2,
+    "question_text": "a) Using a ruler and a pair of compasses only, (i) construct a triangle pq r such that|P q|=8 cm,angler pq=90°and angle pq r=30°. Measure|R q| (i i) construct the perpendicular bisector(mediator)of r q. Let it meet r qa to. b) With oas centre and radius op,draw a circle. Measure|Op|. c) What is the special name for the chord r q?",
+    "marking_scheme": "2(510km+40km)\n= 2 × 550km\n= 1020km+80km\n= 1100km\n= 1100km\n(ii) Method1 (Simple logic)\n1100÷20 = 55\nThe amount of petrol used for the whole journey = 55litres\n(ii) Method2 (Proportion)\nDistance (km) Amount of petrol(¢)\n20 1\n1100 ?\nFrom the table above, If 20km 1litre then 1100km ?(more)\nIf more,less(20km)divides,hence we have\n1100km\n1 litre = 55litres\n20km the amount of petrol used for the whole journey = 55litres\n(iii) Method1 (Simple logic)\n522 × 55 = 28,710\ntotal cost of petrol for the whole journey = ¢28,710.00\n(iii) Method2 (Proportion)\nAmount of petrol(litres) Cost of petrol(¢)\n1 522\n55 p from the table above,\nApproach1 (Equivalent fraction)\n522 55\np = = 28,710\n1\ntotal cost of petrol for the whole journey = ¢28,710.00\n(iii) Approach2 (if more,less divides...)\nIf 1litre ¢522\nThen, 55litres ?(more)\n55litres if more,less(1litre)divides,hence we have ¢522\n1litre\n= ¢28,710.00",
+    "topic": "Geometry & Mensuration",
+    "image_paths": [],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 1998,
+    "subject": "Mathematics",
+    "question_no": 3,
+    "question_text": "(a) A man travelled from b akwa top a bam. The distance between the two towns is 510 km. Atp a bam he covered additional 40 km on official duties. He returned toba kwa the next day. (i) Find the total distance covered by the man (i i) If the car used one litre of petrol to cover 20 km,find the amount of petrol used for the whole journey. (i i i) If a litre of petrol cost¢522.00,calculate the total cost of petrol used for the whole journey. (b) A woman sold an article for¢200, 000.00. She made a profit of 25%. Find the cost price of the article",
+    "marking_scheme": "3(b) Method1 (Formula/Equation)\nCp percentage cp s psp percentage\n100%\n¢200,000\n125%\n100\n¢200,000\n125\n¢160,000.00\n3(b) Method2 (Equivalent fractions)\nPercentage amount(¢)\n100%+25%\nSP =125% 200,000\nCP 100% ?\nFrom the table above,\n125% ¢200,000\n100% x\n125 x ¢200,000 100\n¢200,000 100\nx\n125\n= ¢160,000\nThe cost price of the article is¢160,000.00\n3(b) Method3\nIf 125% ¢200,000\nThen 100% ?(less)\nIf less,more divides,hence we have\n100%\n¢200,000 = ¢160,000\n125%\nThe cost price of the article is¢160,000.00",
+    "topic": "Ratio & Proportion",
+    "image_paths": [
+      "images/bece/1998/theory/questions/p376_img1.png"
+    ],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 1998,
+    "subject": "Mathematics",
+    "question_no": 4,
+    "question_text": "(a) The pie chart shows angles representing the number of candidates who applied for admission into four programmes at a senior secondary school. The number of pupils who applied were 1080. Find: (i) the angle xo representing the vocational programme. (i i) the number of candidates who applied for business programme. (i i i) correct to the nearest whole number the percentage of the number of applicants who applied for general programme. (b) The data below shows the distribution of the masses of pupils in a school.On a graph paper, draw a bar chart for the distribution. Masses 19 20 21 22 23 24 (in kg) Frequency 5 9 19 25 18 4",
+    "marking_scheme": "4 (a) (i) x°+90°+156°+64° = 360°\nx° + 310° = 360°\nx° = 360° 310°\nx° = 50°\n(ii) Method1 (Formula)\nNo.of candidates for business\n= fraction of business×Total no.of candidates\n90o\n1080\n= 360o\n= 270\n270candidates applied for the business programme\n(ii) Method2 (Simple proportion)\nAngle number total 360o 1080\nBusiness 90ox approach1 (Equivalent fractions)\nFrom the table above,\n360 1080\n90 x cross multiplying,we have\n360 x 1080 90\n1080 90\nx\n360\nx 270\n270candidates applied for the business programme\n(ii) Approach2\nIf 360o 1080\nThen90o ?(less)\nIf less,more(i.e.,360o)divides;therefore we have\n90o\n1080\n360\n= 270\n270candidates applied for the business programme\n4 (a) (iii) Percentage of applicants who applied for gen.Prog.\nAngle for gen.Prog\n100%\n= Total angle\n156\n100%\n= 360\n= or 43.3%\n4 (b)\nVertical axis scale: 4cm to5pupils",
+    "topic": "Number & Numeration",
+    "image_paths": [
+      "images/bece/1998/theory/questions/p376_img1.png"
+    ],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 1998,
+    "subject": "Mathematics",
+    "question_no": 5,
+    "question_text": "(a) Using a scale of 2 cm to 2 units on both axes,draw two perpendicular axe sox and oy on a graph sheet.On the same graph sheet,mark the x-axis from 8 to 8 and they-axis from 8 to 8 (i) Plot p(-2, 3)and q(6, 4). Join pq (ii) Draw the image pq of pq under an anticlockwise rotation through 90 o about the origin, 1 1 . Indicate clearly all the co-ordinates. 1 1 (iii) Draw the image pq of pq under a clockwise rotation through 90 o about the origin where 2 2 . Indicate clearly all the co-ordinates 2 2 (b) The base radius of a closed cylinder is 4 m.The height of the cylinder is 7 m.Calculate its total 22/ ] 7",
+    "marking_scheme": "5 (a)\nApproach1 (By inspection/Construction)\n5 (a)\nApproach2 (The rule /formula)\n(ii) Rotating(x,y)about the origin through90°anticlockwise x yy x\n2 3\nO pop , P( 3, 2)\n3 1 2 1\n6 4\nO qo q , Q ( 4,6)\n4 1 6 1\nPlot and join p (-3,-2)and q (-4,6)as the image of line segment pq under a rotation\n1 1\nabout the origin through90°anticlockwise\n(iii) Rotating(x,y)about the origin through90°clockwise x yy x\n2 3\nO pop , P (3, 2)\n3 2 2 2\n6 4\nO qo q , Q (4, 6)\n4 2 6 2\nPlot and join p2(3,2)and q2(4,-6)as the image of line segment pq under a rotation about the origin through90°clockwise\n(as shown in the diagram above)\n5 (b)\ntop\n2\nCurved surface\n2\nbottom total surface area of closed cylinder:\nApproach1\n= Area of (Curved surface +2circular surfaces)\n= + 2)\n= 2× 22/ ×4cm×7cm + 2×22/ ×(4cm)2\n7 7\n= 2×22×4cm2 + 2×22/ ×16cm2\n7\n704\n= 176cm2 + 7 cm2\n1004\n= 176cm2 + cm2\n7\n2764 cm2\n= or 276.57 cm2\n7\n5 (b) Approach2\n= curved surface + top + bottom\n= + 2 + 2\n= [2×22/ ×4cm×7cm] +[22/ ×(4cm)2] + [22/ ×(4cm)2]\n7 7 7\n352 352\n= 176cm2 + 7 cm2 + 7 cm2\n= 176cm2+ 502 cm2 + 502 cm2\n7 7\n2764 cm2\n= or 276.57 cm2\n7\n5 (b) Approach3\n= Areas of(Curved surface+ 2circular surfaces)\n= + 2\n= + r)\n= 2 × 22/ × 4cm (11cm + 4cm)\n7\n176\ncm (11cm)\n= 7\n176 cm 11 cm 1936 cm2\n= 7 = 7\n2764 cm2\n= or 276.57 cm2\n7",
+    "topic": "Commercial Maths",
+    "image_paths": [
+      "images/bece/1998/theory/questions/p376_img1.png"
+    ],
+    "answer_image_paths": [
+      "images/bece/1998/theory/answers/p385_img1.png"
+    ]
+  },
+  {
+    "exam_type": "BECE",
+    "year": 1999,
+    "subject": "Mathematics",
+    "question_no": 1,
+    "question_text": "(a) Kofi and ko jo were given¢38, 000.00 to share. Ko jo had¢7, 500.00 more than kofi. Find (i) (i i) (b) A trader paid¢1500.00 for 6 drinking cups. One of the cups got broken. He sold the remaining 5,making a profit of 10%. Calculate (i) the cost price of each of the six cups; (i i) the selling price of each of the five cups; (i i i) the profit made on each cup sold. 2 x 1 x 2",
+    "marking_scheme": "1 (a) Since ko jo had ¢7,500 more than kofi,\n= (¢7,500 + ----------------[1]\nalso = ¢38,000 ----------------------------[2]\nThen, from equations [1] and [2],\n= ¢38,000 ---------------[3]\n(i) Let f = then from [3],\nf + (¢7,500 + f) = ¢38,000\n2 f + ¢7,500 = ¢38,000\n2 f = ¢38,000 ¢7,500\n2f = ¢ 30,500\n2f 30,500\n2 2\nf = ¢15,250\n(ii) Method 1\nSince ko jo had ¢7,500 more than kofi,\n= ¢7,500 + ¢15,250\n= ¢ 22,750.00\nPercentage amount (¢)\nCp of 1\n100% 250\ncups p of 1 100% + 10%\ncup = 110% ? (x)\n100 250\nFrom the table\n110 x cross-multiplying, we have 100 x 250 110\n250 110\nx = 275\n100\nThe selling price of each of the five cups = ¢ 275\n1 (b) (ii) Method 4\nFrom the table above,\nIf 100% 250\nThen 110% ? (more)\nIf more, less (i.e., 100%) divides; hence we have\n110\n250 = 11 × 25 = ¢275\n100\nThe selling price of each of the five cups = ¢ 275\n1 (b) (iii) Profit made on each cup sold\n= S pcp\n= ¢275 ¢250 = ¢25",
+    "topic": "Commercial Maths",
+    "image_paths": [],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 1999,
+    "subject": "Mathematics",
+    "question_no": 2,
+    "question_text": "(a) Solve the inequality 1 4 3 (b) Find the value of the expression 2 x 3 y, if x= andy=- ½ (c) 25 students in a class took an examination in mathematics and science.17 of them passed in science and 8 passed in both mathematics and science.3 students did not pass in any of the subjects. Find (i) how many passed in mathematics (i i) the probability of meeting a student who passed in one subject only.",
+    "marking_scheme": "2 (b) 2x 3y, if x andy = - ½\n2(1) 3( 1)\n3 2\n2 1 3 1\n3 2\n2 ( 3)\n3 2\n2 3\n3 2\n4 9\n6\n13 2 1\n6 = 6\n2 (c) (i) Method 1\nLet n(U) = No.of students in the class n(M) = No.of students that passed in maths n(S) = No.of students that passed in science= 17\nx = No.of students that passed in science only (=17 8) = 9\nFrom the diagram above,\nn(M) + 9 + 3 = 25\nn(M) + 12 = 25\nn(M) = 25 12\nn(M) = 13\n2 (c)(i) Method 2\nLet n(U) = No. of students in the class n(S) = No. of students that passed in science m = No. of students that passed in maths only from the above diagram,\nn(S) + m + 3 = 25\n17 + m + 3 = 25\n20 + m = 25\nm = 25 20\nm = 5\nBut n(Maths)\n= n(Maths only) + n(both maths and science)\n= 5 + 8\n= 13\n2 (c) (i) Method 3\nLet n(U) = No. of students in the class n(M) = No. of students that passed in maths n(S) = No. of students that passed in science x = No. of students that passed in science only from the diagram above,\n17 8 + 8 + n(M) 8 + 3 = 25\n17+ 0 + n(M) 8 + 3= 25\n17 8 + 3 + n(M) = 25\n12 + n(M) = 25\nn(M) = 25 12\nn(M) = 13\nNo. of students that passed in maths is 13\n2 (c) (ii) p(one subject only)\nNo.of students who passed one subject only\n= Total no.of students no.of science only no.of maths only\n= Total no.of students\n9 5\n=\n25\n= 14\n25",
+    "topic": "Algebra",
+    "image_paths": [],
+    "answer_image_paths": [
+      "images/bece/1999/theory/answers/p359_img1.png",
+      "images/bece/1999/theory/answers/p359_img2.png",
+      "images/bece/1999/theory/answers/p360_img1.png",
+      "images/bece/1999/theory/answers/p361_img1.png"
+    ]
+  },
+  {
+    "exam_type": "BECE",
+    "year": 1999,
+    "subject": "Mathematics",
+    "question_no": 3,
+    "question_text": "(a) Using a pair of compasses and a ruler only, (i) construct triangle abc such that|A b|=10 cm,angle abc=30°and|B c|=8 cm. Measure angle acb. (i i) Construct a perpendicular from c to meet line aba td. Measure|C d|. (b) Calculate the area of triangle abc.",
+    "marking_scheme": "3 (a)\n(i) Angle acb 98°\n(ii) |CD| 3.9 cm\n(b) Area of triangle = ½ × b × hare a of abc = ½× |AB| × |CD|\n= ½× 10cm × 3.9cm\n= ½× 39 cm\n= 19.5 cm2",
+    "topic": "Geometry & Mensuration",
+    "image_paths": [],
+    "answer_image_paths": [
+      "images/bece/1999/theory/answers/p361_img1.png"
+    ]
+  },
+  {
+    "exam_type": "BECE",
+    "year": 1999,
+    "subject": "Mathematics",
+    "question_no": 4,
+    "question_text": "a) (i) Using a scale of 2 cm to 2 units on both axes,draw two perpendicular axe sox and oy on a graph sheet. (ii) On the same graph sheet,mark the x-axis from 10 to 10 and they-axes from 12 to 12. (i i i) Plot the points a(0, 10),B(-6,-2), C(4, 3)and d(-3,-11). Use a ruler to join the point a to band also point c tod. b) (i) Draw the linex=-2 to meet ab atp and cd at q. (i i) Use a protractor to measure angles b pq and pq c. (i i i) What is the common name given to angles b pq and pq c? (i v) State the relationship between lines a band cd.",
+    "marking_scheme": "4 (a), (b)\n4(b) (ii) angle b pq = 25°\nangle pq c = 25°\n(iii) angles b pq and pq care alternate angles\n(iv) Lines a band cd are parallel",
+    "topic": "Geometry & Mensuration",
+    "image_paths": [],
+    "answer_image_paths": [
+      "images/bece/1999/theory/answers/p361_img1.png",
+      "images/bece/1999/theory/answers/p362_img1.png"
+    ]
+  },
+  {
+    "exam_type": "BECE",
+    "year": 1999,
+    "subject": "Mathematics",
+    "question_no": 5,
+    "question_text": "The table below shows the marks scored out of 10 by some candidates in a test. Mark 1 2 3 4 5 6 7 8 Number of 2 3 5 7 8 13 7 5 candidates a) From the above table,find (i) the modal mark; (i i) how many candidates took the test; (i i i) the mean mark for the test b) If 20%of the candidates failed, (i) how many failed? (i i) What is the least mark a candidate should score in order to pass?",
+    "marking_scheme": "5 (a)(i) The mark with the highest frequency is 6\nThe modal mark = 6\n(ii) 2 +3 + 5 + 7 + 8 + 13 + 7 + 5\n= 50 candidates\n(iii) Approach 1\nThe sum of marks the mean mark = Total number of candidates\n(1 2) (2 3) (3 5) (4 7) (5 8) (6 13) (7 7) (8 5)\n= 2 3 5 7 8 13 7 5\n2 6 15 28 40 78 49 40\n= 50\n258 5 4\n= = or 5.16\n50 25\n(iii) Approach 2\nMarks no. of candidates\n(x) (f) f x\n1 2 2\n2 3 6\n3 5 15\n4 7 28\n5 8 40\n6 13 78\n7 7 49\n8 5 40\nx= 258\nf x 258\nThe mean mark = =\nf 50\n5 4\n= or 5.16\n25\n5 (b)(i) Number of candidates who failed total no. of candidates = 2+3+5+7+8+13+7+5 = 50\nSince 20% of the candidates failed\n20% × 50 candidates failed\n20 50\n=\n100\n= 10 candidates failed\n(ii) From the given table, the 10 candidates who failed scored 3 or less, therefore the passmark is 4",
+    "topic": "Statistics",
+    "image_paths": [],
+    "answer_image_paths": [
+      "images/bece/1999/theory/answers/p362_img1.png"
+    ]
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2000,
+    "subject": "Mathematics",
+    "question_no": 1,
+    "question_text": "(a) Simplify: 2/ 3 of 6 ¾ ÷ (2 4/ 15 1 2/ 3 ). (b) Solve the equation 1(x 3) 2(x 5) 41 3 3 (c) If 3 y=2 x 2 3 x+7, find y,when x=5. 2. (a) angle abr=50°. (i) Calculate the angle b dc (i i) Calculate angle abd (i i i) Find angle bad (i v) What type of triangle is triangle abd? (b) Using a ruler and a pair of compasses only,construct triangle xyz,with|Y z|=8 cm,angle xyz=60°and|X y|=9 cm. Measure (i)angle yz x; (ii) |XZ|",
+    "marking_scheme": null,
+    "topic": "Algebra",
+    "image_paths": [
+      "images/bece/2000/theory/questions/p333_img1.png"
+    ],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2000,
+    "subject": "Mathematics",
+    "question_no": 3,
+    "question_text": "Ama was granted a loan of¢800, 000.00 by a bank. The rate of interest was 42%per annum. (a) Calculate (i) the interest at the end of the year; (ii) the total amount ama had to pay at the end of the year. (b) Ama was able to pay only¢700, 000.00 at the end of the year. (i) Find how much ama still owed the bank (i i) Express the amount ama owed after paying the¢700, 000.00 to the bank as a percentage of the loans he took from the bank.",
+    "marking_scheme": null,
+    "topic": "Number & Numeration",
+    "image_paths": [],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2000,
+    "subject": "Mathematics",
+    "question_no": 4,
+    "question_text": "The following is a record of scores obtained by 30 Js s form 2 pupils in a test marked out of 5. 5, 3, 2, 4, 5, 2, 4, 3, 1, 1, 3, 3, 4, 2, 3, 4, 5, 3, 4, 3, 2, 4, 3, 1, 2, 2, 3, 3, 2, 4. Score(x) Tally frequency (f) f x 1 2 3 4 5 Total a) Copy and complete the table. b) Find the mean of the distribution. c) If a pupil is selected at random from the form,what is the probability that he/she scored 4 marks? 5. The diagram shows a running track abcde fa. A banded are the straight sides. The end safe and bcd are semi-circular shapes. |A b|=|E d|=90 m and |A e|=|B d|=70 m. Find a) the total length of the two semi-circular ends,A fe and bcd; b) the perimeter of the running track abcde fa; c) the totalarea of the running track abcde f. 22/ ) 7",
+    "marking_scheme": null,
+    "topic": "Commercial Maths",
+    "image_paths": [
+      "images/bece/2000/theory/questions/p335_img1.png"
+    ],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2000,
+    "subject": "Mathematics",
+    "question_no": 2,
+    "question_text": "of 27 (34 5) 3 4 15 3 2 of 27 (34 25) 3 4 15 2 27 9 3 4 15 2 27 15 3 4 9 15 2 7 1 2",
+    "marking_scheme": null,
+    "topic": "General Mathematics",
+    "image_paths": [],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2001,
+    "subject": "Mathematics",
+    "question_no": 1,
+    "question_text": "(a)Misa set consisting of all positive integers between 1 and 10. P and q are subsets of m such that p={factors of 6}, Q={multiples of 2} (i) List the elements of m,P and q (i i) Represent m,P and q on aven n diagram (i i i) Find 2 x 2 2 x 1 (b) (i) Solve the inequality: 1 4 3 (i i) Illustrate your answer on the number line",
+    "marking_scheme": "1 (b) (ii)",
+    "topic": "Set Theory",
+    "image_paths": [],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2001,
+    "subject": "Mathematics",
+    "question_no": 2,
+    "question_text": "(a)Express 131 as a binary numeral five (b) Three children,Kwa ben a,Es i and yaw were given 160 oranges to share. Kwa ben a gets¼of the oranges. Es i and yaw share the remainder in the ratio 3:2 respectively. (i) Find how many oranges es i received (i i) How many more oranges did yaw receive than kwa ben a?",
+    "marking_scheme": "2 (a) First change to base ten,then change from base ten to base two(binary numeral)\nChanging 1 3 1 to a base ten numeral.\nfive\n1 3 1\n52 51 50\n( 1 × 52) + ( 3 × 51) + ( 1 × 50)\n= ( 1 × 25) + (3 × 5) + (1 × 1)\n= 25 + 15 + 1\n= 41\nten changing41 to base two (binary numeral)\nten base number remainder\n2 41\n20 1\n10 0\n5 0\n2 1\n1 0\n0 1\nReading the remainder column upwards,we have101001\ntwo\n131 expressed as a binary numeral = 101001\nfive two\n2 (b) (i) Kwa ben a gets¼ of 160orange she gets ¼ × 160oranges = 40oranges the remainder = 160 40 = 120oranges since es i and yaw shared the remainder in the ratio3:2 respectively,\n3 3\nEs i received 120oranges = 120oranges\n3 2 5\n= 3 ×24oranges es i received72oranges\n(ii) Yaw received (120 72)oranges = 48oranges\n= 48oranges 40oranges\n= 8oranges yaw received 8more oranges than kwa ben a",
+    "topic": "Ratio & Proportion",
+    "image_paths": [],
+    "answer_image_paths": [
+      "images/bece/2001/theory/answers/p316_img1.png"
+    ]
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2001,
+    "subject": "Mathematics",
+    "question_no": 3,
+    "question_text": "(a) Using a ruler and a pair of compasses only,construct triangle xyz,such that|X y|=6 cm, |X z| =8 cm and |Y z|=10 cm. (b) (i) Construct the mediator of line yz (i i) construct the mediator of linex z (i i i) Locate o,the point of intersection of the mediators of lines yz and x z. (i v) With centre o and radius oy,draw a circle. (c) Measure the radius of the circle you have drawn in(b)(i v)above and hence calculate the circumference of the circle. [Take .",
+    "marking_scheme": "3 (a), (b)\n(c) Radius of circle = 5cm circumference =\n= 3.14×10cm\n= 31.4cm",
+    "topic": "Set Theory",
+    "image_paths": [],
+    "answer_image_paths": [
+      "images/bece/2001/theory/answers/p316_img1.png"
+    ]
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2001,
+    "subject": "Mathematics",
+    "question_no": 4,
+    "question_text": "a) (i) Using a scale of 2 cm to 1 unit on both axes, draw two perpendicular axe sox and oy on a graph sheet. (ii) On the same graph sheet,mark the x-axes from 5 to 5 and they-axis from 6 to 6. b) On the same graph sheet,plot the points a(2,5),B(4,3) and c(1,1).Join the points a,Band c to form a triangle. c) Reflect triangle abc in they- . Label the vertices of 1 1 1 triangle abc 1 1 1 d) Translate triangle abc by the vector 3 such that a ,Band c .Label 1 1 1 1 2 1 2, 1 2 4 the vertices of triangle abc 2 2 2 e) Join the vertices abb and c.Name the figure formed. 1 1 2 f) Find ab 1 1",
+    "marking_scheme": "4 (a) (e) Approach1 (Inspection/Construction)\n3\n[N bbc by vector simply means\n1 1 1\n4\nB C 3units to the right(3),and then4units downwards(-4).\n1 1 1\nSo,e.g.,the point a (-2,5)moves to a (1,1)\n1 2\nNB:Horizontal direction movement first;Vertical direction movement second(always)\n4 (c), (d) Approach 2 (The rule / formula)\nc) Reflecting(x,y)in they-axis xxy y\n2 2\nO ao a , A( 2,5)\n5 1 5 1\n4 4\nO bob , B( 4,3)\n3 1 3 1\n4 2\n=\n3 5\n4 2 2\n= =\n3 5 2",
+    "topic": "Geometry & Mensuration",
+    "image_paths": [],
+    "answer_image_paths": [
+      "images/bece/2001/theory/answers/p318_img1.png",
+      "images/bece/2001/theory/answers/p320_img1.png"
+    ]
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2001,
+    "subject": "Mathematics",
+    "question_no": 5,
+    "question_text": "(a)A cylinder closed at one end has radius 7 cm and height 20 cm. (i)Find its total surface area. (i i) If the cylinder is filled with water to a depth of 5 cm,calculate the volume of the water in it. 22/ ] 7 0.07 0.6 (b) Evaluate ,leaving your answer in standard form 0.014 0.03",
+    "marking_scheme": "5 (b) Method2 (Converting to whole numbers)\nMultiplying both numerator and denominator by100,000\n(to convert to whole numbers)",
+    "topic": "Number & Numeration",
+    "image_paths": [],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2002,
+    "subject": "Mathematics",
+    "question_no": 1,
+    "question_text": "(b) (i) ) If (1/ of 50) pupils speak french only 10 1 50 = 5 speak french only 10 The remainder = 50 5 = 45 But 4/ of the remainder speak both french and english 5",
+    "marking_scheme": "1.125\n¢2,133,333.33 P\n¢2,133,333 (to the nearest cedi)",
+    "topic": "General Mathematics",
+    "image_paths": [],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2002,
+    "subject": "Mathematics",
+    "question_no": 4,
+    "question_text": "of 45 speak both french and english 5 4 45 = 36 5 36 pupils speak both french and english ) If the rest speak english only total no. (F only+both fan de) 50 (5 + 36) 50 41 9 9 students speak only english (ii) Let n(U) = No.of pupils in the class n(F) = No.of french speakers n(E) = No.of english speakers",
+    "marking_scheme": "4 (a)\nMethod1 (Unitary approach the value of one(1)item)\n2 3 4 9\nThe average ratio = 3\n3 3\nNow, if the average ratio,3, 36,\nThen ratio 1 36÷3 = 12,\nThe sum of ratios,9,(i.e.,2+3+4)\nThe sum of the three numbers = 108\n4 (a) Method2 (Equivalent fractions)\nRatio actual no.\n2 3 4 3\nAverage 36\n3\nSum 2+3+4=9 x\n3 36\nFrom the table above, 9 x\n3 x 36 9\nCross multiplying,we have\n3x 36 9\n3 3\nx 108\nThe sum of the three numbers is108\n4 (a) Method3\nIf the average ratio, 3 36\nThen sum of ratios, 9 ?(more)\nIf more,less(i.e.,3)divides;\n9 36\n3 = 108\n4 (b) Approach1 (Equivalent fractions)\nArea cost\n7mby5m\n1st floor =7m×5m\n= 35m2 ¢875,000\n8mby4m\n2nd floor =8m×4m\n= 32m2 x\n35 875,000\nFrom the table above, 32 x cross multiplying,we have\n35 x 875,000 32\n35x 875,000 32\n35 35\nx 25,000 32\nx 800,000\nThe cost of tiling a8mby4m floor = ¢800,000.00\n4 (b) Approach2\nArea cost\n7mby5m\n1st floor =7m×5m\n= 35m2 ¢875,000\n8mby4m\n2nd floor =8m×4m\n= 32m2 ?\nIf 35m2area costs ¢875,000\nThen 32m2area costs ?(less)\nIf less,more(i.e.,35m2)divides,therefore we have\n32 ¢875,000\n35 = ¢800,000\nThe cost of tiling a8mby4m floor = ¢800,000.00\n4 (c) Method1 (Formula1)\nNew population percentage new population old population old population percentage\n110%\nPopulation in5yrs = 150,000\n100%\n= 110 1,500 = 165,000\n110%\nPopulation in10yrs = 165,000\n100%\n= 110 1,650 = 181,500\n4 (c) Method2 (Formula2)\ne\n= Current population +Increase\n= 150,000 + (10%×150,000)\n10\n= 150,000 + ( ×150,000)\n100\n= 150,000 + 15,000\n= 165,000\n= Current population +Increase\n= 165,000 + (10%×165,000)\n= 165,000 + 16,500\n= 181,500\n4 (c) Method3 (Equivalent fractions)\n[NB:The percentage of the original quantity is always100%]\nPercentage population this year\n100% 150,000\n(original)\n100%+10%\n= 110% x\n100 % 150,000\nFrom the table above, 110 % x cross multiplying,we have 100 x 150,000 110\n150,000 110\n1,500 110\nx 165,000\n100\nSimilarly,\nPercentage population\n100% 165,000\n(original)\n100%+10%\ntime = 110% y\n100% 165,000\nFrom the table above, 110 % y cross-multiplying,we have 100 y 165,000 110\n165,000 110\ny\n100 = 1,650 110\ny = 181,500\nThe estimated population10years from now = 181,500\n4 (c) Method4\nIf this year: 100% 150,000\nThen in5years: 110% ?(more)\nIf more,less(i.e.,100%)divides; we have\n110%\n150,000 = 110 1,500 = 165,000\n100%\nIf in5years: 100% 165,000\nThen in10yrs 110% ?(more)\nIf more,less(i.e.,100%)divides; we have\n110 165,000\n100 = 110×1,650 = 181,500\nThe estimated population10years from now = 181,500",
+    "topic": "General Mathematics",
+    "image_paths": [
+      "images/bece/2002/theory/questions/p269_img1.png"
+    ],
+    "answer_image_paths": [
+      "images/bece/2002/theory/answers/p293_img1.png"
+    ]
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2002,
+    "subject": "Mathematics",
+    "question_no": 2,
+    "question_text": "(a) Cost of 8 pencils = 8×¢500 = ¢4,000 Cost of 5 pens = 5×¢2,000 = ¢10,000 Total cost = ¢4,000 + ¢10,000 = ¢14, 000 (b) New(increased)price of pen = Original price + Increase = ¢2,000 + (20% ×¢2,000) ¢2000 20 ¢2000 = 100 N b: = ¢2, 000 +¢400 We also could have used the = ¢2, 400 idea of simple proportion ) New(increased)price of a pencil = Original price + Increase = ¢500 + (10%×¢500) = ¢500 + ¢50 Attempt four questions only from this section the use of calculators is not allowed",
+    "marking_scheme": "2 (a) (i) Simple interest = Principal×Rate×Time\n= 1,800,000×12½%×1\n25 %\n= 1,800,000× 2 ×1\n25\n= 1,800,000× 2 100 ×1\n= 9000 × 25 × 1\n= 225,000\n(ii) The amount to be paid = Principal+S.Interest\n= 1,800,000+225,000\n= 2,025,000\nAmount to be paid\n(iii) The monthly instalment = No. of months\n2,025,000\n= 12\n= 168,750\nTotal amount\n2 (b) Monthly instalment = No. of months principal simple interest\n= No. of months pp rt\n= No. of months pp 12.5% 1\n200,000\n12\nSolving for p by cross multiplying,we have:\n200,000 12 P P 12.5%",
+    "topic": "Ratio & Proportion",
+    "image_paths": [
+      "images/bece/2002/theory/questions/p269_img1.png"
+    ],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2002,
+    "subject": "Mathematics",
+    "question_no": 3,
+    "question_text": "A teacher conducted a class test and the result is displayed in a frequency table below. Marks 1 2 3 4 5 6 7 8 9 Frequency 2 4 2 2 10 5 6 7 2 (a) Using the frequency table,find (i) the modal mark for the class (i i) the number of candidates who wrote the test (i i i) the mean mark for the test. (b) If the teacher decides that the passmark is 4,what is the probability that a student chosen at random from the class failed the test? (c) Draw a bar chart for the distribution",
+    "marking_scheme": "3 (a) (i) The modal mark\n= the mark with the highest frequency the modal mark= 5\n(ii) Total number of candidates\n= 2+4+2+2+10+5+6+7+2\n= 40pupils\n3 (a)(iii) Using the frequency table,\nApproach1\nThe sum of marks the mean = The total number of candidates\n(1 2) (2 4) (3 2) (4 2) (5 10) (6 5) (7 6) (8 7) (9 2)\n= 2 4 2 2 10 5 6 7 2\n2 8 6 8 50 30 42 56 18\n= 40\n220\n= = 51 or 5.5\n40 2\n3 (a)(iii) Approach2\nMarks frequency\n(x) (f) fx\n1 2 2\n2 4 8\n3 2 6\n4 2 8\n5 10 50\n6 5 30\n7 6 42\n8 7 56\n9 2 18\nx=220\nf x\n220\nThe mean mark = =\nf 40",
+    "topic": "Statistics",
+    "image_paths": [
+      "images/bece/2002/theory/questions/p286_img1.png"
+    ],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2003,
+    "subject": "Mathematics",
+    "question_no": 2,
+    "question_text": "(a) If 2 n 5 m+10=0,find (i) m,when n=2; (i i) n,when m=5. 6.4 0.25 16 (b) Simplify leaving your answer in standard form 0.08 0.5 (c) A number of sweets were shared among 8 children and each child received 30. If 12 children shared the same number of sweets,how many will each receive?",
+    "marking_scheme": "2 (c) Method1 (Simple sharing)\nTotal no.of sweets =8×30sweets = 240sweets now, 240÷12 = 20\nIf12children shared240sweets,each gets20sweets\n2 (c) Method2 (Simple proportion)\nIn sharing the same number of sweets,\nIf for8children,each receives30sweets,\nthen for12children,each receives ?(less)sweets if less, more(i.e.,12children)divides,\n8children\n30sweets = 20sweets\n12children",
+    "topic": "Number & Numeration",
+    "image_paths": [],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2003,
+    "subject": "Mathematics",
+    "question_no": 3,
+    "question_text": "The table below shows the distribution of the ages(in years)of children in a nursery school. Age(years) 1 2 3 4 5 Number of children 6 4 2 3 5 (a) Find (i) the modal age (i i) the mean age (b) Draw a bar chart for the distribution. (c) What is the probability that a child chosen at random from the school is 4 years old? 4 0 3",
+    "marking_scheme": "3 (a) (i) The modal age is the age that occurs most the modal age = 1year\n3 (a) (i) Approach1\nThe sum of ages the mean age = The total number of children\n(1 6) (2 4) (3 2) (4 3) (5 5)\n= 6 4 2 3 5\n6 8 6 12 25\n= 6 4 2 3 5\n57\n= 20\n= 217 years or 2.85 years\n20\n3 (a)(i) Approach2\nAge(years) No.of children\n(x) (f) fx\n1 6 6\n2 4 8\n3 2 6\n4 3 12\n5 5 25\nx=57\nf x 57\nThe mean age = =\nf 20\n= 217 years or 2.85years\n20\n3 (b)\nVertical axis scale: 3cm to1child number of children aged4years\n3 (c) P(4years old) = Total number of children\n3\n=\n20",
+    "topic": "Statistics",
+    "image_paths": [],
+    "answer_image_paths": [
+      "images/bece/2003/theory/answers/p250_img1.png"
+    ]
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2003,
+    "subject": "Mathematics",
+    "question_no": 4,
+    "question_text": "(a) If p= , q= andr= , find p+2 q+r 5 2 7 (b) Find the solution set of the inequality x 4 1 ,if the domain is the set{-2,-1,0,1,2}. 5 5 (c) A rectangular sheet of metal has length 44 cm and breadth 10 cm. It is folded to form a cylinder with the breadth becoming the height. Calculate (i) the radius of the cylinder formed; (i i) the volume of the cylinder. 22/ ) 7",
+    "marking_scheme": "4 (a) p + 2q + r\n4 0 3\n= +2 +\n5 2 7\nApproach1 (Substituting first)\nl w =\n44cm×10cm = 2 22 r 10cm\n7\n44cm 10cm\nr\n2 22 10cm\n7\n44cm 10cm 7 r\n2 22 10cm\n7cm = r radius of the cylinder formed = 7cm\n4 (c) (i) Approach2 (Making r the subject first)\nl w =\nl w r\n2 h\n44cm 10cm r\n2 22 10cm\n7\n44cm r\n44\n7\n44\n44cm\n7 = r\n44cm 7 44 = r\n7cm = r radius of the cylinder formed = 7cm\n4 (c) (ii) Volume of cylinder = Area of base×height\n= 2 × h\n= 22/ × (7cm)2 × 10cm\n7\n= 22× 7cm × 7cm × 10cm\n7\n= 22 × 7cm2 × 10cm\n= 1540 cm3",
+    "topic": "Algebra",
+    "image_paths": [],
+    "answer_image_paths": [
+      "images/bece/2003/theory/answers/p250_img1.png"
+    ]
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2003,
+    "subject": "Mathematics",
+    "question_no": 5,
+    "question_text": "(a)Using a pair of compasses and ruler only, (i) construct the triangle abc with |AB|=8 cm,|BC|=8 cm and |AC|=7 cm. (i i) Bisect angle abc and let the bisector meet a cat d. Produce|B d|top such that|B d|= |D p|. Join ap and cp. (b) Measure (i) angle adb; (ii) |AP|. (c) What kind of quadrilateral is abc p?",
+    "marking_scheme": "5 (a)\n(b) (i) Angle adb 90°\n(ii) |AP| 8cm\n(c) Abc pisa rhombus",
+    "topic": "Geometry & Mensuration",
+    "image_paths": [],
+    "answer_image_paths": [
+      "images/bece/2003/theory/answers/p254_img1.png"
+    ]
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2003,
+    "subject": "Mathematics",
+    "question_no": 1,
+    "question_text": "(a) A = {2,3,5,7,11,13,17} B = {5, 7, 9, 11, 13, 15, 17} (b) (i) A B = {5,7,11,13,17} (ii) A B = {2,3,5,7,9,11,13,15,17} (c)(i), (i i) B 5, 7, 11, 2, 3 9, 15 13, 17",
+    "marking_scheme": null,
+    "topic": "General Mathematics",
+    "image_paths": [],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2004,
+    "subject": "Mathematics",
+    "question_no": 1,
+    "question_text": "(a) (i) Factorize completely the expression 2 xy 8 x+3 y 12 (i i) Evaluate the expression in(i)if x=5 andy=7 1 1 (b) Make q the subject of the equation t pq 5 8 (c) Given that u= and v= , find 3(U+½V) 9 12",
+    "marking_scheme": "1 (b)\n1 1\nt making q the subject\n,\npq method 1 (Removing fractions first)\nMultiplying through by pq pq(t) pq(1) pq(1) (L cm of the denominators)\npq to remove fractions pq t qp grouping all terms pq t qp containing q on one side factorizing q out q(pt 1) p\nq(pt 1) p dividing both sides by (pt 1)\n(pt 1) (pt 1)\npq pt 1\n1 (b) Method 2 (Separating term(s) containing q on one side first)\n1 1\nt separating term(s) containing q pq on one side and simplifying\n1 1 both side stp qt 1 1\n1 pq pt 1 1\npq cross multiplying q(pt 1) pp qp t 1\n1 (c) 3 (U + ½ V)\nMethod 1 (Evaluating within the bracket first)\n5 8\n1\n= 3 9 2 12\n5 1 8\n2\n= 3\n9 1 12\n2\n5 4\n= 3\n9 6\n5 4\n= 3\n9 6\n1 3\n= 3 =\n15 45\n1 (c) Method 2 (Expanding / Removing brackets first)",
+    "topic": "Algebra",
+    "image_paths": [],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2004,
+    "subject": "Mathematics",
+    "question_no": 2,
+    "question_text": "(a) Ama and kofi shared the profit earned from their business in the ratio 3:4. The profit was ¢1, 743, 000.00 (i) Find how much of the profit each person received. (i i) Kofi lent out his share of the profit at a rate of 20%per annum for 2 years. Find the interest on his share. (i i i) What will be . (b) Change 243 to a base ten numeral. five (i i)",
+    "marking_scheme": "2(2x 5) 26\n3 3\n3 2(2x 5) 3 26\n3 3\n2 (2x 5) 26\n4x 10 26\n4x 26 10\n4x 16\nx 16 4\nx 4",
+    "topic": "Ratio & Proportion",
+    "image_paths": [],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2004,
+    "subject": "Mathematics",
+    "question_no": 6,
+    "question_text": "(a) The following are the ages in years of members of a group: 8, 11, 8, 10, 6, 7, 3 x, 11, 11. If the mean age is 9 years,find (i) x (i i) the modal age (i i i) the median age. (b) Draw a bar chart for the distribution",
+    "marking_scheme": "6 (a) (ii) The modal age is 11 years\n6 (a) (iii) Since x = 3, 3x = 3(3) = 9\nTherefore, the ages in years of the members are\n8, 11, 8, 10, 6, 7, 9, 11, 11.\nHence re-arranging in ascending order, we have\n6, 7, 8, 8, 9, 10, 11, 11, 11\nThe middle ages (in years) are 9 and 10; therefore\n9 10\nThe median age =\n2\nor ½ (9+10) = 4.5 or 4½ years\n6 (b) Hence the frequency table and bar chart are shown below age\n6 7 8 9 10 11\n(in yrs)\nNo. of\n1 1 2 1 1 3\nmembers",
+    "topic": "Statistics",
+    "image_paths": [],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2005,
+    "subject": "Mathematics",
+    "question_no": 1,
+    "question_text": "(a) A boy has enough money to buy 14 pencils at¢450.00 each. How many erasers costing ¢300.00 each can he buy with the same amount of money? (b) A circle has a circumference of 44 cm.Calculate its radius if 22/ . 7 (c) Simplify 21 15 3 7 4 8 16 5(n 6) (d) If 1 find n. n",
+    "marking_scheme": "1(d) 1\nn multiplying both sides by n",
+    "topic": "Algebra",
+    "image_paths": [],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2005,
+    "subject": "Mathematics",
+    "question_no": 2,
+    "question_text": "(a) Copy and complete the table below for the relation; x + y = 180 X 0 30 60 90 120 150 180 Y 180 90 (b) (i) Using a scale of 2 cm to 20 units on both axes,draw two perpendicular axe sox and oy. (i i) Mark both axes from 0 to 180. (i i i) Plot all the seven points. Use a ruler to join all the points. (c) Using your graph,find (i) y when x=100; (ii) x when y=70.",
+    "marking_scheme": "2 (a) By substitution of the x values in the given relation,the table is completed as shown below:\nX 0 30 60 90 120 150 180\nY 180 150 120 90 60 30 0\n2(b) The straight line graph is shown below\n2(c) From the graph,\n(i) When x=100, y=80\n(ii) When y=70, x=110",
+    "topic": "General Mathematics",
+    "image_paths": [],
+    "answer_image_paths": [
+      "images/bece/2005/theory/answers/p198_img1.png"
+    ]
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2005,
+    "subject": "Mathematics",
+    "question_no": 3,
+    "question_text": "(a) There are 30 boys in a sporting club.20 of them play hockey and 15 play volley-ball. Each boy plays atleast one of the two games. (i)Illustrate the information on aven n diagram (i i) How many boys play volley-ball only? (b) Factorize xy+3 x+6 y+18 (c) Multiply (3+x)by(5 2 x)",
+    "marking_scheme": "3(a) (i) Let n(U) = No.of boys in the club n(H) = No.of boys that play hockey n(V) = No.of boys that play volleyball a = No.of boys that play both hockey and volleyball\n3(a) (ii) From the above diagram,\n20 a + a +15 a +0 = 30\n20 + 0 + 15 a+0 = 30\n20+ 15 a = 30\n35 a = 30\na = 5\nNo.that play volleyball only\n= n(V) a\n= 15 5\n= 10\n10boys play volleyball only\n3(b) xy+3x+6y+18\n= x(y+3)+6(y+3)\n= (y+3)(x+6)\n3(c) (3+x)(5 2x)\nApproach1 (Distributive property idea)\n3(5 2x) +x(5 2x)\n15 6x + 5x 2x2\n15 x 2x2\n3(c) Approach2 (Smiley face)\n( 3 + x ) ( 5 2x)\n15 2x2+ 5x 6x\n15+ 5x 6x 2x2\n15 x 2x2\n3(c) Approach3 (Moon shape)\n( 3 + x ) ( 5 2x)\n(3 +x)( 5 2x)\n15 6x+5x 2x2\n15 x 2x2",
+    "topic": "Set Theory",
+    "image_paths": [],
+    "answer_image_paths": [
+      "images/bece/2005/theory/answers/p199_img1.png"
+    ]
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2005,
+    "subject": "Mathematics",
+    "question_no": 4,
+    "question_text": "(a) A woman borrowed¢2, 000, 000.00 from a bank at a rate of 15%per annum simple interest for 2 years. Find (i) the interest for the 2 years (i i) how much she paid in all to the bank after the 2 years. (b) A woman borrowed¢2, 000, 000.00 from a bank. She used the¢2, 000, 000.00 to purchase a fridge and sold it at a profit of 45%. Find the selling price of the fridge.",
+    "marking_scheme": "4(a) (i) Simple interest = Principal×Rate×Time\n= 2,000,000×15% × 2\n15\n= 2,000,000× × 2\n100\n= 20,000 × 15 ×2\n= 600,000\nThe simple interest is¢600,000.00\n(ii) Amount paid to bank = Principal +S.interest\n= ¢2,000,000 +¢600,000\n= ¢2,600,000\nShe paid¢2,600,000to the bank after the2years\n4(b) Method1 (Formula1)\nSP = CP + Profit\n= ¢2,000,000 + (45% of ¢2,000,000)\n45\n= ¢2,000,000 + ( × ¢2,000,000)\n100\n= ¢2,000,000 + 45×¢20,000\n= ¢2,000,000 + ¢900,000\n= ¢2,900,000\n4(b) Method2 (Formula2)\nSp percentage spc pcp percentage\n145%\n2,000,000\n= 100%\n145\n= 2,000,000\n100\n145 20,000\n= ¢2,900,000\n4(b) Method3 (Equivalent fractions)\nPercentage amount cp 100% 2,000,000\n100%+45%\nSP = 145% x\n100% 2,000,000\n145% x cross multiplying,\n100 x 2,000,000 145\n2,000,000 145 Dividing both sides by100\nx\n100\nx 20,000 145\nx 2,900,000\n4(b) Method4\nIf 100% 2,000,000\nThen 145% ? (more)\nIf more,less(i.e.,100)divides;therefore we have\n145\n2,000,000\n100\n145 20,000\n=\n= ¢2,900,000",
+    "topic": "Ratio & Proportion",
+    "image_paths": [],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2005,
+    "subject": "Mathematics",
+    "question_no": 5,
+    "question_text": "(a) Using a pair of compasses and ruler only,construct (i) (i i) a perpendicular from the point c to meet the line ab atp. (b) (i) Extend line cp to the point d such that (i i) Join a tod and b tod. (i i i) . (c) What type of quadrilateral is ad bc?",
+    "marking_scheme": "5 (a), (b)\n(b) (iii) 5cm, 5cm\n(c) Ad bc is a kite.",
+    "topic": "General Mathematics",
+    "image_paths": [],
+    "answer_image_paths": [
+      "images/bece/2005/theory/answers/p203_img1.png"
+    ]
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2005,
+    "subject": "Mathematics",
+    "question_no": 6,
+    "question_text": "The following marks were obtained by pupils in a test. 6 4 8 2 8 6 8 8 8 10 8 9 8 6 10 2 2 6 6 6 (a) Construct a frequency distribution table for the data. (b) What is the modal mark? (c) Calculate the mean mark. (d) How many pupils scored more than 6 marks? (e) What is the probability that a student chosen at random obtained 2 marks?",
+    "marking_scheme": "6 (a) Frequency table mark frequency\n2 3\n4 1\n6 6\n8 7\n9 1\n10 2\n6(b) The modal mark is the most occurring mark the modal mark = 8\n6(c) Method1 (Using raw data)\nThe sum of marks the mean mark = The total number of pupils\n(2 3) (4 1) (6 6) (8 7) (9 1) (10 2)\n= 3 1 6 7 1 2\n6 4 36 56 9 20\n= 20\n131 6 11\n= 20 = 20 or 6.55\n6(c) Method2 (Using frequency table)\nMark frequency\n(x) (f) fx\n2 3 6\n4 1 4\n6 6 36\n8 7 56\n9 1 9\n10 2 20\nf=20 fx=131\nf x\n131\nThe mean mark = =\nf 20\n611\n= or 6.55\n20\n6 (d) Sum of frequencies of8,9and10\n7+1+2 pupils = 10pupils number of pupils that obtained2marks\n6 (e) P(2marks) = Total number of pupils\n3\n= 20",
+    "topic": "Statistics",
+    "image_paths": [],
+    "answer_image_paths": [
+      "images/bece/2005/theory/answers/p203_img1.png"
+    ]
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2006,
+    "subject": "Mathematics",
+    "question_no": 1,
+    "question_text": "(a) A traders old 250 articles for¢525, 000.00 at a profit of 25%. (i) Calculate the cost price of each article (i i) If the trader had wanted 45%profit on the cost price,how much should he have sold each of the articles? (b) Find the simple interest on¢880, 000.00 for 2½years at 3¼%per annum",
+    "marking_scheme": "1 (x 1) 1 (x 3) 11",
+    "topic": "Commercial Maths",
+    "image_paths": [],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2006,
+    "subject": "Mathematics",
+    "question_no": 2,
+    "question_text": "(a) The ratio of men to women in a village is 12:25. If there are 120 me n, (i) how many women are there? (i i) what is the total number of men and women? (b) A bag contains 70 pencils out of which 15 are green and 30 blue. (i) How many pencils of other colours are in the bag? (i i) A pencil is selected from the bag at random. What is the probability that it is blue? (c) Solve 1(x 1) 1(x 3) 11 and illustrate your answer on the number line. 3 2 4",
+    "marking_scheme": "2(c) Method 2 (Eliminating fractions first, by multiplying through by 12)\n12 1 (x 1) 12 1 (x 3) 12(5)\n3 2 4",
+    "topic": "Ratio & Proportion",
+    "image_paths": [],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2006,
+    "subject": "Mathematics",
+    "question_no": 3,
+    "question_text": "(a) (i) Using a pair of compasses and ruler only,construct triangle xyz with x z=12 cm,X y=10 cm and angle xyz=90°. (i i) Measure yz. (i i i) Calculate the area of triangle xyz (i v) Measure angle zx y. (b) An isosceles triangle has a perimeter of(9 y 15)cm. What is the length of each of the two equal sides,if its third side is(3 y 7)cm?",
+    "marking_scheme": "3(a)\n(ii) |YZ| 6.6 cm\n(iii) Area of triangle xyz\n= ½ bh\n= ½ ×\n= ½× 10cm × 6.6cm\n= 10cm × 3.3cm\n= 33cm2\n(iv) Angle zx y 34°\n3(b)\n? ? Perimeter= 9y-15\n3y-7\nMethod 1\nLength of each of the two equal sides\n= [ (9y 15) (3y 7) ] ÷ 2\n(9y 15) (3y 7)\n=\n2\n9y 15 3y 7\n= 2\n9y 3y 15 7\n=\n2\n6y 8\n=\n2\n= ½ (6y 8)\n= 3y 4\nThe length of each of the two equal sides = 3y 4\n3(b) Method 2\nLet x = length of each of the other two sides the nx + x + 3y 7 = Perimeter x + x + 3y 7 = 9y 15\n2x+ 3y 7 = 9y 15\n2x = 9y 15 3y + 7\n2x = 9y 3y 15 +7\n2x = 6y 8\n6y 8\nx = 2\n6y 8\nx =\n2 2\nx = 3y 4\nThe length of each of the two equal sides\n= 3y 4",
+    "topic": "Geometry & Mensuration",
+    "image_paths": [],
+    "answer_image_paths": [
+      "images/bece/2006/theory/answers/p173_img1.png"
+    ]
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2006,
+    "subject": "Mathematics",
+    "question_no": 4,
+    "question_text": "The mapping below has the rule, y=2 x+3. x y (a) (i) Copy the mapping and fill in the missing numbers (i i) Using a scale of 2 cm to 1 unit on both axes on a graph sheet, choose the origin o and draw the perpendicular axe sox and oy. (iii) On the same graph sheet,mark the x-axis from 0 to 5 and they-axis from 0 to 12. (i v) Plot on the graph sheet the ordered pairs(x,y)from the mapping and join all the points using a straightedge. (b) From your graph,find: (i) y when x = 3.5; (i i) x when y=8; (iii) the gradient of the line y = 2 x+3.",
+    "marking_scheme": "4(a)(i)\nBy substitution of the x values in the given relation, the mapping is completed as shown below:\nx 0 1 2 3 4\ny 3 5 7 9 11\n(ii), (iii) The straight line graph is shown below y = 2x + 3 is in the for my = mx + c, where m = 2,\ngradient = 2 (by inspection)\ny y\n2 1\nOr by the rule xx\n2 1 , Using the points (2, 7) and (1, 5)\n7 5\n2\nGradient = 2 1 = 1 = 2",
+    "topic": "Commercial Maths",
+    "image_paths": [],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2006,
+    "subject": "Mathematics",
+    "question_no": 5,
+    "question_text": "(a) A man spent¼of his monthly salary on rent,2/ on food and 1/ on books.If he still had 5 6 ¢55, 000 left,what was his monthly salary? (b) The average age of a family of eight is 30 years. The average age of the six children in the family is 19 years. If the mother is four years younger than the father,calculate the age of the father.",
+    "marking_scheme": "5(a) Total fraction spent = Fractions spent on rent + food + books\n1 2 1\n=\n4 5 6\n15 24 10 49\nFraction spent = 60 = 60\n49 60 49 11\nFraction left = 1 = =\n60 60 60 60\nMethod 1 (Formula)\nFraction of total amount total amount amount left fraction left\n60\n60\nTotal amount(M.Salary) ¢55,000\n11\n60\n60 11\n¢55,000\n=\n60 60\n60 60\n= ¢55,000\n60 11\n60\n= ¢55,000\n11\n= 60 ¢5,000\n= ¢300,000\n5(a) Method 2 (Equivalent fractions)\nFraction amount (¢)\nSpent 49 ?\n60\n11\nLeft 55,000\n60\nTotal\n60\n? (x)\n(M. Salary) 60\n11 55,000\n11 55,000\n60\n60 x 60 x\n60\nCross-multiplying, we have\n11x 55,000 60\n11x 55,000 60\n11 11\n= 5,000 60\nx 300,000\nThe monthly salary is ¢300,000.00\n5(a) Method 3\n11\nIf 55,000\n60\n60\nThen ? (more)\n60\nIf more, less (11/ ) divides, hence we have\n60\n60\n60 55,000 60 11 ¢55,000\n=\n60 60\n11\n60\n60 60\n= ¢55,000\n60 11\n60\n= ¢55,000\n11\n= 60 ¢5,000\n= ¢300,000\n5(a) Method 4 (Equation)\n5(b) Method 2 [Expression in terms of the mother (m)]\nSince average age of the 8 family members = 30yrs,\nSum of ages of family members = 8 × 30 years = 240 years ages of children + (father) + mother = 240 years\n(6 × 19) + (4 + mother) + mother = 240\nage = m\n(6 × 19) + (4 +m) + m = 240\n114 + 4 + 2m = 240\n118 + 2m = 240\n2m = 240 118\n2m = 122\nm = 122 ÷ 2\nm = 61\n= 61 years therefore, the = 61years + 4years\n= 65 years",
+    "topic": "Commercial Maths",
+    "image_paths": [],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2006,
+    "subject": "Mathematics",
+    "question_no": 6,
+    "question_text": "The following table shows the distribution of grades obtained by 120 students in an examination. Grade a bcd no.of students 14 30 52 24 (a) Draw a pie chart for the distribution. (b) (i) Evaluate: 5 7 22 1 5 15 3 12 (ii) Factorize: xy x z+5 y 5 z",
+    "marking_scheme": "6 (a)\nGrade frequency angle of sector a 14 14 o o\n360 42\n120\nB 30 30 o o\n360 90\n120\nC 52 52 o o\n360 156\n120\nD 24 24 o o\n360 72\n120\nTotal 120 = 360°\nPie chart showing the distribution of grades obtained by 120 students in an examination\n6 (a) (i)\nMethod 1 (Evaluating whole numbers and fractions separately)\n5 7 2 2 1 5\n15 3 12\n5 2 1 7 2 5\n15 3 12\n28 40 25\n4\n60\n4 13\n60\n4 13\n60\n6 (b) (i)\nMethod 2 (Changing mixed fractions to improper fractions)\n5 7 2 2 1 5\n15 3 12\n82 8 17\n15 3 12\n328 160 85\n60\n253\n4 13\n60 = 60\n6 (b) (ii) xy x z + 5y 5z\n= x (y z) + 5 (y z)\n= (y z) (x + 5)",
+    "topic": "Algebra",
+    "image_paths": [],
+    "answer_image_paths": [
+      "images/bece/2006/theory/answers/p181_img1.png"
+    ]
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2007,
+    "subject": "Mathematics",
+    "question_no": 1,
+    "question_text": "(a) In a class of 39 students, 19 offer french and 25 offer ga.5 students do not offer any of the two languages. How many students offer only french? (b) In the diagram above,Ac is parallel tod g,angle bf g=118°and angle a be=83°. Find the value of (i) Angle cbf (i i) x (c) A fair die is thrown once, (i) Write down the set of all the possible outcomes (i i) Find the probability of obtaining a multiple of 2 (i i i) What is the probability of obtaining a prime number?",
+    "marking_scheme": "1 (a) Method1\nLet n(U) = No.of students in the class n(G) = No.of ga students x = No.of students that offer only french from the ven n diagram above,\nx + 25 + 5 = 39\nx + 30 = 39\nx = 39 30\nx = 9\nNumber of students that offer only french = 9\n1 (a) Method2\nLet b = No.of student that offer both french and ga from the above diagram,\n19 b+b+25 b+5= 39\n19 + 0 + 25 b+5 = 39\n19+ 25 + 5 b = 39\n49 b = 39\n49 39 = b\nb = 49 39\nb = 10\nBut french only = n(F) b\n= 19 10 = 9\nTherefore the number of students who offer only french=9\n1 (b) (i) Method1\nSince cbf and bf gare supplementary angles cbf+ BFG = 180°\nCBF+118° = 180°\nCBF = 180° 118°\nAngle cbf = 62°\n1 (b) (i) Method2\nSince angles b fe and bf g lie on a straight line b fe+ BFG= 180°\nBFE+118°= 180°\nBFE = 180° 118°\nBFE = 62°\nBut cbf = BFE (Alternate angles)\nCBF = 62°\n1 (b) (ii) Since a be,x and cbf lie on a straight line,\nABE+x+ CBF = 180°\n83°+x+62°= 180°\nx = 180° 83° 62°\nx = 35°\nNB:Triangle bef could also be used to find the value of x\n1 (c) (i) The set of all possible outcomes\n= {1,2,3,4,5,6}\n1 (c) (ii) Multiples of2within the set = 2,4,6\nNumber of multiples of 2\nP(multiple of2) = Total number of possible outcomes\n3 1\n= 6 2\nThe probability of obtaining a multiple of2 = ½\n1 (c) (iii) Prime numbers within the set = 2,3,5\nNumber of prime numbers p(prime number) = Total number of possible outcomes\n3 1\n= 6 2",
+    "topic": "Number & Numeration",
+    "image_paths": [
+      "images/bece/2007/theory/questions/p138_img1.png"
+    ],
+    "answer_image_paths": [
+      "images/bece/2007/theory/answers/p141_img1.png",
+      "images/bece/2007/theory/answers/p142_img1.png"
+    ]
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2007,
+    "subject": "Mathematics",
+    "question_no": 2,
+    "question_text": "(a) A water tank in the form of a cuboid of height 22 cm and a rectangular base of length 7 cm and width 5 cm is filled with water. The water is then poured into a cylindrical container of diameter 14 cm. Calculate the height of the water in the cylindrical container. 22/ ) 7 (b) A trader is given 15%discount on goods bought from a factory. If the original price of an item in the factory is¢45, 000, 000,calculate i) the discount on the item ii) the amount the trader paid for the item x 3 1 (c) Find the truth set of x and illustrate your answer on the number line. 3 2",
+    "marking_scheme": "2 (a) Method 3 (Finding the volume of water in cuboid first,then equating)\nVolume of water in cuboid = l×w×h cuboid\n= 7cm×5cm×22cm\n= 770cm3\nBut volume of water in cuboid = Volume of water in cylinder\n770cm3 = 154cm2× hc yl\n3\n770 cm\nh\n2 cyl\n154 cm\n5cm = hc yl the height of the water in the cylindrical container = 5cm\n2 (b) (i) The discount = Discount rate×Original price\n= 15% ¢45,000,000\n15\n= ¢45,000,000\n100\n= 15 ¢450,000\n= ¢6,750,000\n(ii) Amount paid = Original amount discount\n= ¢45,000,000 ¢6,750,000\n= ¢38,250,000\nx 3 1\n2 (c) x\n3 2\nApproach1\nx 3 1 x\n3 2 1\nx 3 1 2x\n3 2\nx 3 1 2x\n6 6\n3 2\n2(x 3) 3(1 2x)\n2x 6 3 6x\n2x 6x 3 6\n4x 9\n4x 9\n4 4\nx 21\n4\n2 (c) Approach2\nx 3 1\n6 6 x\n3 2\n2(x 3) 6(1) 6x\n2\n2x 6 3 6x\n3 6 6x 2x\n9 4x\n9 4x\n4 4\n21 x\n4\nx 21\n4\nThe number line is shown below:\n-3 -2 -1 0 1 2\n3\n-2¼ 2¼",
+    "topic": "Ratio & Proportion",
+    "image_paths": [
+      "images/bece/2007/theory/questions/p139_img1.png"
+    ],
+    "answer_image_paths": [
+      "images/bece/2007/theory/answers/p147_img1.png"
+    ]
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2007,
+    "subject": "Mathematics",
+    "question_no": 3,
+    "question_text": "Using a ruler and a pair of compasses only, (a) Construct triangle pq r such that the length of pq=10 cm,angle qpr=90°and angle pq r= 30° Measure the length of pr. (b) Bisect the angle qr p to meet pq atm. (c) With mas centre,and radius mp draw a circle. (d) Measure the radius of the circle 4. The bar chart above is for the distribution of marks in a class test (a) i) Write down the frequency table for the distribution ii) Use the table to find the mean mark (b) If the passmark is 4,how many pupils failed the test?",
+    "marking_scheme": "3(a),(b),(c)\n3(a) |PR| 5.8cm\n3(d) Radius of circle 3.3cm",
+    "topic": "Geometry & Mensuration",
+    "image_paths": [
+      "images/bece/2007/theory/questions/p139_img1.png"
+    ],
+    "answer_image_paths": [
+      "images/bece/2007/theory/answers/p147_img1.png"
+    ]
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2007,
+    "subject": "Mathematics",
+    "question_no": 5,
+    "question_text": "(a) M r. Jones used 173 units of electricity last month. If the charge for the first 110 units was¢150 per unit and¢200 per unit for the rest,calculate the total bill for mr. Jones. (b) Express 4 hours in seconds leaving your answer in the standard form 3 7 (c) Given the vectors r= and p= , ifq=2 p r,find q 5 9",
+    "marking_scheme": "5(a) Charge for:\nFirst110units = ¢150×110 = ¢16,500\nRemaining(173 110 =63)units = ¢200×63 = ¢12,600\nTotal charge = ¢12,600 + ¢16,500\n= ¢29,100.00\n5(b) Method1\n4hours = 4×60minutes\n= 240minutes now,240min = 240×60seconds\n= 14400seconds\n= 1.44×104seconds\n5(b) Method2\nSince 1hour = 60minutes and\n1minute = 60seconds\n1hour = 60×60seconds = 3600second snow, if 1hour = 3600seconds then 4hours = ?(more)\nIf more,less divides\n4 hours\n3600s\n1 hour\n4×3600s = 14400s\n= 1.44×104seconds\n5(b) Method3\nIf 1hour = 3600seconds then 4hours = x\n1 3600\n4 x\nx = 3600×4\nx = 14400\n4hours = 14400seconds\n= 1.44.×104seconds\n5(c) q = 2p r\n7 3\n= 2\n9 5\n14 3\n=\n18 5\n14 3\n=",
+    "topic": "Number & Numeration",
+    "image_paths": [],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2007,
+    "subject": "Mathematics",
+    "question_no": 6,
+    "question_text": "(a) Using a scale of 2 cm to 2 units on both axes,draw two perpendicular axe sox and oy on a graph sheet. On the same graph sheet,mark the x-axis from-10 to 10 and they-axis from-10 to 10. (i) Plot a(2, 2),B(6, 2)and c(4, 6). Join ab,Bc and ac (ii) Draw the image triangle abc of triangle abc under a clockwise rotation of 90 o about 1 1 1 the origin,where a . 1 1 1 (iii)Draw the image triangle abc of triangle abc under a reflection in they-axis,where 2 2 2 2 2 2 (b) When 12 is added to a certain number and the sum is multiplied by 4,the result is 60. Find the number",
+    "marking_scheme": "6 (b) Approach2 (Dividing through by4first)",
+    "topic": "Geometry & Mensuration",
+    "image_paths": [],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2008,
+    "subject": "Mathematics",
+    "question_no": 1,
+    "question_text": "(a) E and fare subsets of the universal set u such that u={natural numbers less than 15}, E={even numbers between 1 and 15}and f={multiples of 4 between 9 and 15}. (i) List the elements of u,E and f (i i) Draw aven n diagram to show these tsu,E and f (b) In a school, 7/ of the pupils like mathematics. Half of those pupils who like mathematics are 10 girls. If there are 240 pupils altogether in the school,how many girls like mathematics? (c) A typist charges 28 Gp for the first five sheets and 8 Gp for each additional sheets he types. How much will she earn,if she types 36 sheets? 2. The diagram a ebc d shows portion abc danda triangular portion a eb. |A b|=|D c|=90 m,|A d|=|B c|=70 m,|A e|=48.5 m and|E b|=50 m. The height of the triangle is 20 m. (a) Find the (i) Area of a bcd (i i) Area of a eb (i i i) Totalarea of the garden (i v) Perimeter of the garden. 3 x 2 1 4 x (b) Find the value of x if is greater than by 5. 5 10",
+    "marking_scheme": "1 (a) (i) U =\nE = {2,4,6,8,10,12,14}\nF = {12}\n(ii)\n1 (b) Method1\n7/ of 240pupils like mathematics\n10\n7/ × 240pupils like mathematics\n10\n7×24 = 168\n168pupils like mathematics but half of168pupils who like mathematics are girls\n½ of168pupils are girls who like mathematics\n½ × 168pupils\n84girls like mathematics\n1 (b) Method2\nHalf of pupils who like mathematics are girls\n½ of 7/ of 240pupils\n10\n½ × 7/ × 240\n10\n7/ × 240\n20\n84\n84girls like mathematics\n1 (c) Charge for: First5sheets = 28Gp remaining31sheets = 31×8Gp = 248Gp charge for typing36sheets = first5sheets+remaining31sheets\n= 28Gp + 248Gp\n= 276Gp or gh¢2.76",
+    "topic": "Set Theory",
+    "image_paths": [
+      "images/bece/2008/theory/questions/p113_img1.png"
+    ],
+    "answer_image_paths": [
+      "images/bece/2008/theory/answers/p116_img1.png",
+      "images/bece/2008/theory/answers/p117_img1.png"
+    ]
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2008,
+    "subject": "Mathematics",
+    "question_no": 3,
+    "question_text": "(a) A traffic survey gave the results shown in the table below. Vehicle car lorry bus bicycle frequency 15 12 8 25 (i) Represent the information on a pie chart. (i i) What percentage of the vehicles were lorries? (b) A kos u a was granted a loan of gh¢96.00.The interest rate was 24% per annum. Calculate the (i) Interest at the end of the year (i i)Total amounts he had to pay at the end of the year. (i i i) Amounts he still owes,if a kos u a was able to pay only gh¢60.00 at the end of the year",
+    "marking_scheme": "3 (a) (i)\nVehicle frequency angle of sector car 15 15 o o\n360 90\n60\nLorry 12 12 o o\n360 72\n60\nBus 8 8 o o\n360 48\n60\nBicycle 25 25 o o\n360 150\n60\nTotal 60 360°\nPie chart showing results of a traffic survey no.of lorries\n3 (a) (ii) Percentage of lorries = Total no.of vehicles 100%\n12\n100%\n= 60\n= 20%\n20%of the vehicles were lorries\n3 (b) (i) Simple interest = Principal × Rate ×Time\n96 24% 1\n=\n24\n96 24\n= 96 1 =\n100 100\n2304\n= = 23.04\n100\nThe simple interest is gh¢23.04\n(ii) Total amount to pay = Principal+S.Interest\n= GH¢96.00+GH¢23.04\n= GH¢119.04\n(iii) Amount still owed = Total amount amount paid\n= GH¢119.04 GH¢60.00\n= GH¢59.04",
+    "topic": "Number & Numeration",
+    "image_paths": [
+      "images/bece/2008/theory/questions/p113_img1.png"
+    ],
+    "answer_image_paths": [
+      "images/bece/2008/theory/answers/p120_img1.png"
+    ]
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2008,
+    "subject": "Mathematics",
+    "question_no": 4,
+    "question_text": "(a) Copy and complete the table of values for the relations y =2 x+5 andy =3-2 x for x from-4 to 3 1 2 x -4 -3 -2 -1 0 1 2 3 y =2 x+5 -3 3 7 11 1 y =3-2 x 11 9 5 -3 2 (b) (i) Using a scale of 2 cm to 1 unit on the x-axis and 2 cm to 2 units on they-axis,draw two perpendicular axe sox and oy on a graph sheet. (i i) On the same graph sheet draw the graphs of the relations y =2 x+5 andy =3-2 x 1 2 (c) Find the coordinates of the point where y andy meet. 1 2 2 2 (d) The vectors p= ,q= andr=½(q+p).Find the vector r 3 5",
+    "marking_scheme": "4 (a) (i) By substitution of the x values in the given relations,the table is completed as shown below:\nx -4 -3 -2 -1 0 1 2 3\ny =2x+5 -3 -1 1 3 5 7 9 11\n1\ny =3-2x 11 9 7 5 3 1 -1 -3\n2\n4 (b) The straight line graph is shown below\n4 (c) y andy meet at(-0.5,4)\n1 2\n4 (d) r = ½(q+p)\n2 2\n2 2 1\n= ½ =\n2 5 3\n5 3\n4 1 4\n1 2 2\n= 2 8 = 1 8 =\n4\n2",
+    "topic": "Vectors & Matrices",
+    "image_paths": [
+      "images/bece/2008/theory/questions/p113_img1.png"
+    ],
+    "answer_image_paths": [
+      "images/bece/2008/theory/answers/p122_img1.png"
+    ]
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2008,
+    "subject": "Mathematics",
+    "question_no": 5,
+    "question_text": "(a) Using a ruler and a pair of compasses only, (i) construct triangle abc with sides|A b|=7 cm,|B c|=8 cm and|A c|=9 cm; (i i) draw the perpendicular bisectors of the three sides; (i i i) locate the point of the intersection,O,of the perpendicular bisectors; (i v) With centre o and radius o a,draw a circle to pass through the vertices of the triangle. (b) Measure and write down the radius of the circle you have drawn in a)(i v) (c) Find the product of(2 x 3)and(x 1)",
+    "marking_scheme": "5 (a)\n5 (b) Radius of circle 4.7cm\n5 (c) The product of (2x-3)and(x-1)\nApproach1 (Distributive property)\n(2x 3) (x 1)\n2x (x 1) 3(x 1)\n= 2x2 2x 3x+3\n= 2x2 5x +3\nApproach2 (Smiley face)\n1st: 2x x x = 2x2\n1st 2nd\n2nd: -3 x -1 = +3\n(2x 3 ) ( x 1)\n3rd: 2x x -1 = -2x\n4th: -3 x x = -3x\n4th\n3rd\n2x2 +3 2x 3x grouping like terms\n2x2 2x 3x +3\n-2x-3x = -5x\n2x2 5x + 3\nApproach3 (Moon shape)\n2nd\n1st\n1st: 2x x x = 2x2\n(2x - 3 ) ( x 1)\n2nd: 2x x -1 = -2x\n3rd\n3rd: -3 x x = -3x\n4th\n2x2 2x 3x +3\n2x2 5x + 3",
+    "topic": "Set Theory",
+    "image_paths": [],
+    "answer_image_paths": [
+      "images/bece/2008/theory/answers/p123_img1.png"
+    ]
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2008,
+    "subject": "Mathematics",
+    "question_no": 6,
+    "question_text": "(a) The marks obtained by 20 pupils in a test were as follows: 4 8 7 6 2 1 7 4 3 7 6 4 7 5 2 7 5 4 8 3 (i) Construct a frequency distribution table for this data (i i) What is the mode of the distribution? (i i i) Calculate the mean mark (i v) What percentage of the pupils passed,if the passmark is 6? (v) What is the probability that a pupils elected at random scored not more than 5 marks? (b) Simplify 7 2 4 5 23 3 6 8",
+    "marking_scheme": "6 (a) (i)\nMark frequency\n1 1\n2 2\n3 2\n4 4\n5 2\n6 2\n7 5\n8 2\n6 (a) (ii) Mode = The most occurring quantity mode = 7marks\n6 (a) (iii) Method1 (Using the raw data)\nThe sum of marks the mean mark = The total number of pupils\n(1 1) (2 2) (3 2) (4 4) (5 2) (6 2) (7 5) (8 2)\n= 1 2 2 4 2 2 5 2\n1 4 6 16 10 12 35 16\n= 20\n100\n= 20 = 5\n6 (a) (iii) Method2 (Using the frequency table)\nMark frequency\n(x) (f) fx\n1 1 1\n2 2 4\n3 2 6\n4 4 16\n5 2 10\n6 2 12\n7 5 35\n8 2 16\nf x\n100\nThe mean = f = 20 = 5\n6 (a) (iv) Percentage of pupils who passed no.of pupils who passed(obtained6or more)\n100%\n= Total no.of pupils\n2 5 2\n100%\n= 20\n9\n100%\n= 20\n= 45%\n45%of the pupils passed\n6 (a) (v) Not more than5marks 5or less therefore,P(not more than5marks)\nNumber of pupils that obtained5or less marks\n= Total number of pupils\n1 2 2 4 2\n=\n1 2 2 4 2 2 5 2\n11\n=\n20\n6 (b)\nMethod1 (Evaluating whole number and fractions separately)\n7 2 4 5 2 3\n3 6 8\n7 4 2 2 5 3\n3 6 8\n16 20 9\n5\n24\n5 5\n24\n5 5\n24\n6 (b)\nMethod2 (Changing mixed fractions to improper fractions)\n7 2 4 5 2 3\n3 6 8\n23 29 19\n3 6 8\n184 116 57\n24\n125\n24\n5 5\n= 24",
+    "topic": "Number & Numeration",
+    "image_paths": [],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2009,
+    "subject": "Mathematics",
+    "question_no": 1,
+    "question_text": "(a) Simplify: and write your answer in standard form 800 (b) A plot of land measures 25 m by 12 m. A portion of this plot measuring 8 m by 8 misused for the cultivation of vegetables. Find the area of the plot not cultivated (c) The table below shows the performance of aisha in her final examination. Subject score english language 54% Mathematics 36% Ga 68% Science 50% Social studies 32% Draw a pie chart to represent this information",
+    "marking_scheme": null,
+    "topic": "Number & Numeration",
+    "image_paths": [],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2009,
+    "subject": "Mathematics",
+    "question_no": 2,
+    "question_text": "The table below shows the scores of some students in an examination. Scores 0 1 2 3 4 5 6 7 8 9 10 Frequency 3 5 3 2 7 6 5 4 2 2 1 From the table find (a) how many students wrote the examination (b) the modal score (c) the number of students that scored 7 or more (d) the means core correct to one decimal place",
+    "marking_scheme": "2 ( 3) 3 ( 4) 5\n+\n2 2 3 ( 1) 7\n6 12 5\n+\n4 3 7",
+    "topic": "Number & Numeration",
+    "image_paths": [],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2009,
+    "subject": "Mathematics",
+    "question_no": 3,
+    "question_text": "(a) (i) Using a scale of 2 cm to 1 unit on both axes, draw two perpendicular axe sox and oy on a graph sheet. (i i) Mark on the same graph sheet the x-axis from-5 to 5 andy-axis from-6 to 6 (i i i) Plot the points a(2, 5),B(2, 2)and c(4, 2). Join the points a,Band c to form a triangle abc (iv) Using they-axis as mirror line,draw the image triangle abc of the triangle abc such 1 1 1 . Write down the coordinates of a ,Band c 1 1 1 1 1 1 (v) Draw the image triangle abc of triangle abc under anticlockwise rotation of 180 o 2 2 2 . Write down the coordinates of a ,B 2 2 2 2 2 and c 2 3 5 4 (b) Given that a , band c 2 7 1 Evaluate 2 a 3 c+b",
+    "marking_scheme": "3(a)\nApproach 1 (By inspection / Construction)\n3(a)\nApproach 2 (The rule / formula)\n3 (a) (iv) Reflecting (x, y) in they-axis xxy y\n2 2\nO ao a , A( 2,5)\n5 1 5 1\n2 2\nO bob , B( 2,2)\n2 1 2 1\n4 4\nOc oc , C ( 4,2)\n2 1 2 1\nPlot and join a (-2,5),B (-2,2)and c (-4,2)as the image of triangle abc under a\n1 1 1\nreflection in they axis as shown above.\n3 (a) (v) Rotating (x, y) through 180° about the origin xxy y\n2 2\nO ao a , A ( 2, 5)\n5 2 5 2\n2 2\nO bob , B ( 2, 2)\n2 2 2 2\n4 4\nOc oc , C ( 4, 2)\n2 2 2 2\nPlot and join a (-2,-5),B (-2,-2)and c (-4,-2)as the image of triangle abc under a\n2 2 2\nrotation through180°about the origin as shown above.\n3 (b)\n2 a 3 c + b\n3 4 5\n2 3 +\n2 1 7",
+    "topic": "Geometry & Mensuration",
+    "image_paths": [],
+    "answer_image_paths": [
+      "images/bece/2009/theory/answers/p93_img1.png"
+    ]
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2009,
+    "subject": "Mathematics",
+    "question_no": 4,
+    "question_text": "(a) The ratio of sheep to goats on a farm is 4:7. If there are 1, 428 sheep,find how many goats are on the farm. (b) Using a ruler and a pair of compasses only,construct a triangle abc with|A b|=6 cm,|A c|= 8 cm and angle bac=30°. Construct the bisector of angle acb to meet line aba td. (i) Measure|A d|and|B d| (i i) Write down the ratio|A d|:|B d|.",
+    "marking_scheme": "4 ( 3) ( 7)\n6 12 5\n4 3 7\n1\n0\n4 (a) Method 1 (Unitary approach the value of one item)\nIf the sheep ratio, 4, corresponds to 1428,\n1428\nthen ratio, 1, corresponds to 357\n4\nhence, goat ratio, 7, corresponds to 7 357 = 2499 goats\n4 (a) Method 2 (Equivalent fractions)\nRatio actual no.\nSheep 4 1428\nGoats 7 g\n4 1428\nFrom the table above, 7 g cross-multiplying\n4 g 1428 7\nDividing both side by4to\n4g 1428 7\nfind g\n4 4\ng 357 7\n= 2499 goats\n4 (a) Method 3 (The rule:\nIf 4 1428\nThen 7 ? (more)\nIf more, less (i.e., 4) divides; we have\n7\n1428 7 357 = 2499 goats\n4\n4 (a) Method 4 (Equivalent ratios)\n4 : 7 = 1428 : g\n4g 7 1428\n4 4\ng 2499\n2499 goats\n4(b)\n(i)\n(ii) |AD| : IBD| = 4cm : 2cm\n= 2 : 1",
+    "topic": "Ratio & Proportion",
+    "image_paths": [],
+    "answer_image_paths": [
+      "images/bece/2009/theory/answers/p96_img1.png"
+    ]
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2009,
+    "subject": "Mathematics",
+    "question_no": 5,
+    "question_text": "(a) The diagram is a triangle abc with the side ac produced tod. Find: (i) The value of x (i i) angle acb ptr (b) The simple interest formula i gives the interest,Iona principal,P invested at a rate,R 100 per annum for time,T years. (i) Find the simple interest on gh¢3, 600.00 at 15%per annum for 2 years. (i i) Maker the subject of the simple interest formula. (i i i) At what rate per annum will gh¢6, 000.00 earn gh¢2, 400.00 simple interest in 2 years?",
+    "marking_scheme": "5 (a)(i) Method 1 (Exterior angle = two opposite interior angles)\nFrom the diagram,\n(x 17)o (2x 7)o (9x)o exterior angle(9x)°=two opposite interior angles xo 17o (2x)o 7o (9x)o\n(x+17)°and(2x+7)°\n17o 7o (9x)o xo (2x)o solving for x\n24o (6x)o\n24 6x\n6 6\n4 x\nx 4\n5 (a)(i) Method 2 (Sum of interior angles of triangle = 180°)\nFrom the diagram, ACB + (9x)° = 180°\nACB = 180° - (9x)°\n180° - (9x)° + (x+17)° + (2x+7)° = 180°\n180° -180° + (x+17)° + (2x+7)° = (9x)°\nxo 17o (2x)o 7o (9x)o\n17o 7o (9x)o xo (2x)o\n24o (6x)o\n24 6x\n6 6\n4 x\nx 4\n5 (a)(ii) ACB + (9x)° = 180°\nACB + (9×4)° = 180°\nACB + 36° = 180°\nACB = 180° - 36°\nAngle acb = 144°\nPTR\n3,600 2 15\n5 (b) (i) I =\n100 100\n= 36 × 2 × 15 = 1080\nSimple interest = GH¢1,080.00\n5 (b) (ii) Method 1\nPtr i\n100\nPTR\n100 I 100\n100\n100 Ip tr\n100 Ip trp t pt\n100 Irp t\n100 Irp t\n100 Irp t\n5 (b) (ii) Method 2\nPtr i\n100\n100 Ip tr\n100 Ip trp t pt\n100 Irp t\n100 Irp t\n100 Irp t\n5 (b) (ii) Method 3\n100\nPtr multiplying both sides by ip t\n100\nPt to remove 100\n100 100 P trip t pt 100\n100 Irp t\n100 Irp t\n100 Irp t\n5 (b) (iii) Approach 1 (Substitute values in the expression for r)\nUsing the result obtained in (ii) above\n100 Irp t\n100 2,400\nR\n6,000 2\n100 2,400\nR = 20\n6,000 2\nThe rate = 20%\nApproach 2 (Substitute values in the given expression for simple interest)\nPtr substituting in i , we have\n100\n6,000 2 R\n2,400\n100\n2,400 100\nR\n6,000 2\nR = 20\nThe rate = 20%\nNB:\nIn actual fact,the simple interest,I,on a principal,P,at a rate,R,over a time,\nT,is given by i=PTR, (not ptr)\n100\n[the is on account of the rate being usually expressed as a percentage]\n100\nHence,if for instance, P=GH¢6000,T=3years andr=15%\nThen simple interest = P T R\n= 6000 3 15%\n15\n= 6000 3\n100\n= GH¢2700\nPtr not ,\n100\n6000 3 15%\n100",
+    "topic": "Algebra",
+    "image_paths": [
+      "images/bece/2009/theory/questions/p89_img1.png"
+    ],
+    "answer_image_paths": [
+      "images/bece/2009/theory/answers/p96_img1.png",
+      "images/bece/2009/theory/answers/p99_img1.png"
+    ]
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2009,
+    "subject": "Mathematics",
+    "question_no": 6,
+    "question_text": "(a) Given that¢10, 000.00=Gh¢1.00. Complete the following table relating ced is(x)to ghana ced is(y) ¢(x) 10,000 50,000 150,000 250,000 350,000 450,000 Gh¢(y) 1 45 (b) (i) On a graph sheet draw two perpendicular axe sox and oy. (ii) Using a scale of 2 cm to¢50,000.00 on the ox axis and 2 cm to gh¢5.00 on the o yo axis. Mark the ox axis from 0 to¢450, 000 and oy axis from 0 to gh¢50.00 (c) Plot the points and join them with a straight line (d) From your graph find the value of (i) Gh¢8.00 in ced is(¢) (i i) Gh¢35.00 in ced is(¢) (i i i) ¢260, 000.00 in ghana ced is(Gh¢)",
+    "marking_scheme": "6(a) Using the idea of simple proportion, the table is completed as shown below:\n¢ (x) 10,000 50,000 150,000 250,000 350,000 450,000\nGH¢(y) 1 5 15 25 35 45\n6 (b), (c) The straight line graph is shown below\n6 (d) From the graph, the value of\n(i) GH¢8.00 = ¢ 80,000.00",
+    "topic": "Commercial Maths",
+    "image_paths": [
+      "images/bece/2009/theory/questions/p89_img1.png"
+    ],
+    "answer_image_paths": [
+      "images/bece/2009/theory/answers/p101_img1.png"
+    ]
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2010,
+    "subject": "Mathematics",
+    "question_no": 1,
+    "question_text": "(a) Factorize: (m+n)(2 x y) x(m+n) (b) A and bare subsets of a universal set u={1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18} Such that a={even numbers}and b={multiples of 3} (i) (i i) Illustrate the information in(i)on aven n diagram (c) Find the values of x andy in the vector equation 5 x 1 2 0 3 y 7",
+    "marking_scheme": "1. (a) (m+n)(2x y) x(m+n)\nMethod1\n= (m+n)[2x y x]\nFactorizing(m+n)out\n= (m+n)(2x x y)\n= (m+n)(x y) NB: (m +n)(x y)=(x y)(m+n)\nMethod2\n(m+n)(2x y) x(m+n)\nExpanding\n= 2mx my+2nx ny mxn x\n= 2mx mx+2nx nx my ny\n= mx + nx my ny\n= x(m+n) y(m+n)\n= (m+n)(x y)\n1 (b) (i) A = {2,4,6,8,10,12,14,16,18}\nB = {3,6,9,12,15,18}\n= {6,12,18}\nA B = {2,3,4,6,8,9,10,12,14,15,16,18}\n(A = {1,5,7,11,13,17}\n1(b) (ii)\nU\nA B\n5 x 1\n1 (c) 2 0\n3 y 7\nUsing the horizontal(x)component,we have\n5 +2x 1 = 0\n2x = 1 5 Solving for x\n2x 4\n2 2\nx = -2\nUsing the vertical(y)component,we have\n3+2y (-7) =0\n3+2y+7 =0\n2y+10 = 0\n2y = 10\n10\ny\n2\ny = 5",
+    "topic": "Set Theory",
+    "image_paths": [],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2010,
+    "subject": "Mathematics",
+    "question_no": 2,
+    "question_text": "(a) Find the sum of 2, 483.65, 701.532 and 102.7,giving your answer to one decimal place. (b) In the quadrilateral a bcd above,|A b|=3 cm,|B c|=4 cm,|C d|=12 cm and angle abc= 90°. Calculate: (i) the perimeter of a bcd (i i) the area of a bcd 27 34 53",
+    "marking_scheme": "2. (a) 2,483.65+701.532+102.7\n2483.65\n701.532\n102.7\n3287.882\n3287.9 (one decimal place)\n2 (b)\n(i) Side ac is the hypotenuse of triangle abc.\nFrom the pythagorean theorem,\n2 2 2\nAca bbc ac 2 (3cm)2 (4cm)2\nAC 2 9cm2 16cm2\nAC 2 25cm2\nAC 25cm2\nAC 5cm now,side ad is the hypotenuse of triangle acd from the pythagorean theorem,\n2 2 2\nAd acc dad (5cm)2 (12cm)2\nAD 169cm2\nAD 13cm hence the perimeter of abc dab bcc dda\n=\n3cm 4cm 12cm 13cm\n=\n32cm\n=\nThe perimeter of a bcd is32cm\n2 (b) (ii) Area of(A bcd = +\n= ½(b h )+ ½(b h )\n1 1 2 2\n= 1(3cm)(4cm) 1(5cm)(12cm)\n2 2\n22cm 9cm 16cm\n= d simplifying\n22 6cm 6cm\n7\n22cm 9cm 16cm 7\nd\n22 6cm 6cm\n28cm\n= d the depth(d)of water in the cylindrical container = 28cm.",
+    "topic": "Number & Numeration",
+    "image_paths": [
+      "images/bece/2010/theory/questions/p64_img1.png"
+    ],
+    "answer_image_paths": [
+      "images/bece/2010/theory/answers/p68_img1.png"
+    ]
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2010,
+    "subject": "Mathematics",
+    "question_no": 3,
+    "question_text": "(a) Evaluate: ,leaving your answer in standard form. 23 32 52 (b) Kwame rode a bicycle for a distance of x km and walked for another½hour at a rate of 6 km/hour. If kwame covered a total distance of 10 km,find the distance x he covered by bicycle. (c) A rectangular tank of length 22 cm,width 9 cm and height 16 cm is filled with water. The water is poured into a cylindrical container of radius 6 cm. Calculate the: (i) volume of the rectangular tank (i i) depth of water in the cylindrical container. 22/ ] 7",
+    "marking_scheme": null,
+    "topic": "Number & Numeration",
+    "image_paths": [
+      "images/bece/2010/theory/questions/p64_img1.png"
+    ],
+    "answer_image_paths": []
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2010,
+    "subject": "Mathematics",
+    "question_no": 4,
+    "question_text": "(a) Simplify: 72 45 23 3 6 8 (b) The area of a trapezium is 31.5 cm 2. If the parallel sides are of lengths 7.3 cm and 5.3 cm, calculate the perpendicular distance between them. (c) The marks scored by four students in a mathematics test areas follows: E s i - 92 Seth - 85 Mary - 65 E f e - x (i) Write down an expression for the mean(average)of the marks. (i i) If the mean is less than 80,write a linear inequality for the information (i i i) Find the possible marks e fe scored in the test. Represent your answer on the number line. 4 x 3 8 x 10",
+    "marking_scheme": "4 (c)\n92 85 65 x\n(i) The mean mark =\n4\n92 85 65 x\n(ii) If the mean is less than80then 80, {x:x\n4\n92 85 65 x\n(iii) 80\n4\n242 x\n80\n4\n242 x\n4 4 80\n4\n242 x 320\nx 320 242\nx 78\n{x:x<78, x the possible marks(x)that e fe scored in the test\n= x<78\n32x 88 8\n96\n=\n32 32 32\nx 3",
+    "topic": "Algebra",
+    "image_paths": [
+      "images/bece/2010/theory/questions/p64_img1.png"
+    ],
+    "answer_image_paths": [
+      "images/bece/2010/theory/answers/p75_img1.png"
+    ]
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2010,
+    "subject": "Mathematics",
+    "question_no": 5,
+    "question_text": "(a) Solve: 23 2 8 4 (b) Using a scale of 2 cm to 1 unit on both axes,draw two perpendicular line sox and oy on a graph sheet for the x axis from-5 to 5 and they axis from-6 to 6. (i) Plot the points a(2, 3)and b(-3, 4)and join them with along straight line (i i) Plot on the same graph sheet,the points c(4, 2)and d(-2,-3)and join them with along straight line to meet the line through ab (i i i) Measure the angle between the lines through a band cd. (i v) Find the coordinates of the point at which the lines through a band cd meet.",
+    "marking_scheme": "5 (b)\n5 (b) (iii) The acute angle between lines a band cd 50°\n5(b) (iv) The coordinates of the point at which the lines through a band cd meet\n(4.6,2.5)",
+    "topic": "Commercial Maths",
+    "image_paths": [],
+    "answer_image_paths": [
+      "images/bece/2010/theory/answers/p75_img1.png"
+    ]
+  },
+  {
+    "exam_type": "BECE",
+    "year": 2010,
+    "subject": "Mathematics",
+    "question_no": 6,
+    "question_text": "The table below shows the frequency distribution of the number of letters in the surnames of some students in a school. No.of letters 4 5 6 7 8 9 10 No.of students 7 3 2 8 5 3 1 (a) From the distribution,determine (i) the mode (i i) the mean (b) If a student is selected at random,find the probability that his/her name will contain more than 7 letters. (c) Draw a bar chart for the distribution",
+    "marking_scheme": "6.\n(a)(i) The mode = The most-occurring number of letters\n(the number of letters with the highest frequency)\nThe mode = 7letters\n(ii)\nNo.of letters no.of students(f) fx\n(x)\n4 7 28\n5 3 15\n6 2 12\n7 8 56\n8 5 40\n9 3 27\n10 1 10\n=29 =188\nf x\n188\nThe mean = =\nf 29\n614\n= 6.483\n29\n6 (b) P(surname has more than7letters)\nNumber of students with more than7letters in surname\n=\nTotal number of students\n5 3 1\n= 7 3 2 8 5 3 1\n9\n= 29\nThe probability that a students elected at random has a surname with more than7letters\n9\n= 29\n6 (c)\nVertical axis scale: 2cm to1student",
+    "topic": "Statistics",
+    "image_paths": [],
+    "answer_image_paths": []
+  }
+]

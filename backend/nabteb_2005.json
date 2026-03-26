@@ -1,0 +1,83 @@
+[
+  {
+    "exam_type": "NABTEB",
+    "year": 2005,
+    "subject": "Mathematics",
+    "question_no": 1,
+    "question_text": "1(a) Solve for x in 83x x 8-1 = 32\nlog27\n(b) Simplifying without using tables,\nlog3\n/AD/ = 40.16 x 2\n8.4 x 1\n= 9.56cm\n0.00548.19",
+    "marking_scheme": "(a) 23(3x) x 23(-1) = 25\n 3(3x) – 3 = 5\n9x – 3 = 5\n x = 8/9\nlog27 log33 3log3\n(b)   3\nlog3 log3 log3\n2(a) The 6th term of a G.P is 1215. If the common ratio is 3; find its 3rd term.\n(b) ABC is a triangle with BC = 8.4cm, ADC = 90o and area 40.16cm2. Find /AD/.\nSolution\n(a) T = arn-1  a(3)5 =1215\n6\na = 1215 = 5\n243\n 3rd term = 5 x 32 = 45\n(b) Area of a triangle = ½ x 8.4 x /AD/\n= 40.16cm2",
+    "topic": "Indices & Logarithms"
+  },
+  {
+    "exam_type": "NABTEB",
+    "year": 2005,
+    "subject": "Mathematics",
+    "question_no": 3,
+    "question_text": "3(a) Simplify , leaving your answer in standard form.\n0.000243\n(b) A length of 8.85m is increased to 9.37m. Calculate the increase.\n x =12\n(b) y = 20 – (5+8+3) = 4\nn (Bike Bus) = 12+12+5+8+3+4 = 44\nn (cars only) = 65- 44\n= 21",
+    "marking_scheme": "(a) 54 x 10-3 x 819 x 10-2\n243 x 10-5\n= 1.82 x 102\nor 0.054 x 819 = 0.44226 = 182\n0.00243 0.00243\n= 1.82 X 102\n(b) increase in length = (9.37 – 8.85)m\n= 0.52m\npercentage increase = 0.52 x 100\n8.85\n= 5.876% = 5.88% approx.\n4. 65 of the workers in a certain company in Lagos were interviewed about the means of\ntransportation to work on a particular day. Each of them used one or more of the means\nshown on the Venn diagram below.\nGiven that 37 workers used Bike and 20 used Bus, find\n(a) x\n(b) the number of workers who used cars only\nSolution\n4(a) x + x + 5 + 8 = 37\n2x = 24",
+    "topic": "Indices & Logarithms"
+  },
+  {
+    "exam_type": "NABTEB",
+    "year": 2005,
+    "subject": "Mathematics",
+    "question_no": 5,
+    "question_text": "5. The centre of the circle ABC is O. If its radius is 8cm and < ACB = 40o, Calculate the\nlength of the\n(a) Chord AB\n(b) Perpendicular OM\nLength of the chord AB = 2/MB/ = 2 x 5.142\n= 10.28cm = 10.3cm approx\n(b) /OM/= 8 Cos 40o or 8Sin50o\n=6.128cm = 6.13cm = 6.1cm\nALITER: Using Pythagoras’ rule\nOM = √ (OB) 2 – (MB) 2 = 6.1cm",
+    "marking_scheme": "< AOB = 2<ABC = 2 x 40o = 80o\n< BOM = ½ of 80o = 40o\nConsidering triangle OMB,\n/MB/ = 8 sin 40o\nor 8 Cos 50O = 5.142cm",
+    "topic": "Trigonometry"
+  },
+  {
+    "exam_type": "NABTEB",
+    "year": 2005,
+    "subject": "Mathematics",
+    "question_no": 6,
+    "question_text": "6(a) Find the value of a and b in the figure below\n(b) Five years ago, a father was twice as old as his son. In 4 years’ time, the sum of their\nages will be 78. Find their present ages.\nSolution(a) b = 180 o – 120 o = 60 o (opposite angles in cyclic quad are supplementary)\nConsidering ∆ACD,\na + b + 80 o =180 o (s in a ∆)\n a = 180 o – 80 o – 60 o = 40 o\n(b) Let the present ages be son, x yrs, father y yrs,\nthen 5 years ago, we have\ny – 5 = 2(x-5)\n 2x – y = 5 ___________ (1)\nin 4 years’ time, we have\n(x+ 4) + (y+4) = 78\n x+y = 70 ____________ (2)\nFrom (1) and (2), we have, x = 25 and y = 45\n their present ages are son = 25 yrs, father = 45 years\n(a) ALITER\n5 year ago if son is y year’s old father was 2y years old. In 4 years time, son will be\n(y+5+4) yrs\nfather = (2y+5+4) yrs\nwhich gives y + 9 + 2y + 8 = 78; y = 20\nthe present ages are y + 5 = 25yrs and 2y + 5 = 45yrs for the son and father respectively.",
+    "marking_scheme": null,
+    "topic": "Circle Theorems"
+  },
+  {
+    "exam_type": "NABTEB",
+    "year": 2005,
+    "subject": "Mathematics",
+    "question_no": 7,
+    "question_text": "7. The bearings of points P and Q from 045o and 120 o respectively. If the distance AP is\n80km and AQ is 50km, calculate the:\n(a) distance between P and Q to 3 significant figures\n(b) bearing of Q from P, to the nearest degree.\n(c) how far east of A is Q?\n(PQ)2 = 802 + 502 - (50) Cos75 o = 6829.6\n\nPQ = 6829.6 = 82.6km",
+    "marking_scheme": "(a)\nCorrect diagram with at least three of 50km, 80km, 45 o, 60 o or 120 o shown <PAQ = 75 o\n7(b) Sin <APQ = 50 x sin 75 o = 0.5847\n82.6\n<APQ = sin-1 0.5847 = 35.78 o\n<QPN = 45 o – 35.78 o = 9.22 o\nThe bearing of Q from P = 1800 + 9.220\n= 189 o (to the nearest degree).\n < QAM = 30o\n(c) A is 50 x Cos 30o = 43.3km east of Q\n8(a) The table below shows the scores of a group of 40 students in a test.\nScore (x) 1 2 3 4 5 6 7 8 9 10\nFrequency (f) 3 4 5 7 8 6 3 2 1 1\nFind the (i) mode, (ii) median and (iii) mean\n(b) The 2nd and 4th terms of a G.P. are 10 and 40 respectively. Find the\n(i) common ratio\n(ii) first term\n(iii) 8th term of the series\nSolution\n(a) (i) mode = 5\n(ii) median = 5 + 5 = 5\n2\n(iii) fx = 3 + 8 + 15 + 28 + 40 + 36 + 21 + 16 + 9 + 10\n= 186\nmean = 186 = 4.65\n40\n(b) ar2-1 = 10 = ar = 10\nar4-1 = 40 = ar3 = 40\n40\n r2 = = 4\n10\n(i)  r = + 2, r = 2 or -2\n(ii) Hence 2a = + 10  a = + 5\n(iii) T = + 5 x 27 = 640\n8",
+    "topic": "Trigonometry"
+  },
+  {
+    "exam_type": "NABTEB",
+    "year": 2005,
+    "subject": "Mathematics",
+    "question_no": 9,
+    "question_text": "9 Using a ruler and a pair of compasses only construct:\n(a) A triangle ABC such that /AB/=9cm,\nABC = 60o and ACB = 45 o.\n(b) (i) Construct the locus l of points 4.5cm from A.\n1\n(ii) Construct the locus l of points equidistant from B and C to intersect l at x and x\n2 1 1 2\nmeasure /x x /.\n1 2\n1\nVolume of the small cone = x 3.142 x 92 x 36\n3\n= 3054.02cm3\n1\nVolume of the big cone = x 3.142 x 142 x 56\n3\n= 11495.53cm3\nVolume of the bucket in litres = 11495.53 – 3054.02\n= 8441.51cm3\nCapacity of the bucket in litres = 8.44 litres or 8.4 litres.\nWe can also get the volume if we use π(r2H - r2h)\n3\nSubstituting for R, H, r and h, we get 8.44 litres\n3rd angle Ø = 180o- (90o+43o)=47’\nAC is opposite the smallest angle.\nHence AC = 17 x Sin 43 o\nor AC = 17 x Cos 470\n= 11.594cm\nor = 11.59cm",
+    "marking_scheme": "(a) Drawing a side 9cm long constructing angle 60o, angle 45 o measuring angle BAC = 76 o\ncompleting the triangle ABC.\n(b) (i) Constructing l 4.5cm from A\n1\n(ii) Constructing l of points equidistant from B and C to intersect l at x\n2 1 1\nand x\n2\nmeasuring /x x / = 8.5cm; ( + 0.1cm) or its equivalent.\n1 2\n10(a) A bucket is 28cm in diameter at the top, 18cm in diameter at the bottom and 20cm deep.\nFind the capacity, in litres, of the bucket (take π = 3.142)\n(b) The hypotenuse of a right angled triangle is 17cm and one of the angles is 43 o, find the\n(i) third angle\n(ii) side opposite the smallest angle.\nSolution\nh 9\n(a) Let the height of the smaller cone be h cm then, we have \n20h 14\n 14h = 180+9h\nh = 36",
+    "topic": "Mensuration"
+  },
+  {
+    "exam_type": "NABTEB",
+    "year": 2005,
+    "subject": "Mathematics",
+    "question_no": 11,
+    "question_text": "11(a) The sum to nth term of an AP is given by\nS = n [a + (n-1) d], where a = first term\n2\nd = common difference\n(i) make d the subject of the formula\n(ii) Hence calculate the common difference of an AP whose sum is 338, n = 13 and a = 5.\n(b) The angles of a polygon are (x-10)0, x o, x o, (x+20) o and (x+30) o. Find the value of x0.\n2\nRemoving the fraction and brackets to get 2s = na + n2d - nd\nIsolating d, we get\nd (n2- n) = 2s – na\n2sna\n d =\nn2 n\n2sna 2(338)13(5)\n(ii) d = =\nn2 n 132 13\n611\n= = 3.92\n156\n(b) The polygon has 5 sides\nsum of interior angles = 3 x 180 o = 540 o\n(x-10)o + x o + x o + (x + 20) o + (x + 30) o = 540 o\n5x + 40 o = 540 o\n5x = 500 o\n x = 100 o",
+    "marking_scheme": "S = n(a+(n-1)d)",
+    "topic": "Sequences & Series"
+  },
+  {
+    "exam_type": "NABTEB",
+    "year": 2005,
+    "subject": "Mathematics",
+    "question_no": 12,
+    "question_text": "12(a) An article costing ₦32.50 is sold for a gain of 13½. Find the selling price.\n(b) Find the simple interest on ₦4500.00 in 2½ years at 4% per annum.\n(c) A businessman borrowed ₦200,000 from a bank for 3 years at 5% compound\ninterest.\n(i) Calculate the interest on the loan at the end of the period.\n(ii) If he repays ₦230,000 at the end of the 3 years, how much does he still owe?\n3\n 5 \n= ₦200,000 1  = ₦231,525.00\n 100\nTotal interest = ₦ (231,525 – 200,000) = ₦31,525.00\nALITER\n(i) Total interest = ₦(10,000 + 10,500 + 11,025) = ₦31,525.00\n(ii) Amount still owed = (231,525 – 230, 000)\n= ₦1,525.00\n1",
+    "marking_scheme": "(a) Cost price of the article : 100% = ₦32.50\nSelling price of the article 113½ % = ₦113.5 x 32.50\n100\n= ₦36.89\n(b) S.I = PTR = 4500 x 5 x 4\n100 100 x 2\n= ₦450.00\n(c) Interest at the end of 1st year = ₦200,000 x 1 x 5\n100\n= ₦10,000.00\nInterest at the end of 2nd year = 210,000 x1 x 5\n100\n= 10,500.00\nInterest at the end of 3rd year = ₦220,500 x 1 x 5\n100\n= ₦11,025.00\n(i) Total interest owed at the end of 3rd year",
+    "topic": "Trigonometry"
+  },
+  {
+    "exam_type": "NABTEB",
+    "year": 2005,
+    "subject": "Mathematics",
+    "question_no": 13,
+    "question_text": "13(a) A trader allows a discount of 33 % on his marked prices. What should be the marked\n3\nprices of article he wishes to receive ₦500.00?\n(b) The prices of kerosene per litre on the first week of each of the 12 months of the year are\nas given in the table below.\nMonth Jan. Feb. March April May June July Aug. Sept Oct Nov Dec.\nPrice 18 21 25 30 40 52 48 50 55 43 26 18\nFind the three month moving averages for the period.\nIncome Tax ……………….1%,\nFederal Housing Scheme …2½%, and\nunion dues ………………...2%\nIf his annual personal allowances is ₦108,110.40\nCalculate:\n(i) his monthly income tax\n(ii) the net monthly take home pay.\n(b) A bankrupt’s assets realize ₦5000.00 and his liabilities are ₦8000.00\n(i) What dividend will he pay?\n(ii) How much will be paid to a creditor for ₦600.00?\n(b) A man bought 23 crates of bottled drink at ₦310.00 per crate. There were 24 bottles\nper crate and each bottle was sold for ₦15. If two bottles per crate got broken during sales,\ncalculate the following:\n(i) cost price of the 23 crates\n(ii) percentage profit per crate.",
+    "marking_scheme": "(a) Selling price less discount: 66 2/3% = ₦500\nMarked price: 100% = ₦100 x 500\n66 2/3\n= 749.96 = ₦750 approx\n(b) Moving averages: 18 + 21 + 25 = 21.33\n3\n21+25+30 = 25.33, 25+30+40 = 31.67\n3 3\n30+40+52 = 40.67, 40+52+48 = 46.67\n3 3\n52+48+50 = 50.00, 48+50+55 = 51\n3 3\n50+55+43 = 49.33, 55+43+26 = 41.33\n3 3\n43+26+18 = 29.00\n3\n14(a) A man’s salary is 298,886.40 per annum. Before receiving his salary, the employer\nmakes the following deductions of the salary less personal allowance\n(a) Salary – Personal allowances = ₦ (298,886.40 – 108,110.40)\n= ₦190,776.00\n(i) Monthly income tax = 190,776 x 1\n100 12\n= ₦158.98\n(ii) Gross monthly salary = ₦298,886.4\n12\n= ₦24,907.20\nmonthly deductions: FHS: 2% of ₦24,907.20\n=₦ 622.68\nmonthly union due = 2% of ₦24,907.20\n= ₦498.14\nmonthly tax deduction: 1% of ₦24907.21\n= ₦249.07\nmonthly total deductions = ₦ (622.68 + 498.14 + 249.07)\n= ₦1369.89\nNet monthly pay = (24,907.40 – 1369.89)\n= ₦23,537.31\n(b) (i) Dividend = ₦5,000 x 100k\n₦8,000\n= 63k in ₦\n(ii) To a creditor for ₦600 he pays 63 x ₦600\n100\n= ₦378.00\n15(a) Find the weighted mean of 15,20,25,30, if they are assigned weightings of 2,1,3,4\nrespectively.\n(a) weighted mean = (2 x 15) + (1 x 20) + (3 x 25) + (4 x 30)\n2 + 1 + 3 + 4\n= 275 = 27.5\n10\n(b) (i) Cost price of 23 crates = 23 x ₦310\n= ₦7130.00\nNo of bottles sold in a crate = 22\nSelling price of a crate = 22 x ₦15 = ₦310.00\nProfit on a crate = ₦330.00 – ₦310.00\n= ₦20\n(ii) Percentage profit per crate\n= 20 x 100\n310\n= 6.45% = 6.5% approx.",
+    "topic": "Trigonometry"
+  }
+]
