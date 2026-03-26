@@ -45,7 +45,7 @@ export default function Login({ defaultTab = 'login' }) {
     if (!grade) return setError('Please select your grade.')
     if (signupPassword !== verifyPassword) return setError('Passwords do not match.')
     setLoading(true); const { error } = await supabase.auth.signUp({ email: signupEmail.trim(), password: signupPassword, options: { data: { full_name: `${firstName} ${surname}`.trim(), level: grade } } })
-    if (error) setError(error.message); else setSuccess('Identity generated. Check your email for verification.'); setLoading(false)
+    if (error) setError(error.message); else navigate('/dashboard'); setLoading(false)
   }
 
   return (
