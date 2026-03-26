@@ -73,8 +73,10 @@ app.include_router(tracking_router)
 app.include_router(past_questions_router)
 app.include_router(solution_router)
 app.include_router(study_plan_router)
-
-app.mount("/images", StaticFiles(directory="images"), name="images")
+ 
+images_dir = os.path.join(os.path.dirname(__file__), "..", "images")
+if os.path.isdir(images_dir):
+    app.mount("/images", StaticFiles(directory=images_dir), name="images")
 
 @app.get("/")
 async def root():
