@@ -1,7 +1,7 @@
 import axios from 'axios'
-import { supabase } from '../lib/supabase'
+import { API_BASE_URL, supabase } from '../lib/supabase'
 
-export const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:8000'
+export const API_BASE = API_BASE_URL
 const API = axios.create({
   baseURL: API_BASE,
   headers: { 'Content-Type': 'application/json' }
@@ -69,7 +69,7 @@ export const ingestExamPaper = (pdfBase64, title, examType, year) =>
   })
 export const parseQuestions = (markdownContent, examType, year) =>
   API.post('/cbt/parse', { markdown_content: markdownContent, exam_type: examType, year })
-export const explainCBTAnswer = (question, studentAnswer) =>
+export const explainCBTAnswer = (question) =>
   API.post('/cbt/explain', question)
 export const generateCBTReport = (questions, score, total, timeSecs, examType, topic) =>
   API.post('/cbt/report-summary', {

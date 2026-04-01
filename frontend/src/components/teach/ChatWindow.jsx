@@ -1,10 +1,11 @@
 // src/components/teach/ChatWindow.jsx
 import { useState, useRef, useEffect, useCallback } from 'react'
 import { useAuth } from '../../context/AuthContext'
-import { supabase } from '../../lib/supabase'
+import { API_BASE_URL, isTableUnavailable, markTableUnavailable, supabase } from '../../lib/supabase'
+import { getMessages } from '../../lib/conversations'
 import MessageBubble from './MessageBubble'
 
-const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:8000'
+const API_BASE = API_BASE_URL
 
 // ── Streaming helper ──────────────────────────────────────────────────────────
 async function streamTeach({ question, topic, level, history, userId, onToken, onDone, onError }) {
@@ -43,7 +44,7 @@ async function streamTeach({ question, topic, level, history, userId, onToken, o
         if (!line.startsWith('data: ')) continue
         const payload = line.slice(6).trim()
         if (payload === '[DONE]') { onDone(); return }
-        try { onToken(JSON.parse(payload).token) } catch { }
+        try { onToken(JSON.parse(payload).token) } catch (error) { void error }
       }
     }
     onDone()
@@ -69,7 +70,7 @@ async function submitFeedback({ messageId, userId, topic, level, question, respo
         comment,
       }),
     })
-  } catch { }
+  } catch (error) { void error }
 }
 
 export default function ChatWindow({ topic, level, conversation, onConversationUpdate }) {
@@ -81,27 +82,6 @@ export default function ChatWindow({ topic, level, conversation, onConversationU
   const bottomRef = useRef()
   const textareaRef = useRef()
   const name = (user?.user_metadata?.full_name || user?.email?.split('@')[0] || 'Student')
-
-  useEffect(() => {
-    if (!conversation?.id) { setMessages([]); return }
-    if (conversation?.messages?.length > 0) {
-      setMessages(conversation.messages.map(m => ({ id: m.id || crypto.randomUUID(), role: m.role, content: m.content, rating: m.rating || null })))
-    } else {
-      supabase.from('messages').select('*').eq('conversation_id', conversation.id).order('created_at', { ascending: true })
-        .then(({ data }) => { if (data?.length > 0) setMessages(data.map(m => ({ id: m.id, role: m.role, content: m.content }))) })
-    }
-  }, [conversation?.id])
-
-  useEffect(() => { bottomRef.current?.scrollIntoView({ behavior: 'smooth' }) }, [messages])
-
-  useEffect(() => {
-    const el = textareaRef.current; if (!el) return
-    el.style.height = 'auto'; el.style.height = Math.min(el.scrollHeight, 160) + 'px'
-  }, [input])
-
-  useEffect(() => {
-    if (topic && messages.length === 0 && !streaming && user) sendMessage(`Give me an overview of ${topic}`)
-  }, [topic, conversation?.id, user])
 
   const sendMessage = useCallback(async (text) => {
     const content = (text || input).trim(); if (!content || streaming) return
@@ -120,9 +100,14 @@ export default function ChatWindow({ topic, level, conversation, onConversationU
       onDone: async () => {
         setMessages(prev => {
           const updated = prev.map(m => m.id === aiId ? { ...m, streaming: false } : m)
-          if (conversation?.id) {
+          if (conversation?.id && !isTableUnavailable('messages') && !isTableUnavailable('conversations')) {
             const lastPair = updated.slice(-2)
-            lastPair.forEach(m => { supabase.from('messages').upsert({ id: m.id, conversation_id: conversation.id, role: m.role, content: m.content }, { onConflict: 'id' }).then(() => { }) })
+            lastPair.forEach(async (m) => {
+              const { error } = await supabase
+                .from('messages')
+                .upsert({ id: m.id, conversation_id: conversation.id, role: m.role, content: m.content }, { onConflict: 'id' })
+              markTableUnavailable('messages', error)
+            })
           }
           return updated
         })
@@ -133,7 +118,55 @@ export default function ChatWindow({ topic, level, conversation, onConversationU
         setError(err); setStreaming(false)
       },
     })
-  }, [input, streaming, messages, topic, level, user])
+  }, [conversation, input, level, messages, onConversationUpdate, streaming, topic, user])
+
+  useEffect(() => {
+    let cancelled = false
+    let timeoutId = null
+
+    if (!conversation?.id) {
+      timeoutId = window.setTimeout(() => {
+        if (!cancelled) setMessages([])
+      }, 0)
+      return () => {
+        cancelled = true
+        if (timeoutId) window.clearTimeout(timeoutId)
+      }
+    }
+
+    if (conversation?.messages?.length > 0) {
+      timeoutId = window.setTimeout(() => {
+        if (!cancelled) {
+          setMessages(conversation.messages.map(m => ({ id: m.id || crypto.randomUUID(), role: m.role, content: m.content, rating: m.rating || null })))
+        }
+      }, 0)
+    } else {
+      getMessages(conversation.id)
+        .then(({ data }) => {
+          if (!cancelled && data?.length > 0) setMessages(data.map(m => ({ id: m.id, role: m.role, content: m.content })))
+        })
+    }
+
+    return () => {
+      cancelled = true
+      if (timeoutId) window.clearTimeout(timeoutId)
+    }
+  }, [conversation?.id, conversation?.messages])
+
+  useEffect(() => { bottomRef.current?.scrollIntoView({ behavior: 'smooth' }) }, [messages])
+
+  useEffect(() => {
+    const el = textareaRef.current; if (!el) return
+    el.style.height = 'auto'; el.style.height = Math.min(el.scrollHeight, 160) + 'px'
+  }, [input])
+
+  useEffect(() => {
+    if (!topic || messages.length !== 0 || streaming || !user) return
+    const timeoutId = window.setTimeout(() => {
+      sendMessage(`Give me an overview of ${topic}`)
+    }, 0)
+    return () => window.clearTimeout(timeoutId)
+  }, [conversation?.id, messages.length, sendMessage, streaming, topic, user])
 
   const handleKeyDown = (e) => { if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); sendMessage() } }
   const lastUserQuestion = [...messages].reverse().find(m => m.role === 'user')?.content || ''

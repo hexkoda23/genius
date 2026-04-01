@@ -3,26 +3,31 @@ import TopicSidebar from '../components/teach/TopicSidebar'
 import ChatWindow from '../components/teach/ChatWindow'
 import ConversationSidebar from '../components/teach/ConversationSidebar'
 import { useAuth } from '../context/AuthContext'
-import { createConversation } from '../lib/conversations'
-import { supabase } from '../lib/supabase'
+import { createConversation, getConversations } from '../lib/conversations'
 import { useReveal } from '../hooks/useReveal'
 
 export default function Teach() {
   const { user, profile, updateProfile } = useAuth(); const revealRef = useReveal()
   const [selectedTopic, setSelectedTopic] = useState(null)
-  const [selectedLevel, setSelectedLevel] = useState(() => { try { return localStorage.getItem('mathgenius_teach_level') || 'secondary' } catch { return 'secondary' } })
+  const [selectedLevel, setSelectedLevel] = useState(() => { try { return localStorage.getItem('mathgenius_teach_level') || 'secondary' } catch (error) { void error; return 'secondary' } })
   const [currentConversation, setCurrentConversation] = useState(null); const [convRefreshKey, setConvRefreshKey] = useState(0)
 
   useEffect(() => {
-    try { localStorage.setItem('mathgenius_teach_level', selectedLevel) } catch { }
-    if (profile && profile.level !== selectedLevel) { updateProfile({ level: selectedLevel }).catch(() => { }) }
-  }, [selectedLevel])
+    try { localStorage.setItem('mathgenius_teach_level', selectedLevel) } catch (error) { void error }
+    if (profile && profile.level !== selectedLevel) { updateProfile({ level: selectedLevel }).catch((error) => { void error }) }
+  }, [profile, selectedLevel, updateProfile])
 
   useEffect(() => {
     if (!user) return
-    supabase.from('conversations').select('*').eq('user_id', user.id).eq('is_deleted', false).order('updated_at', { ascending: false }).limit(1).single()
-      .then(({ data }) => { if (data) { setCurrentConversation(data); if (data.topic) setSelectedTopic(data.topic) } })
-  }, [user?.id])
+    getConversations(user.id)
+      .then(({ data }) => {
+        const latest = data?.[0]
+        if (latest) {
+          setCurrentConversation(latest)
+          if (latest.topic) setSelectedTopic(latest.topic)
+        }
+      })
+  }, [user])
 
   const handleTopicSelect = async (topic) => {
     setSelectedTopic(topic)

@@ -1,17 +1,23 @@
-import { supabase } from './supabase'
+import { isTableUnavailable, markTableUnavailable, supabase } from './supabase'
 
 // ═══════════════════════════════════════════════════════════════════
 // STREAK TRACKING
 // ═══════════════════════════════════════════════════════════════════
 
 export async function updateStreak(userId) {
+  if (!userId || isTableUnavailable('user_streaks')) {
+    return { data: { current_streak: 0, longest_streak: 0 }, error: null }
+  }
   const today = new Date().toISOString().split('T')[0]
 
-  const { data: existing } = await supabase
+  const { data: existing, error: existingError } = await supabase
     .from('user_streaks')
     .select('*')
     .eq('user_id', userId)
     .single()
+  if (markTableUnavailable('user_streaks', existingError)) {
+    return { data: { current_streak: 0, longest_streak: 0 }, error: null }
+  }
 
   if (!existing) {
     const { data, error } = await supabase
@@ -40,11 +46,17 @@ export async function updateStreak(userId) {
 }
 
 export async function getStreak(userId) {
+  if (!userId || isTableUnavailable('user_streaks')) {
+    return { data: { current_streak: 0, longest_streak: 0 }, error: null }
+  }
   const { data, error } = await supabase
     .from('user_streaks')
     .select('*')
     .eq('user_id', userId)
     .single()
+  if (markTableUnavailable('user_streaks', error)) {
+    return { data: { current_streak: 0, longest_streak: 0 }, error: null }
+  }
 
   // Check if streak is broken
   if (data?.last_active_date) {
@@ -54,8 +66,9 @@ export async function getStreak(userId) {
     const yesterdayStr = yesterday.toISOString().split('T')[0]
 
     if (data.last_active_date !== today && data.last_active_date !== yesterdayStr) {
-      await supabase.from('user_streaks')
+      const { error: updateError } = await supabase.from('user_streaks')
         .update({ current_streak: 0 }).eq('user_id', userId)
+      markTableUnavailable('user_streaks', updateError)
       return { data: { ...data, current_streak: 0 }, error }
     }
   }
