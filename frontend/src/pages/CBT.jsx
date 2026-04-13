@@ -6,7 +6,8 @@ import {
   getCBTHistory, getAvailableTopics, getAvailableYears,
   getQuestionBankStats,
 } from '../lib/cbt'
-import { explainCBTAnswer, generateCBTReport, getUserProfile, API_BASE } from '../services/api'
+import { explainCBTAnswer, generateCBTReport, getUserProfile } from '../services/api'
+import { API_BASE_URL } from '../lib/supabase'
 import { ExplanationBody } from '../utils/RenderMath'
 import { recordCBTResult, updateStreak } from '../lib/stats'
 import { createNotification } from '../lib/notifications'
@@ -15,9 +16,17 @@ import { useReveal } from '../hooks/useReveal'
 function normalizeImageSrc(src) {
   if (!src) return null
   if (src.startsWith('http://') || src.startsWith('https://')) return src
-  if (src.startsWith('/images')) return `${API_BASE}${src}`
-  if (src.startsWith('images/')) return `${API_BASE}/${src}`
-  return `${API_BASE}/${src}`
+  
+  // Ensure we use the correct base URL for images
+  // In production, this should be your Render backend URL
+  const base = API_BASE_URL.replace(/\/$/, '')
+  
+  // If the path already includes /images, don't duplicate it
+  if (src.startsWith('/images/')) return `${base}${src}`
+  if (src.startsWith('images/')) return `${base}/${src}`
+  
+  // Otherwise, assume it's a relative path that needs /images prefix
+  return `${base}/images/${src.replace(/^\//, '')}`
 }
 
 function QuestionImage({ src, alt }) {
