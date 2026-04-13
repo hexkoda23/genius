@@ -87,6 +87,8 @@ export const getOverallStats = (userId) =>
   API.get(`/tracking/stats/${userId}`)
 export const getTopicPerformance = (userId) =>
   API.get(`/tracking/topics/${userId}`)
+export const getMainframeStats = (userId) =>
+  API.get(`/tracking/dashboard-mainframe/${userId}`)
 // ── DAILY CHALLENGE & MCQ ───────────────────────────────
 export const getDailyChallenge = (examType = 'JAMB') =>
   API.get('/cbt/daily-challenge', { params: { exam_type: examType } })

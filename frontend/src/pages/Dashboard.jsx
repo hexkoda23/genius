@@ -4,7 +4,7 @@ import { useAuth } from '../context/AuthContext'
 import { getDashboardStats } from '../lib/progress'
 import { getUserStats, xpProgress } from '../lib/stats'
 import { getTopicMastery } from '../lib/learning'
-import { getOverallStats, getTopicPerformance } from '../services/api'
+import { getOverallStats, getTopicPerformance, getMainframeStats } from '../services/api'
 import { useReveal } from '../hooks/useReveal'
 
 const WAEC_WEIGHTS = { 'Number Bases': 4, 'Fractions': 3, 'Indices and Surds': 4, 'Logarithms': 4, 'Sequences and Series': 4, 'Quadratic Equations': 5, 'Linear Equations': 3, 'Simultaneous Equations': 3, 'Inequalities': 3, 'Polynomials': 3, 'Coordinate Geometry': 4, 'Plane Geometry': 4, 'Circle Geometry': 4, 'Mensuration': 5, 'Trigonometry': 5, 'Vectors': 3, 'Matrices': 3, 'Statistics': 5, 'Probability': 4, 'Sets': 3, 'Functions': 3, 'Differentiation': 3, 'Integration': 3, 'Permutations and Combinations': 3, 'Commercial Arithmetic': 4, 'Ratio and Proportion': 2 }
@@ -104,57 +104,43 @@ function AccuracyBar({ topic, attempted, correct }) {
 }
 
 export default function Dashboard() {
-  const { user, profile } = useAuth(); const [stats, setStats] = useState(null); const [xpStats, setXpStats] = useState(null); const [masteryData, setMasteryData] = useState([]); const [loading, setLoading] = useState(true); const revealRef = useReveal()
+  const { user, profile } = useAuth(); const [stats, setStats] = useState(null); const [xpStats, setXpStats] = useState(null); const [masteryData, setMasteryData] = useState([]); const [history, setHistory] = useState([]); const [corrections, setCorrections] = useState([]); const [euler, setEuler] = useState(null); const [loading, setLoading] = useState(true); const revealRef = useReveal()
   useEffect(() => { if (user) loadAll() }, [user])
   const loadAll = async () => {
     if (!user) return
     setLoading(true)
-    console.log('[DASHBOARD] Loading stats for user:', user.id)
+    console.log('[DASHBOARD] Loading optimized mainframe for user:', user.id)
     try {
-      // Run queries with individual error handling to prevent total failure
-      const fetchWithFallback = async (p) => {
-        try { return await p } catch (err) { console.warn('[DASHBOARD] Sub-fetch failed:', err); return { data: null, error: err } }
+      const res = await getMainframeStats(user.id)
+      const data = res.data
+
+      if (data.success) {
+        setStats({
+          topicsStudied: data.mastery.all.length,
+          totalAttempted: (data.mastery.all || []).reduce((acc, t) => acc + (t.total_attempted || 0), 0),
+          totalCorrect: Math.round((data.stats.avg_score / 100) * (data.mastery.all || []).reduce((acc, t) => acc + (t.total_attempted || 0), 0)),
+          accuracy: data.stats.avg_score,
+          avgScore: data.stats.avg_score,
+          practiceCount: data.stats.total_exams,
+          bookmarkCount: 0, // Placeholder if not in mainframe
+          conversationCount: data.euler.recent.length,
+          weakTopics: data.mastery.weak,
+          strongTopics: data.mastery.strong,
+          recentProgress: [],
+          recentSessions: data.history,
+          streak: { current: data.stats.streak, longest: data.profile.longest_streak || 0 },
+          masteryBreakdown: { master: 0, proficient: 0, developing: 0, beginner: 0 },
+          dueTopics: [], topicsMastered: 0,
+        })
+        setXpStats({ xp: data.profile.xp || 0, streak_current: data.profile.streak_days || 0 })
+        setMasteryData(data.mastery.all || [])
+        setHistory(data.history || [])
+        setCorrections(data.corrections || [])
+        setEuler(data.euler || null)
       }
-
-      const [data, xp, mastery] = await Promise.all([
-        fetchWithFallback(getDashboardStats(user.id)),
-        fetchWithFallback(getUserStats(user.id)),
-        fetchWithFallback(getTopicMastery(user.id))
-      ])
-
-      console.log('[DASHBOARD] Raw data received:', { data, xp, mastery })
-
-      let baseStats = data || {
-        topicsStudied: 0, totalAttempted: 0, totalCorrect: 0, accuracy: 0, avgScore: 0,
-        practiceCount: 0, bookmarkCount: 0, conversationCount: 0,
-        weakTopics: [], strongTopics: [], recentProgress: [], recentSessions: [],
-        streak: { current: 0, longest: 0 }, masteryBreakdown: { master: 0, proficient: 0, developing: 0, beginner: 0 },
-        dueTopics: [], topicsMastered: 0,
-      }
-      
-      // ── Backend fallback for stats ─
-      try {
-        const track = await getOverallStats(user.id)
-        if (track?.data?.stats) {
-          const tdata = track.data.stats
-          baseStats = {
-            ...baseStats,
-            totalAttempted: tdata.total_questions ?? baseStats.totalAttempted,
-            totalCorrect: Math.round((tdata.overall_accuracy || 0) / 100 * (tdata.total_questions || 0)),
-            accuracy: Math.round(tdata.overall_accuracy || baseStats.accuracy),
-            avgScore: Math.round(tdata.avg_score_pct || baseStats.avgScore),
-            streak: { current: tdata.streak_days || 0, longest: tdata.longest_streak || 0 },
-          }
-        }
-      } catch (err) {
-        console.warn('[DASHBOARD] Backend fallback failed:', err)
-      }
-
-      setStats(baseStats)
-      setXpStats(xp || { xp: 0, streak_current: 0 })
-      setMasteryData(mastery?.data || [])
     } catch (e) {
-      console.error('[DASHBOARD] Fatal load error:', e)
+      console.error('[DASHBOARD] Optimized load error:', e)
+      // Fallback to empty state
       setStats({
         topicsStudied: 0, totalAttempted: 0, totalCorrect: 0, accuracy: 0, avgScore: 0,
         practiceCount: 0, bookmarkCount: 0, conversationCount: 0,
@@ -163,13 +149,13 @@ export default function Dashboard() {
         dueTopics: [], topicsMastered: 0,
       })
       setXpStats({ xp: 0, streak_current: 0 })
-      setMasteryData([])
     } finally {
       setLoading(false)
     }
   }
   if (loading) return <div className="p-24 text-center animate-pulse text-[11px] font-bold uppercase text-[var(--color-muted)] tracking-widest">Synchronizing Channels...</div>
   const { level, progress } = xpProgress(xpStats?.xp || 0)
+  const rank = stats?.rank || 1
 
   return (
     <div className="max-w-7xl mx-auto px-6 py-12 lg:py-24" ref={revealRef}>
@@ -191,7 +177,7 @@ export default function Dashboard() {
             <div className="w-20 h-20 rounded-2xl bg-[var(--color-teal)] flex items-center justify-center text-white text-4xl font-extrabold shadow-lg shadow-[var(--color-teal)]/20">{level}</div>
             <div className="space-y-1">
               <p className="text-[10px] font-bold text-[var(--color-muted)] uppercase tracking-widest">Intelligence Tier</p>
-              <h2 className="text-3xl font-extrabold text-[var(--color-ink)]">Rank {level} Adept</h2>
+              <h2 className="text-3xl font-extrabold text-[var(--color-ink)]">Rank {rank} Adept</h2>
               <p className="text-xs font-medium text-[var(--color-muted)]">{xpStats?.xp?.toLocaleString()} XP Units Accumulated</p>
             </div>
           </div>
@@ -223,6 +209,64 @@ export default function Dashboard() {
         {/* Predictions */}
         <PredictionWidget stats={stats} xpStats={xpStats} masteryData={masteryData} examTarget={profile?.exam_target} />
 
+        {/* Recent Activity & Corrections */}
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          {/* History */}
+          <div className="lg:col-span-2 bg-[var(--color-surface)] border border-[var(--color-border)] rounded-[2.5rem] p-10 overflow-hidden">
+            <div className="flex justify-between items-center mb-10 pb-4 border-b border-[var(--color-border)]">
+              <h3 className="text-xs font-bold text-[var(--color-ink)] uppercase tracking-[0.3em]">Exam Chronology</h3>
+              <Link to="/cbt-history" className="text-[10px] font-bold text-[var(--color-teal)] uppercase">View All →</Link>
+            </div>
+            <div className="space-y-6">
+              {history.length === 0 ? <p className="text-sm text-[var(--color-muted)]">No sessions recorded.</p> : history.map(s => (
+                <div key={s.id} className="flex items-center justify-between p-4 rounded-2xl hover:bg-[var(--color-cream)] transition-all border border-transparent hover:border-[var(--color-border)] group">
+                  <div className="flex items-center gap-6">
+                    <div className={`w-12 h-12 rounded-xl flex items-center justify-center text-xl ${s.percentage >= 70 ? 'bg-green-100 text-green-600' : 'bg-red-100 text-red-600'}`}>
+                      {s.percentage >= 70 ? '🏆' : '📝'}
+                    </div>
+                    <div>
+                      <p className="text-sm font-bold text-[var(--color-ink)]">{s.exam_type} {s.year || s.topic}</p>
+                      <p className="text-[10px] font-medium text-[var(--color-muted)]">{new Date(s.completed_at).toLocaleDateString()}</p>
+                    </div>
+                  </div>
+                  <div className="text-right">
+                    <p className={`text-lg font-black ${s.percentage >= 70 ? 'text-green-600' : 'text-red-600'}`}>{s.percentage}%</p>
+                    <p className="text-[10px] font-bold text-[var(--color-muted)]">{s.score}/{s.total}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Corrections/Euler */}
+          <div className="space-y-8">
+            <div className="bg-[var(--color-ink)] text-white rounded-[2.5rem] p-10">
+              <h3 className="text-[10px] font-bold text-white/50 uppercase tracking-[0.3em] mb-8">Euler Sync</h3>
+              {euler?.recent?.length > 0 ? (
+                <div className="space-y-6">
+                  <p className="text-sm font-medium leading-relaxed">You last asked about <span className="text-[var(--color-teal)] font-bold">{euler.recent[0].topic || 'General Maths'}</span>.</p>
+                  <Link to="/teach" className="inline-block bg-[var(--color-teal)] text-white px-6 py-3 rounded-xl font-bold text-[10px] uppercase tracking-wider hover:opacity-90 transition-opacity">Resume Dialectic</Link>
+                </div>
+              ) : (
+                <p className="text-sm text-white/50 italic">Euler is awaiting your first inquiry.</p>
+              )}
+            </div>
+
+            <div className="bg-[var(--color-paper)] border border-[var(--color-border)] rounded-[2.5rem] p-10">
+              <h3 className="text-[10px] font-bold text-[var(--color-muted)] uppercase tracking-[0.3em] mb-8">Weakest Nodes</h3>
+              <div className="space-y-6">
+                {stats.weakTopics.map(t => (
+                  <div key={t.topic} className="flex justify-between items-center">
+                    <span className="text-xs font-bold text-[var(--color-ink)]">{t.topic}</span>
+                    <span className="text-[10px] font-bold text-red-500 bg-red-50 px-2 py-1 rounded-md">{t.accuracy}%</span>
+                  </div>
+                ))}
+                {stats.weakTopics.length === 0 && <p className="text-xs text-[var(--color-muted)]">No weak nodes detected.</p>}
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* Performance Breakdown */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           <div className="bg-[var(--color-surface)] border border-[var(--color-border)] rounded-[2.5rem] p-10 lg:p-12">
@@ -230,7 +274,7 @@ export default function Dashboard() {
             <div className="space-y-10">
               {stats.weakTopics.length === 0 ? <p className="text-sm font-medium text-green-600">All channels stabilized.</p> : stats.weakTopics.map(t => (
                 <div key={t.topic} className="space-y-4">
-                  <AccuracyBar topic={t.topic} attempted={t.questions_attempted} correct={t.questions_correct} />
+                  <AccuracyBar topic={t.topic} attempted={t.questions_attempted || t.total_attempted} correct={Math.round((t.accuracy / 100) * (t.questions_attempted || t.total_attempted))} />
                   <Link to={`/practice?topic=${encodeURIComponent(t.topic)}&auto=true`} className="text-[10px] font-bold text-[var(--color-teal)] uppercase tracking-wider hover:opacity-70 transition-opacity flex items-center gap-2">Execute Remediation Protocol →</Link>
                 </div>
               ))}
@@ -240,7 +284,7 @@ export default function Dashboard() {
             <h3 className="text-xs font-bold text-green-600 uppercase tracking-[0.3em] mb-10 pb-4 border-b border-[var(--color-border)]">Mastery Report</h3>
             <div className="space-y-10">
               {stats.strongTopics.length === 0 ? <p className="text-sm font-medium text-[var(--color-muted)]">Awaiting mastery data...</p> : stats.strongTopics.map(t => (
-                <AccuracyBar key={t.topic} topic={t.topic} attempted={t.questions_attempted} correct={t.questions_correct} />
+                <AccuracyBar key={t.topic} topic={t.topic} attempted={t.questions_attempted || t.total_attempted} correct={Math.round((t.accuracy / 100) * (t.questions_attempted || t.total_attempted))} />
               ))}
             </div>
           </div>
