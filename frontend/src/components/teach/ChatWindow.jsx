@@ -56,9 +56,13 @@ async function streamTeach({ question, topic, level, history, userId, onToken, o
 // ── Submit feedback ───────────────────────────────────────────────────────────
 async function submitFeedback({ messageId, userId, topic, level, question, responsePreview, rating, comment }) {
   try {
+    const { data: { session } } = await supabase.auth.getSession()
     await fetch(`${API_BASE}/teach/feedback`, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers: {
+        'Content-Type': 'application/json',
+        ...(session?.access_token ? { Authorization: `Bearer ${session.access_token}` } : {}),
+      },
       body: JSON.stringify({
         message_id: messageId,
         user_id: userId,

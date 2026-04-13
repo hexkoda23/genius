@@ -107,13 +107,23 @@ export default function Dashboard() {
   const { user, profile } = useAuth(); const [stats, setStats] = useState(null); const [xpStats, setXpStats] = useState(null); const [masteryData, setMasteryData] = useState([]); const [loading, setLoading] = useState(true); const revealRef = useReveal()
   useEffect(() => { if (user) loadAll() }, [user])
   const loadAll = async () => {
+    if (!user) return
     setLoading(true)
+    console.log('[DASHBOARD] Loading stats for user:', user.id)
     try {
+      // Run queries with individual error handling to prevent total failure
+      const fetchWithFallback = async (p) => {
+        try { return await p } catch (err) { console.warn('[DASHBOARD] Sub-fetch failed:', err); return { data: null, error: err } }
+      }
+
       const [data, xp, mastery] = await Promise.all([
-        getDashboardStats(user.id),
-        getUserStats(user.id),
-        getTopicMastery(user.id)
+        fetchWithFallback(getDashboardStats(user.id)),
+        fetchWithFallback(getUserStats(user.id)),
+        fetchWithFallback(getTopicMastery(user.id))
       ])
+
+      console.log('[DASHBOARD] Raw data received:', { data, xp, mastery })
+
       let baseStats = data || {
         topicsStudied: 0, totalAttempted: 0, totalCorrect: 0, accuracy: 0, avgScore: 0,
         practiceCount: 0, bookmarkCount: 0, conversationCount: 0,
@@ -121,27 +131,30 @@ export default function Dashboard() {
         streak: { current: 0, longest: 0 }, masteryBreakdown: { master: 0, proficient: 0, developing: 0, beginner: 0 },
         dueTopics: [], topicsMastered: 0,
       }
+      
       // ── Backend fallback for stats ─
       try {
         const track = await getOverallStats(user.id)
-        const tdata = track?.data?.stats || {}
-        baseStats = {
-          ...baseStats,
-          totalAttempted: tdata.total_questions ?? baseStats.totalAttempted,
-          totalCorrect: Math.round((tdata.overall_accuracy || 0) / 100 * (tdata.total_questions || 0)),
-          accuracy: Math.round(tdata.overall_accuracy || baseStats.accuracy),
-          avgScore: Math.round(tdata.avg_score_pct || baseStats.avgScore),
-          streak: { current: tdata.streak_days || 0, longest: tdata.longest_streak || 0 },
+        if (track?.data?.stats) {
+          const tdata = track.data.stats
+          baseStats = {
+            ...baseStats,
+            totalAttempted: tdata.total_questions ?? baseStats.totalAttempted,
+            totalCorrect: Math.round((tdata.overall_accuracy || 0) / 100 * (tdata.total_questions || 0)),
+            accuracy: Math.round(tdata.overall_accuracy || baseStats.accuracy),
+            avgScore: Math.round(tdata.avg_score_pct || baseStats.avgScore),
+            streak: { current: tdata.streak_days || 0, longest: tdata.longest_streak || 0 },
+          }
         }
-        const topicsRes = await getTopicPerformance(user.id)
-        const topics = topicsRes?.data?.topics || []
-        baseStats.weakTopics = topics.filter(t => (t.accuracy || 0) < 50).slice(0, 5)
-        baseStats.strongTopics = topics.filter(t => (t.accuracy || 0) >= 75).slice(0, 5)
-      } catch { /* optional fallback */ }
+      } catch (err) {
+        console.warn('[DASHBOARD] Backend fallback failed:', err)
+      }
+
       setStats(baseStats)
       setXpStats(xp || { xp: 0, streak_current: 0 })
       setMasteryData(mastery?.data || [])
     } catch (e) {
+      console.error('[DASHBOARD] Fatal load error:', e)
       setStats({
         topicsStudied: 0, totalAttempted: 0, totalCorrect: 0, accuracy: 0, avgScore: 0,
         practiceCount: 0, bookmarkCount: 0, conversationCount: 0,

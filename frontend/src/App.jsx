@@ -87,7 +87,7 @@ const PageFallback = () => (
 
 
 function AppRoutes() {
-  const { user } = useAuth()
+  const { user, loading } = useAuth()
   return (
     <>
       <InstallBanner />
@@ -205,7 +205,9 @@ function AppRoutes() {
           <Route path="/share/:userId" element={<ShareProfile />} />
 
           {/* Catch-all — send logged-in users to dashboard, guests to landing */}
-          <Route path="*" element={<Navigate to={user ? "/dashboard" : "/"} replace />} />
+          <Route path="*" element={
+            loading ? <PageFallback /> : <Navigate to={user ? "/dashboard" : "/"} replace />
+          } />
         </Routes>
       </Suspense>
     </>

@@ -64,6 +64,10 @@ function preprocess(raw) {
     .replace(/\r\n/g, '\n')
     // Convert display math $$...$$ to [math]...[/math]
     .replace(/\$\$([\s\S]*?)\$\$/g, (_m, p1) => `\n\n[math]${p1}[/math]\n\n`)
+    // Convert standard LaTeX inline \(...\) to [m]...[/m]
+    .replace(/\\\(([\s\S]*?)\\\)/g, (_m, p1) => `[m]${p1}[/m]`)
+    // Convert standard LaTeX block \[...\] to [math]...[/math]
+    .replace(/\\\[([\s\S]*?)\\\]/g, (_m, p1) => `\n\n[math]${p1}[/math]\n\n`)
     // Convert inline math $...$ to [m]...[/m] (avoid matching $$)
     .replace(/(^|[^\$])\$(?!\$)([^$\n]+)\$(?!\$)/g, (_m, p1, p2) => `${p1}[m]${p2}[/m]`)
     // Ensure [math] blocks always have blank lines around them

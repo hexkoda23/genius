@@ -83,6 +83,13 @@ function LandingChat() {
 
 export function Landing() {
   const { user } = useAuth(); const navigate = useNavigate(); const [testimonials, setTestimonials] = useState([])
+  
+  useEffect(() => {
+    if (user) {
+      navigate('/dashboard', { replace: true })
+    }
+  }, [user, navigate])
+
   useEffect(() => { getApprovedTestimonials().then(res => setTestimonials(res.data || [])) }, [])
 
   return (
