@@ -81,9 +81,15 @@ app.include_router(past_questions_router)
 app.include_router(solution_router)
 app.include_router(study_plan_router)
  
-images_dir = os.path.join(os.path.dirname(__file__), "..", "images")
+# Mount images from the backend root directory
+images_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "images")
 if os.path.isdir(images_dir):
     app.mount("/images", StaticFiles(directory=images_dir), name="images")
+else:
+    # Fallback for local dev if script is run from different cwd
+    alt_images_dir = os.path.abspath("images")
+    if os.path.isdir(alt_images_dir):
+        app.mount("/images", StaticFiles(directory=alt_images_dir), name="images")
 
 @app.get("/")
 async def root():
