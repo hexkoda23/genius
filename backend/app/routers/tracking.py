@@ -62,11 +62,14 @@ class QuestionAttemptRequest(BaseModel):
 class ProfileUpdateRequest(BaseModel):
     display_name: Optional[str] = None
     level: Optional[str] = None
+    rank: Optional[int] = None
     target_exam: Optional[str] = None
     target_score: Optional[int] = None
     target_year: Optional[int] = None
     study_goal_mins_per_day: Optional[int] = None
     preferred_topics: Optional[List[str]] = None
+    last_euler_topic: Optional[str] = None
+    last_euler_conv_id: Optional[str] = None
 
 class TeachLogRequest(BaseModel):
     user_id: str
@@ -74,6 +77,7 @@ class TeachLogRequest(BaseModel):
     question: str
     response_length: int = 0
     level: str = "secondary"
+    conversation_id: Optional[str] = None
 
 
 # ════════════════════════════════════════════════════════════════════════════
@@ -125,10 +129,119 @@ async def end_session(req: SessionEndRequest):
     if resp.status_code not in (200, 204):
         raise HTTPException(status_code=500, detail=f"Failed to end session: {resp.text}")
 
-    # Update streak
+    # Update streak & rank
     await _update_streak(req.user_id)
+    await _update_rank(req.user_id)
 
     return {"success": True, "percentage": pct}
+
+# ════════════════════════════════════════════════════════════════════════════
+#  RANK UPDATE (Internal)
+# ════════════════════════════════════════════════════════════════════════════
+
+async def _update_rank(user_id: str):
+    """Move to next rank if user passed 3 exams with >70% in a row."""
+    async with httpx.AsyncClient(timeout=10) as client:
+        # 1. Fetch current rank
+        prof_resp = await client.get(sb_url("profiles", f"id=eq.{user_id}&select=rank"), headers=HEADERS)
+        current_rank = (prof_resp.json() or [{"rank": 1}])[0].get("rank", 1)
+
+        # 2. Fetch last 3 completed sessions
+        sess_resp = await client.get(
+            sb_url("cbt_sessions", f"user_id=eq.{user_id}&completed_at=not.is.null&order=completed_at.desc&limit=3&select=percentage"),
+            headers=HEADERS
+        )
+        last_sessions = sess_resp.json() if sess_resp.status_code == 200 else []
+
+        if len(last_sessions) == 3 and all(s["percentage"] >= 70 for s in last_sessions):
+            # Upgrade rank!
+            new_rank = current_rank + 1
+            await client.patch(
+                sb_url("profiles", f"id=eq.{user_id}"),
+                headers=HEADERS,
+                json={"rank": new_rank}
+            )
+            print(f"[RANK] Upgraded user {user_id} to rank {new_rank}")
+
+# ════════════════════════════════════════════════════════════════════════════
+#  DASHBOARD MAINFRAME — Optimized Consolidation
+# ════════════════════════════════════════════════════════════════════════════
+
+@router.get("/dashboard-mainframe/{user_id}")
+async def get_dashboard_mainframe(user_id: str):
+    """
+    Consolidates multiple stats into one response for < 2s loading.
+    Fetches Profile, Overall Stats, Mastery, Recent Sessions, and Euler interactions.
+    """
+    try:
+        async with httpx.AsyncClient(timeout=20) as client:
+            # Parallel fetch for speed
+            profile_req = client.get(sb_url("profiles", f"id=eq.{user_id}"), headers=HEADERS)
+            sessions_req = client.get(
+                sb_url("cbt_sessions", f"user_id=eq.{user_id}&order=completed_at.desc&limit=5&select=id,exam_type,year,topic,score,total,percentage,completed_at"),
+                headers=HEADERS
+            )
+            # Use profiles table for streak/xp, and topic_progress if it exists
+            mastery_req = client.get(sb_url("topic_progress", f"user_id=eq.{user_id}&order=avg_score.desc"), headers=HEADERS)
+            euler_req = client.get(sb_url("teach_logs", f"user_id=eq.{user_id}&order=created_at.desc&limit=5"), headers=HEADERS)
+            # Use a simpler way to fetch corrections if cbt_answers is large
+            attempts_req = client.get(sb_url("cbt_answers", f"is_correct=eq.false&limit=10"), headers=HEADERS)
+
+            responses = await asyncio.gather(profile_req, sessions_req, mastery_req, euler_req, attempts_req)
+
+        # Check for errors in individual requests
+        for i, resp in enumerate(responses):
+            if resp.status_code != 200:
+                print(f"[DASHBOARD] Request {i} failed with status {resp.status_code}: {resp.text}")
+
+        # 1. Profile & Basic Stats
+        prof_data = responses[0].json() if responses[0].status_code == 200 else []
+        prof = prof_data[0] if prof_data else {"rank": 1, "xp": 0, "streak_current": 0}
+
+        # 2. CBT History
+        sessions = responses[1].json() if responses[1].status_code == 200 else []
+        completed = [s for s in sessions if s.get("completed_at")]
+        
+        # Calculate averages from history
+        avg_score = round(sum(s["percentage"] for s in completed) / len(completed), 1) if completed else 0
+
+        # 3. Topic Mastery
+        mastery = responses[2].json() if responses[2].status_code == 200 else []
+        weak_topics = [t for t in mastery if (t.get("avg_score") or 0) < 50][:3]
+        strong_topics = [t for t in mastery if (t.get("avg_score") or 0) >= 75][:3]
+
+        # 4. Euler Sessions
+        euler = responses[3].json() if responses[3].status_code == 200 else []
+
+        # 5. Corrections (Wrong answers)
+        corrections = responses[4].json() if responses[4].status_code == 200 else []
+
+        return {
+            "success": True,
+            "profile": prof,
+            "stats": {
+                "xp": prof.get("xp", 0),
+                "rank": prof.get("rank", 1),
+                "streak": prof.get("streak_current", 0),
+                "avg_score": avg_score,
+                "total_exams": len(sessions),
+            },
+            "history": sessions,
+            "mastery": {
+                "all": mastery,
+                "weak": weak_topics,
+                "strong": strong_topics
+            },
+            "euler": {
+                "recent": euler,
+                "last_topic": prof.get("last_euler_topic"),
+                "last_conv_id": prof.get("last_euler_conv_id")
+            },
+            "corrections": corrections
+        }
+    except Exception as e:
+        print(f"[DASHBOARD] Fatal consolidation error: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
 
 
 # ════════════════════════════════════════════════════════════════════════════
@@ -171,7 +284,7 @@ async def log_attempt(req: QuestionAttemptRequest):
 async def get_profile(user_id: str):
     async with httpx.AsyncClient(timeout=10) as client:
         resp = await client.get(
-            sb_url("user_profiles", f"id=eq.{user_id}"),
+            sb_url("profiles", f"id=eq.{user_id}"),
             headers=HEADERS,
         )
 
@@ -194,7 +307,7 @@ async def update_profile(user_id: str, req: ProfileUpdateRequest):
         # Upsert — creates profile if it doesn't exist
         upsert_payload = {"id": user_id, **payload}
         resp = await client.post(
-            sb_url("user_profiles"),
+            sb_url("profiles"),
             headers={**HEADERS, "Prefer": "resolution=merge-duplicates,return=representation"},
             json=upsert_payload,
         )
@@ -219,7 +332,7 @@ async def get_stats(user_id: str):
             headers=HEADERS,
         )
         profile_resp = await client.get(
-            sb_url("user_profiles", f"id=eq.{user_id}&select=streak_days,longest_streak,target_score,target_exam"),
+            sb_url("profiles", f"id=eq.{user_id}&select=streak_current,longest_streak,target_score,target_exam"),
             headers=HEADERS,
         )
         attempts_resp = await client.get(
@@ -314,16 +427,24 @@ async def log_teach_interaction(req: TeachLogRequest):
     payload = {
         "user_id":         req.user_id,
         "topic":           req.topic,
-        "question":        req.question[:500],  # cap to avoid huge rows
-        "response_length": req.response_length,
-        "level":           req.level,
+        "query":           req.question[:500],
+        "response":        "", # placeholder
         "created_at":      datetime.utcnow().isoformat(),
     }
     async with httpx.AsyncClient(timeout=10) as client:
-        resp = await client.post(sb_url("teach_sessions"), headers=HEADERS, json=payload)
+        # Update euler history in profile
+        await client.patch(
+            sb_url("profiles", f"id=eq.{req.user_id}"),
+            headers=HEADERS,
+            json={
+                "last_euler_topic": req.topic,
+                "last_euler_conv_id": req.conversation_id
+            }
+        )
+        # Log session
+        resp = await client.post(sb_url("teach_logs"), headers=HEADERS, json=payload)
 
     if resp.status_code not in (200, 201):
-        # Non-fatal — log but don't break teaching flow
         return {"success": False, "detail": resp.text[:200]}
 
     return {"success": True}
@@ -344,7 +465,7 @@ async def _update_streak(user_id: str):
     today = date.today()
     async with httpx.AsyncClient(timeout=10) as client:
         resp = await client.get(
-            sb_url("user_profiles", f"id=eq.{user_id}&select=streak_days,longest_streak,last_active_date"),
+            sb_url("profiles", f"id=eq.{user_id}&select=streak_current,longest_streak,last_active_date"),
             headers=HEADERS,
         )
         if resp.status_code != 200:
@@ -353,7 +474,7 @@ async def _update_streak(user_id: str):
         data = resp.json()
         prof = data[0] if data else None
 
-        streak         = prof["streak_days"]       if prof else 0
+        streak         = prof["streak_current"]    if prof else 0
         longest        = prof["longest_streak"]    if prof else 0
         last_active    = prof["last_active_date"]  if prof else None
 
@@ -373,12 +494,12 @@ async def _update_streak(user_id: str):
 
         update_payload = {
             "id":               user_id,
-            "streak_days":      streak,
+            "streak_current":   streak,
             "longest_streak":   longest,
             "last_active_date": today.isoformat(),
         }
         await client.post(
-            sb_url("user_profiles"),
+            sb_url("profiles"),
             headers={**HEADERS, "Prefer": "resolution=merge-duplicates,return=minimal"},
             json=update_payload,
         )
@@ -606,10 +727,10 @@ async def get_public_profile(user_id: str):
     async with httpx.AsyncClient(timeout=15) as client:
         profile_resp,  stats_resp,  topics_resp,  attempts_resp = await asyncio.gather(
             client.get(sb_url("profiles",          f"id=eq.{user_id}&select=full_name,school,exam_target"), headers=HEADERS),
-            client.get(sb_url("user_profiles",     f"id=eq.{user_id}&select=streak_days,xp"),               headers=HEADERS),
-            client.get(sb_url("topic_performance", f"user_id=eq.{user_id}&order=accuracy.desc&limit=5"
-                                                   f"&select=topic,accuracy,total_attempted"),              headers=HEADERS),
-            client.get(sb_url("question_attempts", f"user_id=eq.{user_id}&select=is_correct"),              headers=HEADERS),
+            client.get(sb_url("profiles",          f"id=eq.{user_id}&select=streak_current,xp"),               headers=HEADERS),
+            client.get(sb_url("topic_progress",    f"user_id=eq.{user_id}&order=avg_score.desc&limit=5"
+                                                   f"&select=topic,avg_score"),              headers=HEADERS),
+            client.get(sb_url("cbt_answers",       f"session_id=in.(select id from cbt_sessions where user_id='{user_id}')&select=is_correct"),              headers=HEADERS),
         )
 
     profile  = (profile_resp.json()  or [{}])[0] if profile_resp.status_code  == 200 else {}
@@ -626,7 +747,7 @@ async def get_public_profile(user_id: str):
         "school":          profile.get("school"),
         "exam_target":     profile.get("exam_target"),
         "xp":              stats.get("xp",          0),
-        "streak":          stats.get("streak_days", 0),
+        "streak":          stats.get("streak_current", 0),
         "total_questions": total,
         "accuracy":        accuracy,
         "top_topics":      topics[:3],
