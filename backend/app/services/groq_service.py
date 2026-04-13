@@ -5,7 +5,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-client = AsyncGroq(api_key=os.getenv("MathsGenius"))
+# Prioritize GROQ_API_KEY for consistency with standard SDK usage
+GROQ_KEY = os.getenv("GROQ_API_KEY") or os.getenv("MathsGenius")
+client = AsyncGroq(api_key=GROQ_KEY)
 
 SYSTEM_PROMPT = r"""You are Euler, a friendly and brilliant mathematics tutor for 
 secondary school and university students in Nigeria and beyond.
@@ -45,8 +47,12 @@ Fourier Series, Engineering Mathematics (K.A. Stroud level)
 """
 
 # ── Groq call with timeout + exponential backoff retry ───────────────────────
-_GROQ_TIMEOUT   = 30.0   # seconds before a single attempt is abandoned
+_GROQ_TIMEOUT   = 60.0   # seconds before a single attempt is abandoned
 _GROQ_MAX_TRIES = 3      # maximum attempts before giving up
+
+# Valid models as of early 2024
+TEXT_MODEL = "llama-3.3-70b-versatile"
+IMAGE_MODEL = "llama-3.2-11b-vision-preview"
 
 async def _groq_with_retry(fn, *args, **kwargs):
     """
@@ -79,7 +85,7 @@ async def ask_groq(
 
     async def _call():
         return await client.chat.completions.create(
-            model="llama-3.3-70b-versatile",
+            model=IMAGE_MODEL if image_base64 else TEXT_MODEL,
             messages=messages,
             temperature=1,
             max_completion_tokens=8192,
@@ -103,21 +109,28 @@ async def ask_groq_stream(
     Async generator — yields text chunks as they arrive from Groq.
     Use this for the /teach/ask streaming endpoint.
     """
+    print(f"[Groq] Starting stream for model: {TEXT_MODEL}")
     messages = await _build_messages(user_message, conversation_history, image_base64, image_type)
 
-    stream = await client.chat.completions.create(
-        model="llama-3.3-70b-versatile",
-        messages=messages,
-        temperature=1,
-        max_completion_tokens=8192,
-        top_p=1,
-        stream=True,
-        timeout=_GROQ_TIMEOUT,
-    )
-    async for chunk in stream:
-        token = chunk.choices[0].delta.content
-        if token:
-            yield token
+    try:
+        stream = await client.chat.completions.create(
+            model=IMAGE_MODEL if image_base64 else TEXT_MODEL,
+            messages=messages,
+            temperature=1,
+            max_completion_tokens=8192,
+            top_p=1,
+            stream=True,
+            timeout=_GROQ_TIMEOUT,
+        )
+        async for chunk in stream:
+            if not chunk.choices:
+                continue
+            token = chunk.choices[0].delta.content
+            if token:
+                yield token
+    except Exception as e:
+        print(f"[Groq] Stream fatal error: {e}")
+        raise e
 
 
 # ── Internal helpers ──────────────────────────────────────────────────
@@ -131,17 +144,16 @@ def _model(image_base64):
 
 
 async def _build_messages(user_message, conversation_history, image_base64, image_type):
-    messages = [{"role": "system", "content": SYSTEM_PROMPT}]
-
-    # RAG context — only for text questions
-    # if not image_base64 and user_message:
-    #     from app.rag.retriever import retrieve_context
-    #     context = retrieve_context(user_message)
-    #     if context:
-    #         messages.append({"role": "system", "content": context})
-
-    # Conversation history
-    for turn in conversation_history:
+    # Consolidate system messages — remove any duplicate system roles from history
+    system_messages = [m for m in conversation_history if m.get("role") == "system"]
+    other_messages = [m for m in conversation_history if m.get("role") != "system"]
+    
+    # Prepend our main prompt + any passed system context
+    combined_system = SYSTEM_PROMPT + "\n\n" + "\n".join([m.get("content", "") for m in system_messages])
+    messages = [{"role": "system", "content": combined_system}]
+    
+    # Add non-system turns
+    for turn in other_messages:
         messages.append(turn)
 
     # User message

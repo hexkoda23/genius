@@ -161,14 +161,18 @@ async def ask_tutor_stream(request: TeachRequest, http_request: Request, user=De
     ))
 
     async def _event_stream():
+        print(f"[TEACH] Starting stream for user {user.id} on topic: {request.topic}")
         try:
             async for token in ask_groq_stream(
                 user_message=request.question,
                 conversation_history=history_with_system,
             ):
-                yield f"data: {json.dumps({'token': token})}\n\n"
+                if token:
+                    yield f"data: {json.dumps({'token': token})}\n\n"
         except Exception as exc:
+            print(f"[TEACH] Stream error: {exc}")
             yield f"data: {json.dumps({'token': f'[ERROR] {exc}'})}\n\n"
+        print("[TEACH] Stream complete")
         yield "data: [DONE]\n\n"
 
     return StreamingResponse(
